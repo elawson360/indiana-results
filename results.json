@@ -1,345 +1,7036 @@
 {
-  "title": "Indiana Election Night Results \u2014 Nov 3, 2026",
-  "is_example": true,
-  "source_note": "EXAMPLE DATA \u2014 not real results",
-  "sections": [
+ "title": "Indiana Election Night Results — Nov 3, 2026",
+ "is_example": false,
+ "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
+ "source_note": "Candidates: Indiana Election Division candidate list (Sep 22, 2026). Unofficial results compiled from county PDFs and the state ENR.",
+ "chambers": {
+  "in-house": {
+   "name": "Indiana House",
+   "seats": 100,
+   "majority": 51,
+   "supermajority": 67,
+   "current": {
+    "R": 70,
+    "D": 30
+   },
+   "holdover": {
+    "R": 0,
+    "D": 0
+   },
+   "note": "2/3 quorum = 67. All 100 seats up. Democrats need net +4 to break the GOP supermajority.",
+   "summary": {
+    "won": {},
+    "unopposed": {
+     "D": 18,
+     "R": 3
+    },
+    "leading": {},
+    "not_reported": 79,
+    "projected": {
+     "R": 3,
+     "D": 18
+    },
+    "flips": []
+   }
+  },
+  "in-senate": {
+   "name": "Indiana Senate",
+   "seats": 50,
+   "majority": 26,
+   "supermajority": 34,
+   "current": {
+    "R": 40,
+    "D": 10
+   },
+   "note": "2/3 quorum = 34. 25 of 50 seats up; 25 not up (holdovers).",
+   "holdover": {
+    "R": 18,
+    "D": 7
+   },
+   "summary": {
+    "won": {},
+    "unopposed": {
+     "R": 1,
+     "D": 1
+    },
+    "leading": {},
+    "not_reported": 23,
+    "projected": {
+     "R": 19,
+     "D": 8
+    },
+    "flips": []
+   }
+  }
+ },
+ "sections": [
+  {
+   "id": "hancock",
+   "name": "Hancock County",
+   "races": [
     {
-      "id": "hancock",
-      "name": "Hancock County",
-      "races": [
-        {
-          "id": "hancock-sheriff",
-          "name": "Sheriff (EXAMPLE)",
-          "precincts_reporting": 18,
-          "precincts_total": 42,
-          "candidates": [
-            {
-              "name": "Example Candidate A",
-              "party": "R",
-              "votes": 8412,
-              "pct": 67.2,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate B",
-              "party": "D",
-              "votes": 4105,
-              "pct": 32.8,
-              "leading": false
-            }
-          ],
-          "total_votes": 12517,
-          "margin_votes": 4307,
-          "margin_pct": 34.4,
-          "precincts_pct": 42.9
-        },
-        {
-          "id": "hancock-commissioner-2",
-          "name": "County Commissioner, District 2 (EXAMPLE)",
-          "precincts_reporting": 18,
-          "precincts_total": 42,
-          "candidates": [
-            {
-              "name": "Example Candidate C",
-              "party": "R",
-              "votes": 7990,
-              "pct": 64.5,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate D",
-              "party": "D",
-              "votes": 4398,
-              "pct": 35.5,
-              "leading": false
-            }
-          ],
-          "total_votes": 12388,
-          "margin_votes": 3592,
-          "margin_pct": 29.0,
-          "precincts_pct": 42.9
-        },
-        {
-          "id": "hancock-council-atlarge",
-          "name": "County Council At-Large, vote for 3 (EXAMPLE)",
-          "vote_for": 3,
-          "precincts_reporting": 18,
-          "precincts_total": 42,
-          "candidates": [
-            {
-              "name": "Example E",
-              "party": "R",
-              "votes": 7020,
-              "pct": 24.64,
-              "leading": true
-            },
-            {
-              "name": "Example F",
-              "party": "R",
-              "votes": 6810,
-              "pct": 23.91,
-              "leading": true
-            },
-            {
-              "name": "Example H",
-              "party": "R",
-              "votes": 6555,
-              "pct": 23.01,
-              "leading": true
-            },
-            {
-              "name": "Example G",
-              "party": "D",
-              "votes": 4120,
-              "pct": 14.46,
-              "leading": false
-            },
-            {
-              "name": "Example I",
-              "party": "D",
-              "votes": 3980,
-              "pct": 13.97,
-              "leading": false
-            }
-          ],
-          "total_votes": 28485,
-          "precincts_pct": 42.9
-        }
-      ]
+     "id": "han-sheriff",
+     "name": "Hancock County Sheriff",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "James Calvert, Jr.",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Gary W. Achor, Jr.",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-      "id": "madison",
-      "name": "Madison County",
-      "races": [
-        {
-          "id": "madison-sheriff",
-          "name": "Sheriff (EXAMPLE)",
-          "precincts_reporting": 30,
-          "precincts_total": 89,
-          "candidates": [
-            {
-              "name": "Example Candidate J",
-              "party": "R",
-              "votes": 10233,
-              "pct": 53.56,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate K",
-              "party": "D",
-              "votes": 8871,
-              "pct": 46.44,
-              "leading": false
-            }
-          ],
-          "total_votes": 19104,
-          "margin_votes": 1362,
-          "margin_pct": 7.12,
-          "precincts_pct": 33.7
-        },
-        {
-          "id": "madison-prosecutor",
-          "name": "Prosecutor (EXAMPLE)",
-          "precincts_reporting": 30,
-          "precincts_total": 89,
-          "candidates": [
-            {
-              "name": "Example Candidate L",
-              "party": "R",
-              "votes": 9902,
-              "pct": 51.97,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate M",
-              "party": "D",
-              "votes": 9150,
-              "pct": 48.03,
-              "leading": false
-            }
-          ],
-          "total_votes": 19052,
-          "margin_votes": 752,
-          "margin_pct": 3.94,
-          "precincts_pct": 33.7
-        }
-      ]
+     "id": "han-commissioner-d2",
+     "name": "Hancock County Commissioner, District 2",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Jordan Coleman",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Gary McDaniel",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-      "id": "statewide",
-      "name": "Indiana Statewide",
-      "races": [
-        {
-          "id": "in-sos",
-          "name": "Secretary of State (EXAMPLE)",
-          "called": "Example Candidate N",
-          "called_by": "EXAMPLE",
-          "candidates": [
-            {
-              "name": "Example Candidate N",
-              "party": "R",
-              "votes": 612004,
-              "pct": 58.66,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate O",
-              "party": "D",
-              "votes": 401233,
-              "pct": 38.46,
-              "leading": false
-            },
-            {
-              "name": "Example Candidate P",
-              "party": "L",
-              "votes": 30122,
-              "pct": 2.89,
-              "leading": false
-            }
-          ],
-          "total_votes": 1043359,
-          "margin_votes": 210771,
-          "margin_pct": 20.2
-        },
-        {
-          "id": "in-treasurer",
-          "name": "State Treasurer (EXAMPLE)",
-          "candidates": [
-            {
-              "name": "Example Candidate Q",
-              "party": "R",
-              "votes": 598110,
-              "pct": 58.7,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate R",
-              "party": "D",
-              "votes": 420876,
-              "pct": 41.3,
-              "leading": false
-            }
-          ],
-          "total_votes": 1018986,
-          "margin_votes": 177234,
-          "margin_pct": 17.4
-        },
-        {
-          "id": "in-auditor",
-          "name": "State Auditor (EXAMPLE)",
-          "candidates": [
-            {
-              "name": "Example Candidate S",
-              "party": "R",
-              "votes": 590321,
-              "pct": 58.14,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate T",
-              "party": "D",
-              "votes": 425002,
-              "pct": 41.86,
-              "leading": false
-            }
-          ],
-          "total_votes": 1015323,
-          "margin_votes": 165319,
-          "margin_pct": 16.28
-        }
-      ]
+     "id": "han-council-d1",
+     "name": "Hancock County Council, District 1",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Anthony Arnold",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Clark Smith",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-      "id": "in-house",
-      "name": "Indiana House",
-      "races": [
-        {
-          "id": "in-house-53",
-          "name": "House District 53 (EXAMPLE)",
-          "precincts_reporting": 20,
-          "precincts_total": 38,
-          "candidates": [
-            {
-              "name": "Example Candidate U",
-              "party": "R",
-              "votes": 9120,
-              "pct": 65.16,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate V",
-              "party": "D",
-              "votes": 4877,
-              "pct": 34.84,
-              "leading": false
-            }
-          ],
-          "total_votes": 13997,
-          "margin_votes": 4243,
-          "margin_pct": 30.32,
-          "precincts_pct": 52.6
-        },
-        {
-          "id": "in-house-36",
-          "name": "House District 36 (EXAMPLE)",
-          "precincts_reporting": 15,
-          "precincts_total": 33,
-          "candidates": [
-            {
-              "name": "Example Candidate X",
-              "party": "R",
-              "votes": 5388,
-              "pct": 50.84,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate W",
-              "party": "D",
-              "votes": 5210,
-              "pct": 49.16,
-              "leading": false
-            }
-          ],
-          "total_votes": 10598,
-          "margin_votes": 178,
-          "margin_pct": 1.68,
-          "precincts_pct": 45.5
-        }
-      ]
+     "id": "han-council-d2",
+     "name": "Hancock County Council, District 2",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Luke J Lomax",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Marcia Moore",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-      "id": "in-senate",
-      "name": "Indiana Senate",
-      "races": [
-        {
-          "id": "in-senate-25",
-          "name": "Senate District 25 (EXAMPLE)",
-          "precincts_reporting": 22,
-          "precincts_total": 61,
-          "candidates": [
-            {
-              "name": "Example Candidate Y",
-              "party": "R",
-              "votes": 11456,
-              "pct": 51.04,
-              "leading": true
-            },
-            {
-              "name": "Example Candidate Z",
-              "party": "D",
-              "votes": 10988,
-              "pct": 48.96,
-              "leading": false
-            }
-          ],
-          "total_votes": 22444,
-          "margin_votes": 468,
-          "margin_pct": 2.08,
-          "precincts_pct": 36.1
-        }
-      ]
+     "id": "han-council-d3",
+     "name": "Hancock County Council, District 3",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Carol Pearson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jeff Cummins",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-council-d4",
+     "name": "Hancock County Council, District 4",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "J. Scott Wooldridge",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-prosecutor",
+     "name": "Prosecuting Attorney of Hancock County, 18th Judicial Circuit",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Brent E. Eaton",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-circuit-court-clerk",
+     "name": "Hancock County Circuit Court Clerk",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Dusty Wicker",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-auditor",
+     "name": "Hancock County Auditor",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Mary P. Bowmer",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-recorder",
+     "name": "Hancock County Recorder",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Nicole E. Parcell",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-surveyor",
+     "name": "Hancock County Surveyor",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Chad E. Coughenour",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-assessor",
+     "name": "Hancock County Assessor",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Debra A. Carnes",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-superior-court-1",
+     "name": "Judge of the Hancock Superior Court, No. 1",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Janet Miles-Manship",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-superior-court-2",
+     "name": "Judge of the Hancock Superior Court, No. 2",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Cody B. Coombs",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-buck-creek-twp-board",
+     "name": "Buck Creek Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "William (Bill) McDonald",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Andrew deLivron",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Greg Rogers",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David K. Stillinger",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-center-twp-board",
+     "name": "Center Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Justin S. Sweigart",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jesse Vetters",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jon P. Wogenstahl",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dakota M. Coates",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David Hawkins",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bryan Leonard",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-jackson-twp-board",
+     "name": "Jackson Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Kiley Blalock",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jason Effing",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bob McDaniel",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Keith A. Wilson",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-sugar-creek-twp-board",
+     "name": "Sugar Creek Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Corey Dick",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Brian R. Hollington",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Liza Sumpter",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Joe Fitzgerald",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dale A. Kelso",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mark Mattes",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-vernon-twp-board",
+     "name": "Vernon Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Emily Benford",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Paul D. Dayton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ryan Handy",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Larry J. Longman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tim Plank",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Marybeth Sears",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-blue-river-twp-board",
+     "name": "Blue River Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Steve Craney",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kyle Engleking",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Linda Muegge",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-blue-river-twp-trustee",
+     "name": "Blue River Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Brandon Jones",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-brandywine-twp-board",
+     "name": "Brandywine Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Cherie (Charlee) Burrow",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Marc J. Hill",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Beth Ray-Scott",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-brandywine-twp-trustee",
+     "name": "Brandywine Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Danielle Metz-Lancaster",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-brown-twp-board",
+     "name": "Brown Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Phyllis Collier Vest",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mark Grass",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Joseph Ricker",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-brown-twp-trustee",
+     "name": "Brown Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Theresa Ebbert",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-buck-creek-twp-trustee",
+     "name": "Buck Creek Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Micki Simunek",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-center-twp-trustee",
+     "name": "Center Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Thomas Lopez",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-green-twp-board",
+     "name": "Green Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "William T. Jones, II",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mike Maroska",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bob Yeager",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-green-twp-trustee",
+     "name": "Green Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Stephanie Jones",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-jackson-twp-trustee",
+     "name": "Jackson Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Tarra Youngclaus",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-sugar-creek-twp-trustee",
+     "name": "Sugar Creek Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Jayson Combs",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-vernon-twp-trustee",
+     "name": "Vernon Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Florence L. May",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-mccordsville-town-council-at-large",
+     "name": "McCordsville Town Council At Large",
+     "group": "Towns",
+     "vote_for": 2,
+     "candidates": [
+      {
+       "name": "Linda A. Robinson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Howard Lee Savage, Sr.",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ruth Hess",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Scott Jones",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-fortville-town-council-at-large",
+     "name": "Fortville Town Council, At Large",
+     "group": "Towns",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Fritz Fentz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "note": "Number of seats (vote for N) not verified.",
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-fortville-town-council-d2",
+     "name": "Fortville Town Council, District 2",
+     "group": "Towns",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Ryan Rummell",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-school-eastern-hancock-at-large",
+     "name": "Community School Corporation of Eastern Hancock Schools, At Large",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Rosina T. (Rose) Metz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tammy Stunda",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "note": "Number of seats (vote for N) not verified.",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-school-greenfield-central-d2",
+     "name": "Greenfield-Central Community School Corporation School Board, District 2",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Trent Taylor",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David F. Long",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-school-greenfield-central-d3",
+     "name": "Greenfield-Central Community School Corporation School Board, District 3",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Rebekah Cerqua",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "S. Katie Sanford Evanoff",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-school-new-palestine-d3",
+     "name": "New Palestine Community Schools School Board, District 3",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Brian Hart",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Emily Boesen",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "han-school-eastern-hancock-d1",
+     "name": "Community School Corporation of Eastern Hancock School Board, District 1",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Evan Roberts",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-school-mt-vernon-at-large",
+     "name": "Mt. Vernon Community School Corporation School Board, At Large",
+     "group": "School boards",
+     "vote_for": 2,
+     "candidates": [
+      {
+       "name": "Brandon Ecker",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kellie Freeman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "han-school-new-palestine-d5",
+     "name": "New Palestine Community Schools School Board, District 5",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Brian McKinney",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
     }
-  ],
-  "last_updated_iso": "2026-10-09T20:59:01.888470-04:00",
-  "last_updated": "8:59 PM ET, Fri Oct 9, 2026"
+   ]
+  },
+  {
+   "id": "madison",
+   "name": "Madison County",
+   "races": [
+    {
+     "id": "mad-sheriff",
+     "name": "Madison County Sheriff",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Norman Rayford, Jr",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "John L Beeman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-commissioner-d1",
+     "name": "Madison County Commissioner, District 1",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Todd Shelton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mike A Garringer",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Danny (Dan) Girt",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "Three-way race",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-council-d1",
+     "name": "Madison County Council, District 1",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Helen E Wean",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Cory Bohlander",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-council-d2",
+     "name": "Madison County Council, District 2",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Caroline (Carrie) Bale",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Brandon Collins",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mikeal Vaughn",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-council-d3",
+     "name": "Madison County Council, District 3",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Fred Reese",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Greg Noland",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mike Reed",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-circuit-court-clerk",
+     "name": "Madison County Circuit Court Clerk",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Stephany Mae Stennis",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Linda S Smith",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-treasurer",
+     "name": "Madison County Treasurer",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Shannon Watters",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Rick Gardner",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-recorder",
+     "name": "Madison County Recorder",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Amy Terry",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Angela (Angie) Abel",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-circuit-court-5",
+     "name": "Judge of the Madison Circuit Court, 50th Judicial Circuit, No. 5",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Emilee A. Hammond",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Scott A. Norrick",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-council-d4",
+     "name": "Madison County Council, District 4",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Rob Steele",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-prosecutor",
+     "name": "Prosecuting Attorney of Madison County, 50th Judicial Circuit",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Andrew Hanna",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-assessor",
+     "name": "Madison County Assessor",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Larry D Davis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-circuit-court-1",
+     "name": "Judge of the Madison Circuit Court, 50th Judicial Circuit, No. 1",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Angela Warner Sims",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-circuit-court-2",
+     "name": "Judge of the Madison Circuit Court, 50th Judicial Circuit, No. 2",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Stephen J. Koester",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-circuit-court-4",
+     "name": "Judge of the Madison Circuit Court, 50th Judicial Circuit, No. 4",
+     "group": "County offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "David A. Happe",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-adams-twp-trustee",
+     "name": "Adams Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Kimberly Bell",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lana Evans",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-anderson-twp-board",
+     "name": "Anderson Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Meredith (CoCo) Armstrong",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Leandre (Andre) Smith",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Domanic Wills",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Danny McGhee",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dan Murrell",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kevin A Sulc",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-anderson-twp-trustee",
+     "name": "Anderson Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Obadiah Smith, Jr",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Michael (Mike) Shively",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-fall-creek-twp-trustee",
+     "name": "Fall Creek Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Fred Keith Gaskill",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Marcy DeShong",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-lafayette-twp-board",
+     "name": "Lafayette Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Patricia (Patty) Mauck",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dennis L Adams",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bryan L Frank",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David (Dave) Wise",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-pipe-creek-twp-board",
+     "name": "Pipe Creek Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Sheila R McPhearson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jeffrey (Jeff) Myers",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Joseph Miller",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tonita (Toni) Perkins",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Richard L Shepherd",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-pipe-creek-twp-trustee",
+     "name": "Pipe Creek Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Lisa A Hobbs",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Patrick A Hoose",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-stony-creek-twp-board",
+     "name": "Stony Creek Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Connie Sears",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tom Shelton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jeffrey Thomas Purdue",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Rob Trotter",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-adams-twp-board",
+     "name": "Adams Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Nancy L Lowe",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-boone-twp-board",
+     "name": "Boone Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "John R Hiatt",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ryan J Pattison",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-boone-twp-trustee",
+     "name": "Boone Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Lisa A Schwinn",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-duck-creek-twp-board",
+     "name": "Duck Creek Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Andrew Williams",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-duck-creek-twp-trustee",
+     "name": "Duck Creek Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Michael Bell",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-fall-creek-twp-board",
+     "name": "Fall Creek Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Robert (Bob) Adams",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Beth Carey",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David L Martin",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-green-twp-board",
+     "name": "Green Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Jerry A Manges",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Sharon Robinson",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Farrell Jason Smith",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-green-twp-trustee",
+     "name": "Green Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Greg Valentine",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-jackson-twp-trustee",
+     "name": "Jackson Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Joshua Miller",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-lafayette-twp-trustee",
+     "name": "Lafayette Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Jeremy Chubb",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-monroe-twp-board",
+     "name": "Monroe Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Sarah Collis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Valerie Jerrils",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jennifer Ward",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-monroe-twp-trustee",
+     "name": "Monroe Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "George (Chip) McFerran",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-richland-twp-board",
+     "name": "Richland Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Dale Russell Cook",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Michelle Davis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Horace (Bill) England",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-richland-twp-trustee",
+     "name": "Richland Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Douglas C Stein",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-stony-creek-twp-trustee",
+     "name": "Stony Creek Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Alan L Bays",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-union-twp-board",
+     "name": "Union Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Lloyd Brown",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jack Odle",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Russ Willis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-union-twp-trustee",
+     "name": "Union Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Timothy (Tim) Dunham",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-van-buren-twp-board",
+     "name": "Van Buren Township Board",
+     "group": "Townships",
+     "vote_for": 3,
+     "candidates": [
+      {
+       "name": "Stephen Andrew Waller",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ralph Gordon",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-van-buren-twp-trustee",
+     "name": "Van Buren Township Trustee",
+     "group": "Townships",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Dee Amos",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-ingalls-town-council-at-large",
+     "name": "Ingalls Town Council, At Large",
+     "group": "Towns",
+     "vote_for": 2,
+     "candidates": [
+      {
+       "name": "Georgia Parker",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Crystal A Everhart",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Cody Head",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-lapel-town-council-at-large",
+     "name": "Lapel Town Council, At Large",
+     "group": "Towns",
+     "vote_for": 2,
+     "candidates": [
+      {
+       "name": "Allicia N Rockwell-West",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lindsay Washmuth",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "note": "DISCREPANCY: state list (Sep 22) shows Rockwell-West; Ballotpedia & voter guide show Roger Fouse (R, incumbent) instead. Verify on sample ballot.",
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-pendleton-town-council-at-large-2",
+     "name": "Pendleton Town Council, At Large, 2",
+     "group": "Towns",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Jennifer Roberts",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-pendleton-town-council-d3",
+     "name": "Pendleton Town Council, District 3",
+     "group": "Towns",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Bryan R Williams",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-summitville-town-council-at-large",
+     "name": "Summitville Town Council, At Large",
+     "group": "Towns",
+     "vote_for": 2,
+     "candidates": [
+      {
+       "name": "Steven Conrad",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-summitville-town-council-d1",
+     "name": "Summitville Town Council, District 1",
+     "group": "Towns",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Dedira Ann Pierce",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-anderson-at-large",
+     "name": "Anderson School Board, At Large",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "JoAnna G Collette",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Margie Harvey",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Neal Alan Prange",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Olunda K Hunt",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Aufwiedersehen (Veda) Morris-May",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-school-anderson-central-d-position-2",
+     "name": "Anderson School Board, Central District, Position 2",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Robert (Buckie) Bookhart",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jonathan Trick",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-school-anderson-east-d-position-1",
+     "name": "Anderson School Board, East District, Position 1",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Lindsay Brown",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Laura Crenshaw",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Patrick Hill",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Olivia M Reyes",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Nickolas W Freeman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-school-anderson-south-d-position-2",
+     "name": "Anderson School Board, South District, Position 2",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Mary Baker-Boudissa",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Eric T Davis",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Sheila (Shay) Fakhreddine",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Cathy Hodson",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-school-elwood-at-large",
+     "name": "Elwood School Board, At Large",
+     "group": "School boards",
+     "vote_for": 2,
+     "candidates": [
+      {
+       "name": "Steven (Alex) Mireles",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David (Mike) Peterson",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Sandra (Sandy) Ratliff",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Joseph Greg Tackett",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-school-madison-grant-d3",
+     "name": "Madison-Grant United School Corporation, District 3 (Grant & Madison)",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Katti Sneed",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dylan C. Vetor",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-school-alexandria-d2",
+     "name": "Alexandria School Board, District 2",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Barrett Key",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-alexandria-d3",
+     "name": "Alexandria School Board, District 3",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Kyle Williams",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-frankton-lapel-at-large-d7",
+     "name": "Frankton-Lapel School Board, At Large, District 7",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Seth Bays",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-frankton-lapel-d5-lapel",
+     "name": "Frankton-Lapel School Board, District 5, Lapel",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Landon Paddock",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-frankton-lapel-d6-frankton",
+     "name": "Frankton-Lapel School Board, District 6, Frankton",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Billie B Brobston, Jr",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-madison-grant-d2",
+     "name": "Madison-Grant United School Corporation, District 2 (Grant & Madison)",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "John Hanes",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-madison-grant-d4",
+     "name": "Madison-Grant United School Corporation, District 4 (Madison)",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Donald Bruce Stanley",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-madison-grant-d7",
+     "name": "Madison-Grant United School Corporation, District 7 (Grant & Madison)",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Erik Davidson",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-south-madison-d1-adams",
+     "name": "South Madison School Board, District 1, Adams",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Kevin Ginder",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-south-madison-d2-fall-creek",
+     "name": "South Madison School Board, District 2, Fall Creek",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Tom Jewell",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-school-south-madison-d3-green",
+     "name": "South Madison School Board, District 3, Green",
+     "group": "School boards",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Craig Lee",
+       "party": "",
+       "party_full": "No party listed",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "mad-ref-anderson-schools",
+     "name": "Anderson Community Schools operating referendum (renewal)",
+     "group": "Referendums",
+     "vote_for": 1,
+     "question": true,
+     "uncontested": false,
+     "note": "Up to 8 years, rate up to $0.1077; max ≈ $2.90M/yr (voter guide).",
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "mad-ref-elwood-schools",
+     "name": "Elwood Community Schools operating referendum",
+     "group": "Referendums",
+     "vote_for": 1,
+     "question": true,
+     "uncontested": false,
+     "note": "Up to 8 years, rate up to $0.49/$100 AV; max $2.5M/yr (voter guide).",
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    }
+   ]
+  },
+  {
+   "id": "statewide",
+   "name": "Indiana Statewide",
+   "races": [
+    {
+     "id": "in-sos",
+     "name": "Secretary of State",
+     "group": "Statewide offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Beau Bayh",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lauri A. Shillings",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Greg Ballard",
+       "party": "Lincoln",
+       "party_full": "Lincoln Party",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Max Engling",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Andrew Delano",
+       "party": "W/I",
+       "party_full": "Write-In (National Socialist American Workers')",
+       "votes": 0,
+       "write_in": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "note": "Open seat (Morales lost GOP convention)",
+     "watch": "Marquee statewide race",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-comptroller",
+     "name": "State Comptroller (Auditor of State)",
+     "group": "Statewide offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Jessica Bailey",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "John Schick",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Elise Nieshalla",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-treasurer",
+     "name": "Treasurer of State",
+     "group": "Statewide offices",
+     "vote_for": 1,
+     "candidates": [
+      {
+       "name": "Coumba Kebe",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Daniel Elliott",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-pq1",
+     "name": "Public Question #1: Bail (Art. 1 §17)",
+     "group": "Constitutional amendments",
+     "vote_for": 1,
+     "question": true,
+     "note": "Allow denial of bail beyond murder/treason when proof is evident and no release conditions protect the public.",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-pq2",
+     "name": "Public Question #2: City/town court judge residency (Art. 6 §6)",
+     "group": "Constitutional amendments",
+     "vote_for": 1,
+     "question": true,
+     "note": "Judges could live in the court's county or the closest bordering county.",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-ret-coa-kenworthy",
+     "name": "Retain Court of Appeals Judge Dana J. Kenworthy (2nd Dist.)",
+     "group": "Judicial retention",
+     "vote_for": 1,
+     "question": true,
+     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-ret-coa-deboer",
+     "name": "Retain Court of Appeals Judge Mary A. DeBoer (4th Dist.)",
+     "group": "Judicial retention",
+     "vote_for": 1,
+     "question": true,
+     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-ret-coa-felix",
+     "name": "Retain Court of Appeals Judge Paul A. Felix (5th Dist.)",
+     "group": "Judicial retention",
+     "vote_for": 1,
+     "question": true,
+     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-ret-tax-mcadam",
+     "name": "Retain Tax Court Judge Justin L. McAdam",
+     "group": "Judicial retention",
+     "vote_for": 1,
+     "question": true,
+     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Yes",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "No",
+       "party": "",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 0,
+     "status": "not_reported"
+    }
+   ]
+  },
+  {
+   "id": "in-house",
+   "name": "Indiana House",
+   "races": [
+    {
+     "id": "in-house-001",
+     "name": "House District 1",
+     "district": 1,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Carolyn B. Jackson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-002",
+     "name": "House District 2",
+     "district": 2,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Earl Harris, Jr.",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-003",
+     "name": "House District 3",
+     "district": 3,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Ragen Hatcher",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-004",
+     "name": "House District 4",
+     "district": 4,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ryan Kominakis",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Travis Gearhart",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ed Soliday",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC pickup target",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-005",
+     "name": "House District 5",
+     "district": 5,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Alex Wait",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dale DeVon",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-006",
+     "name": "House District 6",
+     "district": 6,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Maureen Bauer",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-007",
+     "name": "House District 7",
+     "district": 7,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Oliver Davis",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jake Teshka",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-008",
+     "name": "House District 8",
+     "district": 8,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Ryan M Dvorak",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Eric Harris",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-009",
+     "name": "House District 9",
+     "district": 9,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Randy Novak",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Chris Cleveland",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC Dem hold",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-010",
+     "name": "House District 10",
+     "district": 10,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Charles Chuck Moseley",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ted Uzelac",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC Dem hold",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-011",
+     "name": "House District 11",
+     "district": 11,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Tyler Thomas Bridges",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Michael J. Aylesworth",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-012",
+     "name": "House District 12",
+     "district": 12,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Mike Andrade",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-013",
+     "name": "House District 13",
+     "district": 13,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Brenna Geswein",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Matt Commons",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ben Davis",
+       "party": "Soc",
+       "party_full": "Socialist Party of Indiana",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-014",
+     "name": "House District 14",
+     "district": 14,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Vernon G. Smith",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-015",
+     "name": "House District 15",
+     "district": 15,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Anthony Oberman",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Hal Slager",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-016",
+     "name": "House District 16",
+     "district": 16,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ashley Hammac",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kendell Culp",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-017",
+     "name": "House District 17",
+     "district": 17,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Mary E. Gibson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jack Jordan",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-018",
+     "name": "House District 18",
+     "district": 18,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "David H. Abbott",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-019",
+     "name": "House District 19",
+     "district": 19,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Nick Neal",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Julie Olthoff",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-020",
+     "name": "House District 20",
+     "district": 20,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Laura Liskey",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jim Pressel",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-021",
+     "name": "House District 21",
+     "district": 21,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Charles Burkley",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Timothy Wesco",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-022",
+     "name": "House District 22",
+     "district": 22,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Craig Snow",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-023",
+     "name": "House District 23",
+     "district": 23,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Austin D. Meives",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ethan Manning",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-024",
+     "name": "House District 24",
+     "district": 24,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Racheal Bleicher",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Hunter Smith",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC pickup target",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-025",
+     "name": "House District 25",
+     "district": 25,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Tiffany Stoner",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Becky Cash",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC pickup target (2024 margin: 64 votes)",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-026",
+     "name": "House District 26",
+     "district": 26,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Chris Campbell",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Magdalaine Davis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-027",
+     "name": "House District 27",
+     "district": 27,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Sheila J. Klinker",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tracy Brown",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-028",
+     "name": "House District 28",
+     "district": 28,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Karen Whitney",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jeffrey A. Thompson",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-029",
+     "name": "House District 29",
+     "district": 29,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Devon Wellington",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Alaina Shonkwiler",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-030",
+     "name": "House District 30",
+     "district": 30,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Jack Chance",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Paula Davis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Karickhoff (R) retiring",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-031",
+     "name": "House District 31",
+     "district": 31,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Katie Robins",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lori J. Goss-Reaves",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "local": "Madison",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-032",
+     "name": "House District 32",
+     "district": 32,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Victoria Garcia Wilburn",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Paul G. Nix",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-033",
+     "name": "House District 33",
+     "district": 33,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "John E Bartlett",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "John (J.D.) Prescott",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-034",
+     "name": "House District 34",
+     "district": 34,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Sara Gullion",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Richard M. (Rich) Ivy",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Errington (D) retiring",
+     "watch": "DLCC target (open D seat)",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-035",
+     "name": "House District 35",
+     "district": 35,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Phil G. Gift",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Elizabeth Rowray",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "local": "Madison",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-036",
+     "name": "House District 36",
+     "district": 36,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Kimberly (Kim) Townsend",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kyle Pierce",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC pickup target · Madison Co.",
+     "local": "Madison",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-037",
+     "name": "House District 37",
+     "district": 37,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Lauren S. Cole",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Todd Huston",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-038",
+     "name": "House District 38",
+     "district": 38,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Nate Stout",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Heath R. VanNatter",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-039",
+     "name": "House District 39",
+     "district": 39,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Lindsay Gramlich",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Danny Lopez",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC pickup target",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-040",
+     "name": "House District 40",
+     "district": 40,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "William Colteryahn",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Gregory E. Steuerwald",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-041",
+     "name": "House District 41",
+     "district": 41,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Jackson T. Hayes",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mark Genda",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-042",
+     "name": "House District 42",
+     "district": 42,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Brandi Vandivier",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tim R. Yocum",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-043",
+     "name": "House District 43",
+     "district": 43,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Tonya Pfaff",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Amy Lore",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC Dem hold",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-044",
+     "name": "House District 44",
+     "district": 44,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Kelsey Kauffman",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Beau Baird",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-045",
+     "name": "House District 45",
+     "district": 45,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Rebecca Dawn (Becky) Mayfield",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kellie E. Streeter",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Incumbent Bruce Borders (R) lost primary",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-046",
+     "name": "House District 46",
+     "district": 46,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "James H. Pittsford (Jimmy), III",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bob Heaton",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-047",
+     "name": "House District 47",
+     "district": 47,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Michael E Potter",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Robb Greene",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-048",
+     "name": "House District 48",
+     "district": 48,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Emily Yaw",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Marshall Travis",
+       "party": "G",
+       "party_full": "Green",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Doug Miller",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-049",
+     "name": "House District 49",
+     "district": 49,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Michelle Milne",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Joanna King",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-050",
+     "name": "House District 50",
+     "district": 50,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Pepper Snyder",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lorissa C. Sweet",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-051",
+     "name": "House District 51",
+     "district": 51,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Judy Rowe",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tony Isa",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-052",
+     "name": "House District 52",
+     "district": 52,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Joseph Trost",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ben Smaltz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-053",
+     "name": "House District 53",
+     "district": 53,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ethan J. Lawson",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "local": "Hancock, Madison",
+     "note": "Did not make ballot: Reece Axel-Adams (D).",
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-054",
+     "name": "House District 54",
+     "district": 54,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Nan Polk",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Cory Criswell",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "local": "Hancock",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-055",
+     "name": "House District 55",
+     "district": 55,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Victoria C. Martz",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lindsay Patterson",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-056",
+     "name": "House District 56",
+     "district": 56,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Thomas Scott Rockwell",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Randy Retter",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Barrett (R) retiring",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-057",
+     "name": "House District 57",
+     "district": 57,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Suzanne Fortenberry",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Wes Bennett",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Haggard (R) retiring",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-058",
+     "name": "House District 58",
+     "district": 58,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Michelle Hennessee Sears",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "John Reed",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "M. Davis (R) retiring",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-059",
+     "name": "House District 59",
+     "district": 59,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Josh Burbrink",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ryan Lauer",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-060",
+     "name": "House District 60",
+     "district": 60,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Carrie L. Syczylo",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Peggy Mayfield",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-061",
+     "name": "House District 61",
+     "district": 61,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Matt Pierce",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-062",
+     "name": "House District 62",
+     "district": 62,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Amy Huffman Oliver",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dave Hall",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC pickup target",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-063",
+     "name": "House District 63",
+     "district": 63,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Tiffanie Arthur",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Amy Kippenbrock",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Lindauer (R) retiring",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-064",
+     "name": "House District 64",
+     "district": 64,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Candace (Candy) Greer",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Matt Hostettler",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-065",
+     "name": "House District 65",
+     "district": 65,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Sean S. Steele",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Chris D. May",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-066",
+     "name": "House District 66",
+     "district": 66,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ryan Price",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Zach Payne",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-067",
+     "name": "House District 67",
+     "district": 67,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Justin Chadwick",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Alex Zimmerman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-068",
+     "name": "House District 68",
+     "district": 68,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Hunter B Collins",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Garrett R. Bascom",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-069",
+     "name": "House District 69",
+     "district": 69,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Chris Bowen",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tyler J. Henkle",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jim Lucas",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-070",
+     "name": "House District 70",
+     "district": 70,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Sarah Blessing",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Brandi Tibben",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Scott L. Fluhr",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Engleman (R) retiring",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-071",
+     "name": "House District 71",
+     "district": 71,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Wendy Dant Chesser",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "James R. McClure, Jr.",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "DLCC Dem hold",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-072",
+     "name": "House District 72",
+     "district": 72,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Michele (Shelly) Henry",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Darrell Neeley",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Clere (R) retiring",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-073",
+     "name": "House District 73",
+     "district": 73,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Allen J. (A.J.) Miller",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jennifer Meltzer",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-074",
+     "name": "House District 74",
+     "district": 74,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Lena Goffinet",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Stephen R. Bartels",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-075",
+     "name": "House District 75",
+     "district": 75,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Mason Barclay",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Cindy Ledbetter",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jim Shields",
+       "party": "W/I",
+       "party_full": "Write-In (Independent)",
+       "votes": 0,
+       "write_in": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-076",
+     "name": "House District 76",
+     "district": 76,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Logan A. Patberg",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Wendy (Mac) McNamara",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-077",
+     "name": "House District 77",
+     "district": 77,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Alex Burton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-078",
+     "name": "House District 78",
+     "district": 78,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Sally Busby",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tim O'Brien",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-079",
+     "name": "House District 79",
+     "district": 79,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ian G. Richardson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Matthew S. Lehman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-080",
+     "name": "House District 80",
+     "district": 80,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Phil GiaQuinta",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-081",
+     "name": "House District 81",
+     "district": 81,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Sharon L Wight",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Martin Carbaugh",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-082",
+     "name": "House District 82",
+     "district": 82,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Kyle Miller",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-083",
+     "name": "House District 83",
+     "district": 83,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Wesley Haffenden",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Christopher Judy",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-084",
+     "name": "House District 84",
+     "district": 84,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Misti Meehan",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bob Morris",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-085",
+     "name": "House District 85",
+     "district": 85,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Mark (Bird) Wehrle",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dave Heine",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-086",
+     "name": "House District 86",
+     "district": 86,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Edward O. DeLaney",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Glenn Bill",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-087",
+     "name": "House District 87",
+     "district": 87,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Carey Hamilton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-088",
+     "name": "House District 88",
+     "district": 88,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Stephanie Jo Yocum",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Chris Jeter",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "local": "Hancock, Madison",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-089",
+     "name": "House District 89",
+     "district": 89,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Mitch Gore",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Donald Weingarten",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-090",
+     "name": "House District 90",
+     "district": 90,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "David Lawrence Boyd",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Andrew Ireland",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-091",
+     "name": "House District 91",
+     "district": 91,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Jarren Hurt",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Robert W. Behning",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-092",
+     "name": "House District 92",
+     "district": 92,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Reneé Pack",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-093",
+     "name": "House District 93",
+     "district": 93,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Eva M. Rosberg",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Julie McGuire",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-094",
+     "name": "House District 94",
+     "district": 94,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Cherrish S Pryor",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-095",
+     "name": "House District 95",
+     "district": 95,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "John L. Bartlett",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-096",
+     "name": "House District 96",
+     "district": 96,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Gregory W. Porter",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-097",
+     "name": "House District 97",
+     "district": 97,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Justin Moed",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mark A Renholzberger",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-house-098",
+     "name": "House District 98",
+     "district": 98,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Robin Shackleford",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-099",
+     "name": "House District 99",
+     "district": 99,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Vanessa J Summers",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-house-100",
+     "name": "House District 100",
+     "district": 100,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Blake Johnson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    }
+   ]
+  },
+  {
+   "id": "in-senate",
+   "name": "Indiana Senate",
+   "races": [
+    {
+     "id": "in-senate-01",
+     "name": "Senate District 1",
+     "district": 1,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Scott Houldieson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Trevor G. De Vries",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Dernulc (R) lost primary; new GOP nominee",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-04",
+     "name": "Senate District 4",
+     "district": 4,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Rodney Pol",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Nate Uldricks",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-06",
+     "name": "Senate District 6",
+     "district": 6,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Kate-Lynn Holley",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "James (Jay) Starkey",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Niemeyer (R) lost primary; new GOP nominee",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-11",
+     "name": "Senate District 11",
+     "district": 11,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Gabrianna Gratzol",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Brian S. Schmutzler",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Rogers (R) lost primary; new GOP nominee",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-14",
+     "name": "Senate District 14",
+     "district": 14,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Blaine Sefton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tyler Johnson",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-15",
+     "name": "Senate District 15",
+     "district": 15,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Julie McGill",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Liz Brown",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-17",
+     "name": "Senate District 17",
+     "district": 17,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Cynthia M. Wehr",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Chris Parker",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "McKinley (R) lost primary; new GOP nominee",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-19",
+     "name": "Senate District 19",
+     "district": 19,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Timothy C. Murphy",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Blake Fiechter",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Holdman (R) lost primary; new GOP nominee",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-21",
+     "name": "Senate District 21",
+     "district": 21,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Kirsten Root",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tracey Powell",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Buck (R) lost primary; new GOP nominee",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-22",
+     "name": "Senate District 22",
+     "district": 22,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Natasha Baker",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ron Alting",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-23",
+     "name": "Senate District 23",
+     "district": 23,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "David A Sanders",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Joshua Brant",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Spencer R. Deery",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-25",
+     "name": "Senate District 25",
+     "district": 25,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Tamie Dixon-Tatum",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mike Gaskill",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "local": "Madison",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-26",
+     "name": "Senate District 26",
+     "district": 26,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Andrew Dale",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Scott A. Alexander",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-27",
+     "name": "Senate District 27",
+     "district": 27,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ronald Itnyre",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jeff Raatz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-29",
+     "name": "Senate District 29",
+     "district": 29,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Kristina Moorhead",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "John Ruckelshaus",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Ford (D) retiring (running for US House)",
+     "watch": "Competitive open seat (IndyStar)",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-31",
+     "name": "Senate District 31",
+     "district": 31,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Kerry J Forestal",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Juanita Albright",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "K. Walker (R) retiring",
+     "watch": "Competitive open seat (IndyStar)",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-38",
+     "name": "Senate District 38",
+     "district": 38,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Kacey Blundell",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Greg Goode",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-39",
+     "name": "Senate District 39",
+     "district": 39,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Jeff Ellington",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Bassler (R) retiring Did not make ballot: Joseph Baughman (D).",
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-senate-41",
+     "name": "Senate District 41",
+     "district": 41,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ross Thomas",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Michelle Davis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "G. Walker (R) lost primary; new GOP nominee",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-43",
+     "name": "Senate District 43",
+     "district": 43,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Byron E. Holland",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Randall D. Maxwell",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-45",
+     "name": "Senate District 45",
+     "district": 45,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Nick Marshall",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Larry Mahaney",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Chris Garten",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-46",
+     "name": "Senate District 46",
+     "district": 46,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Allissa Impink",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "open_seat": true,
+     "note": "Hunley (D) retiring",
+     "uncontested": true,
+     "total_votes": 0,
+     "status": "unopposed"
+    },
+    {
+     "id": "in-senate-47",
+     "name": "Senate District 47",
+     "district": 47,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Ethan Sweetland-May",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Gary Byrne",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-48",
+     "name": "Senate District 48",
+     "district": 48,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Bradley (Brad) Hochgesang",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Daryl Schmitt",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "in-senate-49",
+     "name": "Senate District 49",
+     "district": 49,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Cindi Clayton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jim Tomes",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    }
+   ]
+  }
+ ],
+ "any_results": false,
+ "last_updated_iso": "2026-10-09T21:12:30.901657-04:00",
+ "last_updated": "9:12 PM ET, Fri Oct 9, 2026"
 }

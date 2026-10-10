@@ -1,0 +1,345 @@
+{
+  "title": "Indiana Election Night Results \u2014 Nov 3, 2026",
+  "is_example": true,
+  "source_note": "EXAMPLE DATA \u2014 not real results",
+  "sections": [
+    {
+      "id": "hancock",
+      "name": "Hancock County",
+      "races": [
+        {
+          "id": "hancock-sheriff",
+          "name": "Sheriff (EXAMPLE)",
+          "precincts_reporting": 18,
+          "precincts_total": 42,
+          "candidates": [
+            {
+              "name": "Example Candidate A",
+              "party": "R",
+              "votes": 8412,
+              "pct": 67.2,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate B",
+              "party": "D",
+              "votes": 4105,
+              "pct": 32.8,
+              "leading": false
+            }
+          ],
+          "total_votes": 12517,
+          "margin_votes": 4307,
+          "margin_pct": 34.4,
+          "precincts_pct": 42.9
+        },
+        {
+          "id": "hancock-commissioner-2",
+          "name": "County Commissioner, District 2 (EXAMPLE)",
+          "precincts_reporting": 18,
+          "precincts_total": 42,
+          "candidates": [
+            {
+              "name": "Example Candidate C",
+              "party": "R",
+              "votes": 7990,
+              "pct": 64.5,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate D",
+              "party": "D",
+              "votes": 4398,
+              "pct": 35.5,
+              "leading": false
+            }
+          ],
+          "total_votes": 12388,
+          "margin_votes": 3592,
+          "margin_pct": 29.0,
+          "precincts_pct": 42.9
+        },
+        {
+          "id": "hancock-council-atlarge",
+          "name": "County Council At-Large, vote for 3 (EXAMPLE)",
+          "vote_for": 3,
+          "precincts_reporting": 18,
+          "precincts_total": 42,
+          "candidates": [
+            {
+              "name": "Example E",
+              "party": "R",
+              "votes": 7020,
+              "pct": 24.64,
+              "leading": true
+            },
+            {
+              "name": "Example F",
+              "party": "R",
+              "votes": 6810,
+              "pct": 23.91,
+              "leading": true
+            },
+            {
+              "name": "Example H",
+              "party": "R",
+              "votes": 6555,
+              "pct": 23.01,
+              "leading": true
+            },
+            {
+              "name": "Example G",
+              "party": "D",
+              "votes": 4120,
+              "pct": 14.46,
+              "leading": false
+            },
+            {
+              "name": "Example I",
+              "party": "D",
+              "votes": 3980,
+              "pct": 13.97,
+              "leading": false
+            }
+          ],
+          "total_votes": 28485,
+          "precincts_pct": 42.9
+        }
+      ]
+    },
+    {
+      "id": "madison",
+      "name": "Madison County",
+      "races": [
+        {
+          "id": "madison-sheriff",
+          "name": "Sheriff (EXAMPLE)",
+          "precincts_reporting": 30,
+          "precincts_total": 89,
+          "candidates": [
+            {
+              "name": "Example Candidate J",
+              "party": "R",
+              "votes": 10233,
+              "pct": 53.56,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate K",
+              "party": "D",
+              "votes": 8871,
+              "pct": 46.44,
+              "leading": false
+            }
+          ],
+          "total_votes": 19104,
+          "margin_votes": 1362,
+          "margin_pct": 7.12,
+          "precincts_pct": 33.7
+        },
+        {
+          "id": "madison-prosecutor",
+          "name": "Prosecutor (EXAMPLE)",
+          "precincts_reporting": 30,
+          "precincts_total": 89,
+          "candidates": [
+            {
+              "name": "Example Candidate L",
+              "party": "R",
+              "votes": 9902,
+              "pct": 51.97,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate M",
+              "party": "D",
+              "votes": 9150,
+              "pct": 48.03,
+              "leading": false
+            }
+          ],
+          "total_votes": 19052,
+          "margin_votes": 752,
+          "margin_pct": 3.94,
+          "precincts_pct": 33.7
+        }
+      ]
+    },
+    {
+      "id": "statewide",
+      "name": "Indiana Statewide",
+      "races": [
+        {
+          "id": "in-sos",
+          "name": "Secretary of State (EXAMPLE)",
+          "called": "Example Candidate N",
+          "called_by": "EXAMPLE",
+          "candidates": [
+            {
+              "name": "Example Candidate N",
+              "party": "R",
+              "votes": 612004,
+              "pct": 58.66,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate O",
+              "party": "D",
+              "votes": 401233,
+              "pct": 38.46,
+              "leading": false
+            },
+            {
+              "name": "Example Candidate P",
+              "party": "L",
+              "votes": 30122,
+              "pct": 2.89,
+              "leading": false
+            }
+          ],
+          "total_votes": 1043359,
+          "margin_votes": 210771,
+          "margin_pct": 20.2
+        },
+        {
+          "id": "in-treasurer",
+          "name": "State Treasurer (EXAMPLE)",
+          "candidates": [
+            {
+              "name": "Example Candidate Q",
+              "party": "R",
+              "votes": 598110,
+              "pct": 58.7,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate R",
+              "party": "D",
+              "votes": 420876,
+              "pct": 41.3,
+              "leading": false
+            }
+          ],
+          "total_votes": 1018986,
+          "margin_votes": 177234,
+          "margin_pct": 17.4
+        },
+        {
+          "id": "in-auditor",
+          "name": "State Auditor (EXAMPLE)",
+          "candidates": [
+            {
+              "name": "Example Candidate S",
+              "party": "R",
+              "votes": 590321,
+              "pct": 58.14,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate T",
+              "party": "D",
+              "votes": 425002,
+              "pct": 41.86,
+              "leading": false
+            }
+          ],
+          "total_votes": 1015323,
+          "margin_votes": 165319,
+          "margin_pct": 16.28
+        }
+      ]
+    },
+    {
+      "id": "in-house",
+      "name": "Indiana House",
+      "races": [
+        {
+          "id": "in-house-53",
+          "name": "House District 53 (EXAMPLE)",
+          "precincts_reporting": 20,
+          "precincts_total": 38,
+          "candidates": [
+            {
+              "name": "Example Candidate U",
+              "party": "R",
+              "votes": 9120,
+              "pct": 65.16,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate V",
+              "party": "D",
+              "votes": 4877,
+              "pct": 34.84,
+              "leading": false
+            }
+          ],
+          "total_votes": 13997,
+          "margin_votes": 4243,
+          "margin_pct": 30.32,
+          "precincts_pct": 52.6
+        },
+        {
+          "id": "in-house-36",
+          "name": "House District 36 (EXAMPLE)",
+          "precincts_reporting": 15,
+          "precincts_total": 33,
+          "candidates": [
+            {
+              "name": "Example Candidate X",
+              "party": "R",
+              "votes": 5388,
+              "pct": 50.84,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate W",
+              "party": "D",
+              "votes": 5210,
+              "pct": 49.16,
+              "leading": false
+            }
+          ],
+          "total_votes": 10598,
+          "margin_votes": 178,
+          "margin_pct": 1.68,
+          "precincts_pct": 45.5
+        }
+      ]
+    },
+    {
+      "id": "in-senate",
+      "name": "Indiana Senate",
+      "races": [
+        {
+          "id": "in-senate-25",
+          "name": "Senate District 25 (EXAMPLE)",
+          "precincts_reporting": 22,
+          "precincts_total": 61,
+          "candidates": [
+            {
+              "name": "Example Candidate Y",
+              "party": "R",
+              "votes": 11456,
+              "pct": 51.04,
+              "leading": true
+            },
+            {
+              "name": "Example Candidate Z",
+              "party": "D",
+              "votes": 10988,
+              "pct": 48.96,
+              "leading": false
+            }
+          ],
+          "total_votes": 22444,
+          "margin_votes": 468,
+          "margin_pct": 2.08,
+          "precincts_pct": 36.1
+        }
+      ]
+    }
+  ],
+  "last_updated_iso": "2026-10-09T20:57:52.792551-04:00",
+  "last_updated": "8:57 PM ET, Fri Oct 9, 2026"
+}

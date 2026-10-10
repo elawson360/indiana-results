@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0f172a">
+<title>Indiana Election Night Results</title>
+<style>
+  :root { --bg:#f1f5f9; --card:#fff; --ink:#0f172a; --mut:#64748b; --line:#e2e8f0; --R:#dc2626; --D:#2563eb; --O:#7c3aed; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0b1220; --card:#131c2e; --ink:#e5e7eb; --mut:#94a3b8; --line:#243047; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); }
+  header { position:sticky; top:0; z-index:5; background:#0f172a; color:#fff; padding:12px 14px calc(8px) ; padding-top:max(12px, env(safe-area-inset-top)); }
+  header h1 { margin:0; font-size:18px; }
+  #upd { font-size:13px; opacity:.85; margin-top:2px; }
+  nav { display:flex; gap:6px; overflow-x:auto; margin-top:8px; -webkit-overflow-scrolling:touch; }
+  nav::-webkit-scrollbar { display:none; } nav { scrollbar-width:none; }
+  nav a { flex:none; color:#fff; text-decoration:none; font-size:13px; padding:5px 10px; border-radius:999px; background:#1e293b; }
+  .banner { background:#fef3c7; color:#92400e; font-weight:700; text-align:center; padding:8px; font-size:14px; }
+  main { max-width:760px; margin:0 auto; padding:10px; }
+  h2 { font-size:16px; margin:20px 4px 8px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut); scroll-margin-top:110px; }
+  .race { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px; margin-bottom:10px; }
+  .rh { display:flex; justify-content:space-between; gap:8px; align-items:baseline; }
+  .rh h3 { margin:0; font-size:16px; }
+  .call { flex:none; font-size:12px; font-weight:700; color:#fff; background:#16a34a; padding:2px 8px; border-radius:999px; }
+  .meta { color:var(--mut); font-size:13px; margin:4px 0 8px; }
+  .prog { height:4px; background:var(--line); border-radius:2px; overflow:hidden; margin:-4px 0 8px; }
+  .prog div { height:100%; background:#64748b; }
+  .c { display:grid; grid-template-columns: 1fr auto auto; gap:2px 10px; align-items:center; padding:6px 0; border-top:1px solid var(--line); }
+  .c:first-of-type { border-top:0; }
+  .nm { font-weight:600; }
+  .nm.lead::after { content:" ✓"; color:#16a34a; }
+  .pt { display:inline-block; min-width:20px; text-align:center; font-size:11px; font-weight:700; color:#fff; border-radius:4px; padding:0 4px; margin-left:4px; background:var(--O); }
+  .pt.R { background:var(--R); } .pt.D { background:var(--D); }
+  .v { text-align:right; font-variant-numeric:tabular-nums; color:var(--mut); }
+  .p { text-align:right; font-variant-numeric:tabular-nums; font-weight:700; min-width:60px; }
+  .bar { grid-column:1 / -1; height:6px; background:var(--line); border-radius:3px; overflow:hidden; }
+  .bar div { height:100%; background:var(--O); } .bar div.R { background:var(--R); } .bar div.D { background:var(--D); }
+  .tot { color:var(--mut); font-size:13px; margin-top:6px; text-align:right; }
+  footer { color:var(--mut); font-size:12px; text-align:center; padding:20px 10px 40px; }
+  #err { display:none; background:#fee2e2; color:#991b1b; padding:8px; text-align:center; font-size:13px; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Indiana Election Night Results</h1>
+  <div id="upd">Loading…</div>
+  <nav id="nav"></nav>
+</header>
+<div id="banner" class="banner" style="display:none">EXAMPLE DATA — NOT REAL RESULTS</div>
+<div id="err">Couldn't refresh — showing last loaded data. Retrying…</div>
+<main id="main"></main>
+<footer>Unofficial tally compiled from partial-results PDFs. Auto-refreshes every 60 seconds. Percentages computed from votes shown.<br><span id="src"></span></footer>
+<script>
+const fmt = n => Number(n).toLocaleString('en-US');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pcls = p => (p === 'R' || p === 'D') ? p : '';
+function render(d) {
+  document.getElementById('title').textContent = d.title || 'Indiana Election Night Results';
+  document.getElementById('upd').textContent = 'Last updated: ' + (d.last_updated || '—');
+  document.getElementById('banner').style.display = d.is_example ? 'block' : 'none';
+  document.getElementById('src').textContent = d.source_note || '';
+  document.getElementById('nav').innerHTML = (d.sections||[]).map(s => `<a href="#${esc(s.id)}">${esc(s.name)}</a>`).join('');
+  document.getElementById('main').innerHTML = (d.sections||[]).map(s => `
+    <h2 id="${esc(s.id)}">${esc(s.name)}</h2>
+    ${(s.races||[]).length ? s.races.map(r => `
+      <div class="race">
+        <div class="rh"><h3>${esc(r.name)}</h3>${r.called ? `<span class="call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : ''}</div>
+        <div class="meta">${r.precincts_total ? `${fmt(r.precincts_reporting)} of ${fmt(r.precincts_total)} precincts reporting (${r.precincts_pct}%)` : 'Precincts reporting: n/a'}${(r.vote_for||1) > 1 ? ` · Vote for ${r.vote_for}` : ''}</div>
+        ${r.precincts_total ? `<div class="prog"><div style="width:${r.precincts_pct}%"></div></div>` : ''}
+        ${(r.candidates||[]).map(c => `
+          <div class="c">
+            <div class="nm ${c.leading ? 'lead' : ''}">${esc(c.name)}${c.party ? `<span class="pt ${pcls(c.party)}">${esc(c.party)}</span>` : ''}${r.called && r.called === c.name ? ' 🏆' : ''}</div>
+            <div class="v">${fmt(c.votes)}</div>
+            <div class="p">${Number(c.pct).toFixed(1)}%</div>
+            <div class="bar"><div class="${pcls(c.party)}" style="width:${c.pct}%"></div></div>
+          </div>`).join('')}
+        <div class="tot">Total votes: ${fmt(r.total_votes)}${r.margin_votes != null ? ` · Margin: ${fmt(r.margin_votes)} (${Number(r.margin_pct).toFixed(1)} pts)` : ''}</div>
+      </div>`).join('') : '<div class="race meta">No results yet.</div>'}
+  `).join('');
+}
+async function load() {
+  try {
+    const res = await fetch('results.json?t=' + Date.now(), {cache: 'no-store'});
+    if (!res.ok) throw new Error(res.status);
+    render(await res.json());
+    document.getElementById('err').style.display = 'none';
+  } catch (e) { document.getElementById('err').style.display = 'block'; }
+}
+load();
+setInterval(load, 60000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+</script>
+</body>
+</html>

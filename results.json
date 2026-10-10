@@ -101,17 +101,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "James Calvert, Jr.",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Gary W. Achor, Jr.",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Gary W. Achor, Jr.",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "James Calvert, Jr.",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -128,19 +128,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Jordan Coleman",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Gary McDaniel",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jordan Coleman",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -156,17 +156,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Anthony Arnold",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Clark Smith",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Clark Smith",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Anthony Arnold",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -183,17 +183,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Luke J Lomax",
-       "party": "L",
-       "party_full": "Libertarian",
+       "name": "Marcia Moore",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Marcia Moore",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Luke J Lomax",
+       "party": "L",
+       "party_full": "Libertarian",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -210,17 +210,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Carol Pearson",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Jeff Cummins",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Jeff Cummins",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Carol Pearson",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -408,14 +408,6 @@
      "vote_for": 3,
      "candidates": [
       {
-       "name": "William (Bill) McDonald",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Andrew deLivron",
        "party": "R",
        "party_full": "Republican",
@@ -438,6 +430,14 @@
        "votes": 0,
        "pct": 0.0,
        "leading": false
+      },
+      {
+       "name": "William (Bill) McDonald",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
      "uncontested": false,
@@ -450,30 +450,6 @@
      "group": "Townships",
      "vote_for": 3,
      "candidates": [
-      {
-       "name": "Justin S. Sweigart",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Jesse Vetters",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Jon P. Wogenstahl",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
       {
        "name": "Dakota M. Coates",
        "party": "R",
@@ -497,6 +473,30 @@
        "votes": 0,
        "pct": 0.0,
        "leading": false
+      },
+      {
+       "name": "Justin S. Sweigart",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jesse Vetters",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jon P. Wogenstahl",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
      "uncontested": false,
@@ -509,14 +509,6 @@
      "group": "Townships",
      "vote_for": 3,
      "candidates": [
-      {
-       "name": "Kiley Blalock",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
       {
        "name": "Jason Effing",
        "party": "R",
@@ -540,6 +532,14 @@
        "votes": 0,
        "pct": 0.0,
        "leading": false
+      },
+      {
+       "name": "Kiley Blalock",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
      "uncontested": false,
@@ -552,30 +552,6 @@
      "group": "Townships",
      "vote_for": 3,
      "candidates": [
-      {
-       "name": "Corey Dick",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Brian R. Hollington",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Liza Sumpter",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
       {
        "name": "Joe Fitzgerald",
        "party": "R",
@@ -599,6 +575,30 @@
        "votes": 0,
        "pct": 0.0,
        "leading": false
+      },
+      {
+       "name": "Corey Dick",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Brian R. Hollington",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Liza Sumpter",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
      "uncontested": false,
@@ -611,30 +611,6 @@
      "group": "Townships",
      "vote_for": 3,
      "candidates": [
-      {
-       "name": "Emily Benford",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Paul D. Dayton",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Ryan Handy",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
       {
        "name": "Larry J. Longman",
        "party": "R",
@@ -655,6 +631,30 @@
        "name": "Marybeth Sears",
        "party": "R",
        "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Emily Benford",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Paul D. Dayton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ryan Handy",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -779,14 +779,6 @@
      "vote_for": 3,
      "candidates": [
       {
-       "name": "Phyllis Collier Vest",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Mark Grass",
        "party": "R",
        "party_full": "Republican",
@@ -796,6 +788,14 @@
       },
       {
        "name": "Joseph Ricker",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Phyllis Collier Vest",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
@@ -982,22 +982,6 @@
      "vote_for": 2,
      "candidates": [
       {
-       "name": "Linda A. Robinson",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Howard Lee Savage, Sr.",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Ruth Hess",
        "party": "R",
        "party_full": "Republican",
@@ -1009,6 +993,22 @@
        "name": "Scott Jones",
        "party": "R",
        "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Linda A. Robinson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Howard Lee Savage, Sr.",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1092,17 +1092,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Trent Taylor",
-       "party": "I",
-       "party_full": "Independent",
+       "name": "David F. Long",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "David F. Long",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Trent Taylor",
+       "party": "I",
+       "party_full": "Independent",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1119,17 +1119,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Rebekah Cerqua",
-       "party": "",
-       "party_full": "No party listed",
+       "name": "S. Katie Sanford Evanoff",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "S. Katie Sanford Evanoff",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Rebekah Cerqua",
+       "party": "",
+       "party_full": "No party listed",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1146,17 +1146,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Brian Hart",
-       "party": "I",
-       "party_full": "Independent",
+       "name": "Emily Boesen",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Emily Boesen",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Brian Hart",
+       "party": "I",
+       "party_full": "Independent",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1244,19 +1244,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Norman Rayford, Jr",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "John L Beeman",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Norman Rayford, Jr",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -1272,6 +1272,14 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Danny (Dan) Girt",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Todd Shelton",
        "party": "D",
        "party_full": "Democratic",
@@ -1283,14 +1291,6 @@
        "name": "Mike A Garringer",
        "party": "I",
        "party_full": "Independent",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Danny (Dan) Girt",
-       "party": "R",
-       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1308,17 +1308,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Helen E Wean",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Cory Bohlander",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Cory Bohlander",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Helen E Wean",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1335,6 +1335,14 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Mikeal Vaughn",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Caroline (Carrie) Bale",
        "party": "D",
        "party_full": "Democratic",
@@ -1346,14 +1354,6 @@
        "name": "Brandon Collins",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Mikeal Vaughn",
-       "party": "R",
-       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1370,6 +1370,14 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Mike Reed",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Fred Reese",
        "party": "D",
        "party_full": "Democratic",
@@ -1381,14 +1389,6 @@
        "name": "Greg Noland",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Mike Reed",
-       "party": "R",
-       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1405,19 +1405,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Stephany Mae Stennis",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Linda S Smith",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Stephany Mae Stennis",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -1433,19 +1433,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Shannon Watters",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Rick Gardner",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Shannon Watters",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -1461,19 +1461,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Amy Terry",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Angela (Angie) Abel",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Amy Terry",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -1489,19 +1489,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Emilee A. Hammond",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Scott A. Norrick",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Emilee A. Hammond",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -1637,17 +1637,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Kimberly Bell",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Lana Evans",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Lana Evans",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Kimberly Bell",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1663,31 +1663,6 @@
      "group": "Townships",
      "vote_for": 3,
      "candidates": [
-      {
-       "name": "Meredith (CoCo) Armstrong",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Leandre (Andre) Smith",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Domanic Wills",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
       {
        "name": "Danny McGhee",
        "party": "R",
@@ -1712,6 +1687,31 @@
        "incumbent": true,
        "pct": 0.0,
        "leading": false
+      },
+      {
+       "name": "Meredith (CoCo) Armstrong",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Leandre (Andre) Smith",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Domanic Wills",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
      "uncontested": false,
@@ -1725,19 +1725,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Obadiah Smith, Jr",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Michael (Mike) Shively",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Obadiah Smith, Jr",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -1753,19 +1753,19 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Marcy DeShong",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Fred Keith Gaskill",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Marcy DeShong",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -1780,15 +1780,6 @@
      "group": "Townships",
      "vote_for": 3,
      "candidates": [
-      {
-       "name": "Patricia (Patty) Mauck",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
       {
        "name": "Dennis L Adams",
        "party": "R",
@@ -1813,6 +1804,15 @@
        "incumbent": true,
        "pct": 0.0,
        "leading": false
+      },
+      {
+       "name": "Patricia (Patty) Mauck",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
       }
      ],
      "uncontested": false,
@@ -1825,23 +1825,6 @@
      "group": "Townships",
      "vote_for": 3,
      "candidates": [
-      {
-       "name": "Sheila R McPhearson",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Jeffrey (Jeff) Myers",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
       {
        "name": "Joseph Miller",
        "party": "R",
@@ -1866,6 +1849,23 @@
        "votes": 0,
        "pct": 0.0,
        "leading": false
+      },
+      {
+       "name": "Sheila R McPhearson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jeffrey (Jeff) Myers",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
      "uncontested": false,
@@ -1879,17 +1879,17 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Lisa A Hobbs",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Patrick A Hoose",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Patrick A Hoose",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Lisa A Hobbs",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -1906,22 +1906,6 @@
      "vote_for": 3,
      "candidates": [
       {
-       "name": "Connie Sears",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Tom Shelton",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jeffrey Thomas Purdue",
        "party": "R",
        "party_full": "Republican",
@@ -1933,6 +1917,22 @@
        "name": "Rob Trotter",
        "party": "R",
        "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Connie Sears",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tom Shelton",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -2380,18 +2380,18 @@
      "vote_for": 3,
      "candidates": [
       {
-       "name": "Stephen Andrew Waller",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Ralph Gordon",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Ralph Gordon",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Stephen Andrew Waller",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
        "pct": 0.0,
@@ -2429,15 +2429,6 @@
      "vote_for": 2,
      "candidates": [
       {
-       "name": "Georgia Parker",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Crystal A Everhart",
        "party": "R",
        "party_full": "Republican",
@@ -2451,6 +2442,15 @@
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Georgia Parker",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -2574,6 +2574,22 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Olunda K Hunt",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Aufwiedersehen (Veda) Morris-May",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "JoAnna G Collette",
        "party": "",
        "party_full": "No party listed",
@@ -2594,22 +2610,6 @@
        "name": "Neal Alan Prange",
        "party": "",
        "party_full": "No party listed",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Olunda K Hunt",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Aufwiedersehen (Veda) Morris-May",
-       "party": "D",
-       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -2654,6 +2654,22 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Nickolas W Freeman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Olivia M Reyes",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Lindsay Brown",
        "party": "",
        "party_full": "No party listed",
@@ -2676,22 +2692,6 @@
        "party_full": "No party listed",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Olivia M Reyes",
-       "party": "I",
-       "party_full": "Independent",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Nickolas W Freeman",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3096,6 +3096,14 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Max Engling",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Beau Bayh",
        "party": "D",
        "party_full": "Democratic",
@@ -3115,14 +3123,6 @@
        "name": "Greg Ballard",
        "party": "Lincoln",
        "party_full": "Lincoln Party",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Max Engling",
-       "party": "R",
-       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -3150,6 +3150,15 @@
      "vote_for": 1,
      "candidates": [
       {
+       "name": "Elise Nieshalla",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Jessica Bailey",
        "party": "D",
        "party_full": "Democratic",
@@ -3162,15 +3171,6 @@
        "party": "L",
        "party_full": "Libertarian",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Elise Nieshalla",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -3186,19 +3186,19 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Coumba Kebe",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Daniel Elliott",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Coumba Kebe",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3384,19 +3384,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Barb Regnitz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Frank J. Mrvan",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Barb Regnitz",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       },
@@ -3432,6 +3432,15 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Rudy Yakym",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Jamee Decio",
        "party": "D",
        "party_full": "Democratic",
@@ -3444,15 +3453,6 @@
        "party": "L",
        "party_full": "Libertarian",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Rudy Yakym",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -3470,19 +3470,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Kelly Thompson",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Marlin A. Stutzman",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kelly Thompson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       },
@@ -3509,19 +3509,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Drew Cox",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jim Baird",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Drew Cox",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       },
@@ -3548,19 +3548,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "J.D. Ford",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Victoria Spartz",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "J.D. Ford",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3580,19 +3580,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Cynthia (Cinde) Wirth",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jefferson Shreve",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Cynthia (Cinde) Wirth",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3612,6 +3612,14 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Patrick McAuley",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "André Carson",
        "party": "D",
        "party_full": "Democratic",
@@ -3624,14 +3632,6 @@
        "name": "James M Sceniak",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Patrick McAuley",
-       "party": "R",
-       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -3650,19 +3650,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Mary Allen",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Mark Messmer",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mary Allen",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3680,6 +3680,15 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Erin Houchin",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Brad A. Meyer",
        "party": "D",
        "party_full": "Democratic",
@@ -3692,15 +3701,6 @@
        "party": "L",
        "party_full": "Libertarian",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Erin Houchin",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       },
@@ -3799,6 +3799,15 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Ed Soliday",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Ryan Kominakis",
        "party": "D",
        "party_full": "Democratic",
@@ -3811,15 +3820,6 @@
        "party": "L",
        "party_full": "Libertarian",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Ed Soliday",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -3838,19 +3838,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Alex Wait",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Dale DeVon",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Alex Wait",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3890,19 +3890,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Oliver Davis",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jake Teshka",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Oliver Davis",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3920,19 +3920,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Eric Harris",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Ryan M Dvorak",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Eric Harris",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3950,19 +3950,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Chris Cleveland",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Randy Novak",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Chris Cleveland",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -3981,19 +3981,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Ted Uzelac",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Charles Chuck Moseley",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Ted Uzelac",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4012,19 +4012,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Tyler Thomas Bridges",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Michael J. Aylesworth",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tyler Thomas Bridges",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4064,19 +4064,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Brenna Geswein",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Matt Commons",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Brenna Geswein",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       },
@@ -4124,19 +4124,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Anthony Oberman",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Hal Slager",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Anthony Oberman",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4154,19 +4154,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Ashley Hammac",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Kendell Culp",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ashley Hammac",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4184,19 +4184,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Mary E. Gibson",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jack Jordan",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mary E. Gibson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4236,19 +4236,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Nick Neal",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Julie Olthoff",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Nick Neal",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4266,19 +4266,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Laura Liskey",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jim Pressel",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Laura Liskey",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4296,19 +4296,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Charles Burkley",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Timothy Wesco",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Charles Burkley",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4348,19 +4348,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Austin D. Meives",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Ethan Manning",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Austin D. Meives",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4378,19 +4378,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Racheal Bleicher",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Hunter Smith",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Racheal Bleicher",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4409,19 +4409,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Tiffany Stoner",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Becky Cash",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tiffany Stoner",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4440,19 +4440,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Magdalaine Davis",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Chris Campbell",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Magdalaine Davis",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4470,19 +4470,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Tracy Brown",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Sheila J. Klinker",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Tracy Brown",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4500,19 +4500,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Karen Whitney",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jeffrey A. Thompson",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Karen Whitney",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4530,19 +4530,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Devon Wellington",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Alaina Shonkwiler",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Devon Wellington",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4560,17 +4560,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Jack Chance",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Paula Davis",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Paula Davis",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Jack Chance",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -4591,19 +4591,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Katie Robins",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Lori J. Goss-Reaves",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Katie Robins",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4622,19 +4622,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Paul G. Nix",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Victoria Garcia Wilburn",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Paul G. Nix",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4652,19 +4652,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "John E Bartlett",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "John (J.D.) Prescott",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "John E Bartlett",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4682,17 +4682,17 @@
      "held_by": "D",
      "candidates": [
       {
-       "name": "Sara Gullion",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Richard M. (Rich) Ivy",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Richard M. (Rich) Ivy",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Sara Gullion",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -4714,19 +4714,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Phil G. Gift",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Elizabeth Rowray",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Phil G. Gift",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4745,19 +4745,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Kimberly (Kim) Townsend",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Kyle Pierce",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kimberly (Kim) Townsend",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4777,19 +4777,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Lauren S. Cole",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Todd Huston",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lauren S. Cole",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4807,19 +4807,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Nate Stout",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Heath R. VanNatter",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Nate Stout",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4837,19 +4837,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Lindsay Gramlich",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Danny Lopez",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lindsay Gramlich",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4868,19 +4868,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "William Colteryahn",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Gregory E. Steuerwald",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "William Colteryahn",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4898,19 +4898,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Jackson T. Hayes",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Mark Genda",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jackson T. Hayes",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4928,19 +4928,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Brandi Vandivier",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Tim R. Yocum",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Brandi Vandivier",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4958,19 +4958,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Amy Lore",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Tonya Pfaff",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Amy Lore",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -4989,19 +4989,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Kelsey Kauffman",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Beau Baird",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kelsey Kauffman",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5019,17 +5019,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Rebecca Dawn (Becky) Mayfield",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Kellie E. Streeter",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Kellie E. Streeter",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Rebecca Dawn (Becky) Mayfield",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -5050,19 +5050,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "James H. Pittsford (Jimmy), III",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Bob Heaton",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "James H. Pittsford (Jimmy), III",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5080,19 +5080,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Michael E Potter",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Robb Greene",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Michael E Potter",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5110,6 +5110,15 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Doug Miller",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Emily Yaw",
        "party": "D",
        "party_full": "Democratic",
@@ -5122,15 +5131,6 @@
        "party": "G",
        "party_full": "Green",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Doug Miller",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -5148,19 +5148,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Michelle Milne",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Joanna King",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Michelle Milne",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5178,19 +5178,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Pepper Snyder",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Lorissa C. Sweet",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Pepper Snyder",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5208,19 +5208,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Judy Rowe",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Tony Isa",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Judy Rowe",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5238,19 +5238,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Joseph Trost",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Ben Smaltz",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Joseph Trost",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5294,19 +5294,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Nan Polk",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Cory Criswell",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Nan Polk",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5325,19 +5325,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Victoria C. Martz",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Lindsay Patterson",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Victoria C. Martz",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5355,17 +5355,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Thomas Scott Rockwell",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Randy Retter",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Randy Retter",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Thomas Scott Rockwell",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -5386,17 +5386,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Suzanne Fortenberry",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Wes Bennett",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Wes Bennett",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Suzanne Fortenberry",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -5417,17 +5417,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Michelle Hennessee Sears",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "John Reed",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "John Reed",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Michelle Hennessee Sears",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -5448,19 +5448,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Josh Burbrink",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Ryan Lauer",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Josh Burbrink",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5478,19 +5478,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Carrie L. Syczylo",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Peggy Mayfield",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Carrie L. Syczylo",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5530,19 +5530,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Amy Huffman Oliver",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Dave Hall",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Amy Huffman Oliver",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5561,17 +5561,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Tiffanie Arthur",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Amy Kippenbrock",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Amy Kippenbrock",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Tiffanie Arthur",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -5592,19 +5592,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Candace (Candy) Greer",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Matt Hostettler",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Candace (Candy) Greer",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5622,19 +5622,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Sean S. Steele",
-       "party": "I",
-       "party_full": "Independent",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Chris D. May",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Sean S. Steele",
+       "party": "I",
+       "party_full": "Independent",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5652,19 +5652,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Ryan Price",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Zach Payne",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ryan Price",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5682,19 +5682,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Justin Chadwick",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Alex Zimmerman",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Justin Chadwick",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5712,19 +5712,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Hunter B Collins",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Garrett R. Bascom",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Hunter B Collins",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5742,6 +5742,15 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Jim Lucas",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Chris Bowen",
        "party": "D",
        "party_full": "Democratic",
@@ -5754,15 +5763,6 @@
        "party": "I",
        "party_full": "Independent",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Jim Lucas",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -5780,6 +5780,14 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Scott L. Fluhr",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Sarah Blessing",
        "party": "D",
        "party_full": "Democratic",
@@ -5791,14 +5799,6 @@
        "name": "Brandi Tibben",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Scott L. Fluhr",
-       "party": "R",
-       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -5819,19 +5819,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "James R. McClure, Jr.",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Wendy Dant Chesser",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "James R. McClure, Jr.",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5850,17 +5850,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Michele (Shelly) Henry",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Darrell Neeley",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Darrell Neeley",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Michele (Shelly) Henry",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -5881,19 +5881,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Allen J. (A.J.) Miller",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jennifer Meltzer",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Allen J. (A.J.) Miller",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5911,19 +5911,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Lena Goffinet",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Stephen R. Bartels",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lena Goffinet",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -5941,19 +5941,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Mason Barclay",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Cindy Ledbetter",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mason Barclay",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       },
@@ -5980,19 +5980,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Logan A. Patberg",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Wendy (Mac) McNamara",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Logan A. Patberg",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6032,19 +6032,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Sally Busby",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Tim O'Brien",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Sally Busby",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6062,19 +6062,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Ian G. Richardson",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Matthew S. Lehman",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ian G. Richardson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6114,19 +6114,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Sharon L Wight",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Martin Carbaugh",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Sharon L Wight",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6166,19 +6166,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Wesley Haffenden",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Christopher Judy",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Wesley Haffenden",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6196,19 +6196,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Misti Meehan",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Bob Morris",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Misti Meehan",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6226,19 +6226,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Mark (Bird) Wehrle",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Dave Heine",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mark (Bird) Wehrle",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6256,19 +6256,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Glenn Bill",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Edward O. DeLaney",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Glenn Bill",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6308,19 +6308,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Stephanie Jo Yocum",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Chris Jeter",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Stephanie Jo Yocum",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6369,19 +6369,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "David Lawrence Boyd",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Andrew Ireland",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David Lawrence Boyd",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6399,19 +6399,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Jarren Hurt",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Robert W. Behning",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jarren Hurt",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6451,19 +6451,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Eva M. Rosberg",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Julie McGuire",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Eva M. Rosberg",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6649,17 +6649,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Scott Houldieson",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Trevor G. De Vries",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Trevor G. De Vries",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Scott Houldieson",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -6680,19 +6680,19 @@
      "held_by": "D",
      "candidates": [
       {
+       "name": "Nate Uldricks",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Rodney Pol",
        "party": "D",
        "party_full": "Democratic",
        "votes": 0,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Nate Uldricks",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6710,17 +6710,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Kate-Lynn Holley",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "James (Jay) Starkey",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "James (Jay) Starkey",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Kate-Lynn Holley",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -6741,17 +6741,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Gabrianna Gratzol",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Brian S. Schmutzler",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Brian S. Schmutzler",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Gabrianna Gratzol",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -6772,19 +6772,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Blaine Sefton",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Tyler Johnson",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Blaine Sefton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6802,19 +6802,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Julie McGill",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Liz Brown",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Julie McGill",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6832,17 +6832,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Cynthia M. Wehr",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Chris Parker",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Chris Parker",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Cynthia M. Wehr",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -6863,17 +6863,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Timothy C. Murphy",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Blake Fiechter",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Blake Fiechter",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Timothy C. Murphy",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -6894,17 +6894,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Kirsten Root",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Tracey Powell",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Tracey Powell",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Kirsten Root",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -6925,19 +6925,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Natasha Baker",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Ron Alting",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Natasha Baker",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -6955,6 +6955,15 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Spencer R. Deery",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "David A Sanders",
        "party": "D",
        "party_full": "Democratic",
@@ -6967,15 +6976,6 @@
        "party": "I",
        "party_full": "Independent",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Spencer R. Deery",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -6993,19 +6993,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Tamie Dixon-Tatum",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Mike Gaskill",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tamie Dixon-Tatum",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7024,19 +7024,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Andrew Dale",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Scott A. Alexander",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Andrew Dale",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7054,19 +7054,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Ronald Itnyre",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jeff Raatz",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ronald Itnyre",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7084,17 +7084,17 @@
      "held_by": "D",
      "candidates": [
       {
-       "name": "Kristina Moorhead",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "John Ruckelshaus",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "John Ruckelshaus",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Kristina Moorhead",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -7116,17 +7116,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Kerry J Forestal",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Juanita Albright",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Juanita Albright",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Kerry J Forestal",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -7148,19 +7148,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Kacey Blundell",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Greg Goode",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Kacey Blundell",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7201,17 +7201,17 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Ross Thomas",
-       "party": "D",
-       "party_full": "Democratic",
+       "name": "Michelle Davis",
+       "party": "R",
+       "party_full": "Republican",
        "votes": 0,
        "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Michelle Davis",
-       "party": "R",
-       "party_full": "Republican",
+       "name": "Ross Thomas",
+       "party": "D",
+       "party_full": "Democratic",
        "votes": 0,
        "pct": 0.0,
        "leading": false
@@ -7232,19 +7232,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Byron E. Holland",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Randall D. Maxwell",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Byron E. Holland",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7262,6 +7262,15 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Chris Garten",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
        "name": "Nick Marshall",
        "party": "D",
        "party_full": "Democratic",
@@ -7274,15 +7283,6 @@
        "party": "L",
        "party_full": "Libertarian",
        "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Chris Garten",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
        "pct": 0.0,
        "leading": false
       }
@@ -7323,19 +7323,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Ethan Sweetland-May",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Gary Byrne",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ethan Sweetland-May",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7353,19 +7353,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Bradley (Brad) Hochgesang",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Daryl Schmitt",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bradley (Brad) Hochgesang",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7383,19 +7383,19 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Cindi Clayton",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Jim Tomes",
        "party": "R",
        "party_full": "Republican",
        "votes": 0,
        "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Cindi Clayton",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
        "pct": 0.0,
        "leading": false
       }
@@ -7408,6 +7408,6 @@
   }
  ],
  "any_results": false,
- "last_updated_iso": "2026-10-09T21:38:55.406940-04:00",
- "last_updated": "9:38 PM ET, Fri Oct 9, 2026"
+ "last_updated_iso": "2026-10-09T22:34:43.657211-04:00",
+ "last_updated": "10:34 PM ET, Fri Oct 9, 2026"
 }

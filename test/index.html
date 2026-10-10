@@ -39,9 +39,9 @@
   .meta { color:var(--mut); font-size:12.5px; margin:2px 0 6px; }
   .flag { color:#b45309; font-weight:600; } @media (prefers-color-scheme: dark) { .flag { color:#fbbf24; } }
   .prog { height:3px; background:var(--line); border-radius:2px; overflow:hidden; margin:0 0 6px; } .prog div { height:100%; background:#64748b; }
-  .c { display:grid; grid-template-columns: 1fr auto auto; gap:2px 10px; align-items:center; padding:5px 0; border-top:1px solid var(--line); }
+  .c { display:grid; grid-template-columns: minmax(0,1fr) auto auto; gap:2px 10px; align-items:center; padding:5px 0; border-top:1px solid var(--line); }
   .c:first-of-type { border-top:0; }
-  .nm { font-weight:600; } .nm .i { font-weight:400; color:var(--mut); font-size:12px; }
+  .nm { font-weight:600; min-width:0; overflow-wrap:anywhere; white-space:normal; line-height:1.25; } .nm .i { font-weight:400; color:var(--mut); font-size:12px; }
   .nm.lead::after { content:" ✓"; color:#16a34a; }
   .pt { display:inline-block; min-width:18px; text-align:center; font-size:11px; font-weight:700; color:#fff; border-radius:4px; padding:0 4px; margin-left:4px; background:var(--O); vertical-align:1px; }
   .pt.R { background:var(--R); } .pt.D { background:var(--D); } .pt.np { background:#94a3b8; }
@@ -53,7 +53,7 @@
   .unc { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:4px 12px; margin-bottom:8px; }
   .unc summary { padding:8px 0; font-weight:600; font-size:14px; cursor:pointer; }
   .ur { display:flex; justify-content:space-between; gap:8px; padding:6px 0; border-top:1px solid var(--line); font-size:13.5px; }
-  .ur b { font-weight:600; flex:none; } .ur span { color:var(--mut); text-align:right; }
+  .ur b { font-weight:600; flex:0 1 auto; min-width:0; overflow-wrap:anywhere; } .ur span { color:var(--mut); text-align:right; min-width:0; overflow-wrap:anywhere; }
   .sum { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 12px; margin:4px 0 8px; }
   .sum h4 { margin:0 0 6px; font-size:15px; }
   .seatbar { display:flex; height:16px; border-radius:4px; overflow:hidden; background:var(--line); position:relative; margin:6px 0 4px; }
@@ -97,10 +97,21 @@ st.q = new URLSearchParams(location.search).get('q') || ''; document.getElementB
 let DATA = null;
 const save = () => localStorage.setItem('inres', JSON.stringify({tab: st.tab, unc: st.unc}));
 
+// Candidate order (mirrors cand_order.py): by votes once any are in, else party group R,D,L,I,nonpartisan,Lincoln,other,write-in; then last name
+const PRANK = {R:0,REP:0,D:1,DEM:1,L:2,LIB:2,I:3,IND:3,'':4,NP:4,LINCOLN:5};
+const SUFX = /^(jr|sr|ii|iii|iv|v|esq)\.?$/i, PART = new Set(['de','del','della','da','di','du','la','le','van','von','der','den','st','st.','mac']);
+function prank(c) { if (c.write_in || /^W\/?I$/i.test(c.party||'')) return 7; const p = (c.party||'').toUpperCase(); return p in PRANK ? PRANK[p] : 6; }
+function nkey(n) { const t = String(n).replace(/\([^)]*\)/g,' ').split(/[\s,]+/).filter(Boolean); while (t.length > 1 && SUFX.test(t[t.length-1])) t.pop();
+  let i = t.length - 1; while (i > 1 && PART.has(t[i-1].toLowerCase())) i--; return [t.slice(i).join(' ').toLowerCase().replace(/-/g,' '), t.slice(0,i).join(' ').toLowerCase()]; }
+function orderCands(r) {
+  const cs = r.candidates || []; if (r.question || (cs.length && cs.every(c => /^(yes|no)$/i.test(c.name)))) return cs;
+  const anyv = cs.some(c => c.votes > 0);
+  return cs.slice().sort((a, b) => (anyv ? b.votes - a.votes : 0) || prank(a) - prank(b) || nkey(a.name)[0].localeCompare(nkey(b.name)[0]) || nkey(a.name)[1].localeCompare(nkey(b.name)[1]));
+}
 function party(c) { return c.party ? `<span class="pt ${pc(c.party)}" title="${esc(c.party_full||c.party)}">${esc(c.party)}</span>` : ''; }
 function candRow(r, c, any) {
   const lead = any && c.leading && !r.question;
-  if (r.uncontested && r.candidates.length === 1) return `<div class="c" style="grid-template-columns:1fr auto">
+  if (r.uncontested && r.candidates.length === 1) return `<div class="c" style="grid-template-columns:minmax(0,1fr) auto">
     <div class="nm">${esc(c.name)}${party(c)}${c.incumbent ? ' <span class="i">(inc.)</span>' : ''}</div>
     <div class="big">${any ? fmt(c.votes) : '–'} <small>votes</small></div></div>`;
   return `<div class="c">
@@ -110,7 +121,7 @@ function candRow(r, c, any) {
     ${any ? `<div class="bar"><div class="${pc(c.party)}" style="width:${c.pct}%"></div></div>` : ''}
   </div>`;
 }
-function winnerParty(r) { const c = r.candidates.find(c => c.name === r.called) || r.candidates[0]; return c && c.party; }
+function winnerParty(r) { const c = r.candidates.find(c => c.name === r.called) || r.candidates.slice().sort((a, b) => b.votes - a.votes)[0]; return c && c.party; }
 function raceCard(r) {
   const any = r.total_votes > 0;
   const flip = r.held_by && (r.status === 'called' || r.status === 'reporting') && winnerParty(r) !== r.held_by;
@@ -126,12 +137,12 @@ function raceCard(r) {
     <div class="rh"><h4>${esc(r.name)}</h4>${r.called ? `<span class="tag call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : (!any && DATA && DATA.any_results && !r.uncontested) ? '<span class="tag">VERIFYING…</span>' : r.uncontested ? '<span class="tag unopp">UNOPPOSED</span>' : flip ? '<span class="tag flip">FLIP?</span>' : ''}</div>
     <div class="meta">${meta.join(' · ')}${r.watch ? ` · <span class="flag">★ ${esc(r.watch)}</span>` : ''}${r.note ? `<br>${esc(r.note)}` : ''}</div>
     ${r.precincts_total ? `<div class="prog"><div style="width:${r.precincts_pct}%"></div></div>` : ''}
-    ${r.candidates.map(c => candRow(r, c, any)).join('')}
+    ${orderCands(r).map(c => candRow(r, c, any)).join('')}
     ${any && !(r.uncontested && r.candidates.length === 1) ? `<div class="tot">Total: ${fmt(r.total_votes)}${r.margin_votes != null ? ` · Margin ${fmt(r.margin_votes)} (${Number(r.margin_pct).toFixed(1)} pts)` : ''}</div>` : ''}
   </div>`;
 }
 function uncRow(r) {
-  return `<div class="ur"><b>${esc(r.name)}</b><span>${r.candidates.map(c => esc(c.name) + (c.party ? ` (${esc(c.party)})` : '') + (c.incumbent ? '*' : '') + (r.total_votes ? ` ${fmt(c.votes)}` : '')).join(', ') || (r.no_candidate ? '<i>No candidate filed</i>' : 'No candidates')}</span></div>`;
+  return `<div class="ur"><b>${esc(r.name)}</b><span>${orderCands(r).map(c => esc(c.name) + (c.party ? ` (${esc(c.party)})` : '') + (c.incumbent ? '*' : '') + (r.total_votes ? ` ${fmt(c.votes)}` : '')).join(', ') || (r.no_candidate ? '<i>No candidate filed</i>' : 'No candidates')}</span></div>`;
 }
 function summary(ch, sec) {
   const s = ch.summary || {}; const g = (o, p) => (o && o[p]) || 0;

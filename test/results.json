@@ -110,7 +110,7 @@
        "leading": true
       },
       {
-       "name": "Dj. Davis",
+       "name": "D.J. Davis",
        "party": "R",
        "votes": 3327,
        "pct": 41.95,
@@ -202,7 +202,7 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.2",
      "candidates": [
       {
-       "name": "Nicole . Parcell",
+       "name": "Nicole E. Parcell",
        "party": "R",
        "votes": 6255,
        "pct": 100.0,
@@ -220,7 +220,7 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.2",
      "candidates": [
       {
-       "name": "Gary W. Achor, Jr",
+       "name": "Gary W. Achor, Jr.",
        "party": "R",
        "votes": 6047,
        "pct": 75.97,
@@ -254,7 +254,7 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.2",
      "candidates": [
       {
-       "name": "Chad . Coughenour",
+       "name": "Chad E. Coughenour",
        "party": "R",
        "votes": 6295,
        "pct": 100.0,
@@ -299,7 +299,7 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.2",
      "candidates": [
       {
-       "name": "Gary Mcdaniel",
+       "name": "Gary McDaniel",
        "party": "R",
        "votes": 6327,
        "pct": 100.0,
@@ -469,7 +469,7 @@
        "leading": true
       },
       {
-       "name": "Cherie Charlee) Burrow",
+       "name": "Cherie (Charlee) Burrow",
        "party": "R",
        "votes": 156,
        "pct": 35.06,
@@ -547,14 +547,14 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.4",
      "candidates": [
       {
-       "name": "Mick Simunek",
+       "name": "Micki Simunek",
        "party": "R",
        "votes": 374,
        "pct": 52.02,
        "leading": true
       },
       {
-       "name": "Aul W. Sergi",
+       "name": "Paul W. Sergi",
        "party": "R",
        "votes": 345,
        "pct": 47.98,
@@ -581,7 +581,7 @@
        "leading": true
       },
       {
-       "name": "Andrew Delivron",
+       "name": "Andrew deLivron",
        "party": "R",
        "votes": 309,
        "pct": 35.56,
@@ -746,7 +746,7 @@
      "note": "Hand-entered from PDF crop (OCR flagged CHECK); matches state certified",
      "candidates": [
       {
-       "name": "Bob Mcdaniel",
+       "name": "Bob McDaniel",
        "party": "R",
        "votes": 183,
        "pct": 35.81,
@@ -986,7 +986,7 @@
        "verified": true
       },
       {
-       "name": "Ethan J, Lawson",
+       "name": "Ethan J. Lawson",
        "party": "R",
        "votes": 4563,
        "pct": 16.22,
@@ -1445,7 +1445,7 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.8",
      "candidates": [
       {
-       "name": "James Calvert, Jr",
+       "name": "James Calvert, Jr.",
        "party": "D",
        "votes": 2816,
        "pct": 100.0,
@@ -1520,7 +1520,7 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.10",
      "candidates": [
       {
-       "name": "Nicholas D. Mclain",
+       "name": "Nicholas D. McLain",
        "party": "D",
        "votes": 384,
        "pct": 51.2,
@@ -1559,7 +1559,7 @@
        "leading": true
       },
       {
-       "name": "Jon P, Wogenstahl",
+       "name": "Jon P. Wogenstahl",
        "party": "D",
        "votes": 521,
        "pct": 30.31,
@@ -1595,7 +1595,7 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.11",
      "candidates": [
       {
-       "name": "Iza Sumpter",
+       "name": "Liza Sumpter",
        "party": "D",
        "votes": 471,
        "pct": 41.35,
@@ -1609,7 +1609,7 @@
        "leading": true
       },
       {
-       "name": "Sorey Dick",
+       "name": "Corey Dick",
        "party": "D",
        "votes": 332,
        "pct": 29.15,
@@ -1666,7 +1666,7 @@
        "leading": true
       },
       {
-       "name": "Howard Lee Savage, Sr",
+       "name": "Howard Lee Savage, Sr.",
        "party": "D",
        "votes": 383,
        "pct": 36.97,
@@ -1993,6 +1993,6 @@
   }
  ],
  "any_results": true,
- "last_updated": "10:20 PM ET, Fri Oct 9, 2026",
- "last_updated_iso": "2026-10-09T22:20:06.955008-04:00"
+ "last_updated": "10:34 PM ET, Fri Oct 9, 2026",
+ "last_updated_iso": "2026-10-09T22:34:43.699766-04:00"
 }

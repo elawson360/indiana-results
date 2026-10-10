@@ -10,28 +10,28 @@
         {
           "id": "hancock-sheriff",
           "name": "Sheriff (EXAMPLE)",
-          "precincts_reporting": 18,
+          "precincts_reporting": 25,
           "precincts_total": 42,
           "candidates": [
             {
               "name": "Example Candidate A",
               "party": "R",
-              "votes": 8412,
-              "pct": 67.2,
+              "votes": 9999,
+              "pct": 70.89,
               "leading": true
             },
             {
               "name": "Example Candidate B",
               "party": "D",
               "votes": 4105,
-              "pct": 32.8,
+              "pct": 29.11,
               "leading": false
             }
           ],
-          "total_votes": 12517,
-          "margin_votes": 4307,
-          "margin_pct": 34.4,
-          "precincts_pct": 42.9
+          "total_votes": 14104,
+          "margin_votes": 5894,
+          "margin_pct": 41.78,
+          "precincts_pct": 59.5
         },
         {
           "id": "hancock-commissioner-2",
@@ -340,6 +340,6 @@
       ]
     }
   ],
-  "last_updated_iso": "2026-10-09T20:57:52.792551-04:00",
-  "last_updated": "8:57 PM ET, Fri Oct 9, 2026"
+  "last_updated_iso": "2026-10-09T20:58:27.370898-04:00",
+  "last_updated": "8:58 PM ET, Fri Oct 9, 2026"
 }

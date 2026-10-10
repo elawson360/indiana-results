@@ -163,7 +163,8 @@ function render() {
   document.getElementById('title').textContent = d.title || 'Indiana Election Night Results';
   document.getElementById('upd').textContent = 'Last updated: ' + (d.last_updated || '–');
   const b = document.getElementById('banner');
-  if (d.is_example) { b.className = 'banner ex'; b.textContent = 'EXAMPLE DATA. NOT REAL RESULTS.'; b.style.display = 'block'; }
+  if (d.banner) { b.className = 'banner ex'; b.textContent = d.banner; b.style.display = 'block'; }
+  else if (d.is_example) { b.className = 'banner ex'; b.textContent = 'EXAMPLE DATA. NOT REAL RESULTS.'; b.style.display = 'block'; }
   else if (!d.any_results && d.status_message) { b.className = 'banner wait'; b.textContent = d.status_message; b.style.display = 'block'; }
   else b.style.display = 'none';
   document.getElementById('src').textContent = d.source_note || '';

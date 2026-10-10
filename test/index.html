@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0f172a">
+<title>Indiana Election Night Results</title>
+<style>
+  :root { --bg:#f1f5f9; --card:#fff; --ink:#0f172a; --mut:#64748b; --line:#e2e8f0; --R:#dc2626; --D:#2563eb; --O:#7c3aed; --chip:#e2e8f0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0b1220; --card:#131c2e; --ink:#e5e7eb; --mut:#94a3b8; --line:#243047; --chip:#1e293b; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background:var(--bg); color:var(--ink); -webkit-text-size-adjust:100%; }
+  header { position:sticky; top:0; z-index:5; background:#0f172a; color:#fff; padding:10px 12px 8px; padding-top:max(10px, env(safe-area-inset-top)); }
+  header h1 { margin:0; font-size:17px; }
+  #upd { font-size:12.5px; opacity:.85; margin-top:2px; }
+  nav { display:flex; gap:6px; overflow-x:auto; margin-top:8px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+  nav::-webkit-scrollbar { display:none; }
+  nav a { flex:none; color:#cbd5e1; text-decoration:none; font-size:13px; padding:6px 11px; border-radius:999px; background:#1e293b; }
+  nav a.on { background:#fff; color:#0f172a; font-weight:700; }
+  .banner { font-weight:700; text-align:center; padding:9px; font-size:14px; }
+  .banner.wait { background:#e0f2fe; color:#075985; } .banner.ex { background:#fef3c7; color:#92400e; }
+  main { max-width:760px; margin:0 auto; padding:8px 10px; }
+  .tools { position:sticky; top:var(--hh,96px); z-index:4; background:var(--bg); padding:6px 0; }
+  .tools input[type=search] { width:100%; font-size:16px; padding:9px 12px; border-radius:10px; border:1px solid var(--line); background:var(--card); color:var(--ink); }
+  .chips { display:flex; gap:6px; margin-top:6px; overflow-x:auto; scrollbar-width:none; }
+  .chips::-webkit-scrollbar { display:none; }
+  .chip { flex:none; font-size:13px; padding:5px 10px; border-radius:999px; background:var(--chip); color:var(--ink); border:0; }
+  .chip.on { background:#0f172a; color:#fff; }
+  @media (prefers-color-scheme: dark) { .chip.on { background:#e5e7eb; color:#0f172a; } }
+  h3.grp { font-size:13px; margin:16px 4px 6px; text-transform:uppercase; letter-spacing:.05em; color:var(--mut); }
+  .race { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 12px; margin-bottom:8px; }
+  .race.watch { border-left:4px solid #f59e0b; }
+  .rh { display:flex; justify-content:space-between; gap:8px; align-items:baseline; }
+  .rh h4 { margin:0; font-size:15.5px; }
+  .tag { flex:none; font-size:11px; font-weight:700; padding:2px 7px; border-radius:999px; background:var(--chip); color:var(--mut); }
+  .tag.call { background:#16a34a; color:#fff; } .tag.unopp { background:#0f766e; color:#fff; }
+  .big { font-size:26px; font-weight:800; font-variant-numeric:tabular-nums; } .big small { font-size:13px; font-weight:500; color:var(--mut); } .tag.flip { background:#f59e0b; color:#111; }
+  .meta { color:var(--mut); font-size:12.5px; margin:2px 0 6px; }
+  .flag { color:#b45309; font-weight:600; } @media (prefers-color-scheme: dark) { .flag { color:#fbbf24; } }
+  .prog { height:3px; background:var(--line); border-radius:2px; overflow:hidden; margin:0 0 6px; } .prog div { height:100%; background:#64748b; }
+  .c { display:grid; grid-template-columns: 1fr auto auto; gap:2px 10px; align-items:center; padding:5px 0; border-top:1px solid var(--line); }
+  .c:first-of-type { border-top:0; }
+  .nm { font-weight:600; } .nm .i { font-weight:400; color:var(--mut); font-size:12px; }
+  .nm.lead::after { content:" ✓"; color:#16a34a; }
+  .pt { display:inline-block; min-width:18px; text-align:center; font-size:11px; font-weight:700; color:#fff; border-radius:4px; padding:0 4px; margin-left:4px; background:var(--O); vertical-align:1px; }
+  .pt.R { background:var(--R); } .pt.D { background:var(--D); } .pt.np { background:#94a3b8; }
+  .v { text-align:right; font-variant-numeric:tabular-nums; color:var(--mut); }
+  .p { text-align:right; font-variant-numeric:tabular-nums; font-weight:700; min-width:54px; }
+  .bar { grid-column:1 / -1; height:5px; background:var(--line); border-radius:3px; overflow:hidden; }
+  .bar div { height:100%; background:var(--O); } .bar div.R { background:var(--R); } .bar div.D { background:var(--D); } .bar div.np { background:#64748b; }
+  .tot { color:var(--mut); font-size:12.5px; margin-top:4px; text-align:right; }
+  .unc { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:4px 12px; margin-bottom:8px; }
+  .unc summary { padding:8px 0; font-weight:600; font-size:14px; cursor:pointer; }
+  .ur { display:flex; justify-content:space-between; gap:8px; padding:6px 0; border-top:1px solid var(--line); font-size:13.5px; }
+  .ur b { font-weight:600; flex:none; } .ur span { color:var(--mut); text-align:right; }
+  .sum { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 12px; margin:4px 0 8px; }
+  .sum h4 { margin:0 0 6px; font-size:15px; }
+  .seatbar { display:flex; height:16px; border-radius:4px; overflow:hidden; background:var(--line); position:relative; margin:6px 0 4px; }
+  .seatbar div { height:100%; } .sb-R { background:var(--R); } .sb-D { background:var(--D); } .sb-O { background:var(--O); } .sb-u { background:transparent; }
+  .seatbar i { position:absolute; top:-3px; bottom:-3px; width:2px; background:var(--ink); }
+  .sgrid { display:grid; grid-template-columns: auto 1fr 1fr 1fr; gap:2px 10px; font-size:13px; font-variant-numeric:tabular-nums; }
+  .sgrid .h { color:var(--mut); font-size:12px; } .sgrid .r { color:var(--R); font-weight:700; } .sgrid .d { color:var(--D); font-weight:700; }
+  .snote { color:var(--mut); font-size:12px; margin-top:6px; }
+  .empty { color:var(--mut); text-align:center; padding:20px; }
+  footer { color:var(--mut); font-size:12px; text-align:center; padding:16px 10px 40px; }
+  #err { display:none; background:#fee2e2; color:#991b1b; padding:8px; text-align:center; font-size:13px; }
+</style>
+</head>
+<body>
+<header id="hdr">
+  <h1 id="title">Indiana Election Night Results</h1>
+  <div id="upd">Loading…</div>
+  <nav id="nav"></nav>
+</header>
+<div id="banner" class="banner" style="display:none"></div>
+<div id="err">Couldn't refresh. Showing last loaded data. Retrying…</div>
+<main>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search district #, candidate, or office" autocomplete="off" autocorrect="off" spellcheck="false">
+    <div class="chips">
+      <button class="chip" id="f-unc">Hide uncontested</button>
+      <button class="chip" id="f-watch">★ Watch list</button>
+      <button class="chip" id="f-local">Hancock/Madison seats</button>
+    </div>
+  </div>
+  <div id="main"></div>
+</main>
+<footer>Unofficial tally compiled from county results PDFs and the Indiana ENR. Auto-refreshes every 60 s. Percentages computed from the votes shown.<br><span id="src"></span></footer>
+<script>
+const fmt = n => Number(n).toLocaleString('en-US');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pc = p => (p === 'R' || p === 'D') ? p : (p ? '' : 'np');
+const st = JSON.parse(localStorage.getItem('inres') || '{}');
+st.tab = location.hash.slice(1) || st.tab || 'hancock';
+st.q = new URLSearchParams(location.search).get('q') || ''; document.getElementById('q').value = st.q; st.unc = st.unc ?? false; st.watch = false; st.local = false;
+let DATA = null;
+const save = () => localStorage.setItem('inres', JSON.stringify({tab: st.tab, unc: st.unc}));
+
+function party(c) { return c.party ? `<span class="pt ${pc(c.party)}" title="${esc(c.party_full||c.party)}">${esc(c.party)}</span>` : ''; }
+function candRow(r, c, any) {
+  const lead = any && c.leading && !r.question;
+  if (r.uncontested && r.candidates.length === 1) return `<div class="c" style="grid-template-columns:1fr auto">
+    <div class="nm">${esc(c.name)}${party(c)}${c.incumbent ? ' <span class="i">(inc.)</span>' : ''}</div>
+    <div class="big">${any ? fmt(c.votes) : '–'} <small>votes</small></div></div>`;
+  return `<div class="c">
+    <div class="nm ${lead ? 'lead' : ''}">${esc(c.name)}${party(c)}${c.incumbent ? ' <span class="i">(inc.)</span>' : ''}${c.write_in ? ' <span class="i">(write-in)</span>' : ''}${r.called && r.called === c.name ? ' 🏆' : ''}</div>
+    <div class="v">${any ? fmt(c.votes) : '–'}</div>
+    <div class="p">${any ? Number(c.pct).toFixed(1) + '%' : ''}</div>
+    ${any ? `<div class="bar"><div class="${pc(c.party)}" style="width:${c.pct}%"></div></div>` : ''}
+  </div>`;
+}
+function winnerParty(r) { const c = r.candidates.find(c => c.name === r.called) || r.candidates[0]; return c && c.party; }
+function raceCard(r) {
+  const any = r.total_votes > 0;
+  const flip = r.held_by && (r.status === 'called' || r.status === 'reporting') && winnerParty(r) !== r.held_by;
+  const meta = [];
+  if (r.precincts_total) meta.push(`${fmt(r.precincts_reporting)}/${fmt(r.precincts_total)} precincts (${r.precincts_pct}%)`);
+  else meta.push(any ? 'Precincts: n/a' : 'Not yet reported');
+  if ((r.vote_for||1) > 1) meta.push(`Vote for ${r.vote_for}`);
+  if (r.held_by) meta.push(`Held by ${r.held_by}${r.open_seat ? ' · Open seat' : ''}`);
+  if (r.local) meta.push(`📍 ${esc(r.local)}`);
+  if (r.updated) meta.push(`Updated ${esc(r.updated)}`);
+  return `<div class="race ${r.watch ? 'watch' : ''}">
+    <div class="rh"><h4>${esc(r.name)}</h4>${r.called ? `<span class="tag call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : r.uncontested ? '<span class="tag unopp">UNOPPOSED</span>' : flip ? '<span class="tag flip">FLIP?</span>' : ''}</div>
+    <div class="meta">${meta.join(' · ')}${r.watch ? ` · <span class="flag">★ ${esc(r.watch)}</span>` : ''}${r.note ? `<br>${esc(r.note)}` : ''}</div>
+    ${r.precincts_total ? `<div class="prog"><div style="width:${r.precincts_pct}%"></div></div>` : ''}
+    ${r.candidates.map(c => candRow(r, c, any)).join('')}
+    ${any && !(r.uncontested && r.candidates.length === 1) ? `<div class="tot">Total: ${fmt(r.total_votes)}${r.margin_votes != null ? ` · Margin ${fmt(r.margin_votes)} (${Number(r.margin_pct).toFixed(1)} pts)` : ''}</div>` : ''}
+  </div>`;
+}
+function uncRow(r) {
+  return `<div class="ur"><b>${esc(r.name)}</b><span>${r.candidates.map(c => esc(c.name) + (c.party ? ` (${esc(c.party)})` : '') + (c.incumbent ? '*' : '') + (r.total_votes ? ` ${fmt(c.votes)}` : '')).join(', ') || 'No candidates'}</span></div>`;
+}
+function summary(ch, sec) {
+  const s = ch.summary || {}; const g = (o, p) => (o && o[p]) || 0;
+  const pr = s.projected || {}; const N = ch.seats;
+  const segs = `<div class="sb-R" style="width:${100*g(pr,'R')/N}%"></div><div style="flex:1"></div>`;
+  const other = Object.keys(pr).filter(p => p !== 'R' && p !== 'D').reduce((a,p) => a + pr[p], 0);
+  const hold = ch.holdover || {};
+  return `<div class="sum"><h4>${esc(ch.name)}: summary</h4>
+    <div class="seatbar">${segs}${other ? `<div class="sb-O" style="width:${100*other/N}%"></div>` : ''}<div class="sb-D" style="width:${100*g(pr,'D')/N}%"></div><i style="left:${100*ch.majority/N}%" title="Majority"></i>${ch.supermajority ? `<i style="left:${100*ch.supermajority/N}%" title="Supermajority"></i>` : ''}</div>
+    <div class="snote" style="margin:0 0 6px">Projected seats: R from the left, D from the right. Line${ch.supermajority ? 's mark' : ' marks'} majority (${ch.majority})${ch.supermajority ? ` and ⅔ supermajority/quorum (${ch.supermajority})` : ''}.</div>
+    <div class="sgrid">
+      <div class="h"></div><div class="h">Rep</div><div class="h">Dem</div><div class="h">Other</div>
+      ${(g(hold,'R')+g(hold,'D')) ? `<div>Not up (holdover)</div><div class="r">${g(hold,'R')}</div><div class="d">${g(hold,'D')}</div><div>–</div>` : ''}
+      <div>Unopposed</div><div class="r">${g(s.unopposed,'R')}</div><div class="d">${g(s.unopposed,'D')}</div><div>${Object.keys(s.unopposed||{}).filter(p=>p!=='R'&&p!=='D').reduce((a,p)=>a+s.unopposed[p],0)}</div>
+      <div>Won (called)</div><div class="r">${g(s.won,'R')}</div><div class="d">${g(s.won,'D')}</div><div>${Object.keys(s.won||{}).filter(p=>p!=='R'&&p!=='D').reduce((a,p)=>a+s.won[p],0)}</div>
+      <div>Leading</div><div class="r">${g(s.leading,'R')}</div><div class="d">${g(s.leading,'D')}</div><div>${Object.keys(s.leading||{}).filter(p=>p!=='R'&&p!=='D').reduce((a,p)=>a+s.leading[p],0)}</div>
+      <div><b>Projected total</b></div><div class="r">${g(pr,'R')}</div><div class="d">${g(pr,'D')}</div><div>${other}</div>
+    </div>
+    <div class="snote">Not yet reported: <b>${s.not_reported ?? '–'}</b> of ${sec.races.length} seats up. Current makeup: <b>${ch.current.R}R–${ch.current.D}D</b>. ${esc(ch.note || '')}${(s.flips||[]).length ? ` <b>Possible flips: ${s.flips.length}</b>.` : ''}</div>
+  </div>`;
+}
+function matches(r, q) {
+  if (!q) return true;
+  const hay = [r.name, r.id, r.district, r.local, r.watch, r.group, ...r.candidates.map(c => c.name)].join(' ').toLowerCase();
+  if (/^\d+$/.test(q)) return r.district != null ? String(r.district) === String(+q) : hay.includes(q);
+  return q.toLowerCase().split(/\s+/).every(t => hay.includes(t));
+}
+function render() {
+  const d = DATA; if (!d) return;
+  document.getElementById('title').textContent = d.title || 'Indiana Election Night Results';
+  document.getElementById('upd').textContent = 'Last updated: ' + (d.last_updated || '–');
+  const b = document.getElementById('banner');
+  if (d.banner) { b.className = 'banner ex'; b.textContent = d.banner; b.style.display = 'block'; }
+  else if (d.is_example) { b.className = 'banner ex'; b.textContent = 'EXAMPLE DATA. NOT REAL RESULTS.'; b.style.display = 'block'; }
+  else if (!d.any_results && d.status_message) { b.className = 'banner wait'; b.textContent = d.status_message; b.style.display = 'block'; }
+  else b.style.display = 'none';
+  document.getElementById('src').textContent = d.source_note || '';
+  const secs = d.sections || [];
+  if (!secs.find(s => s.id === st.tab)) st.tab = secs[0] && secs[0].id;
+  document.getElementById('nav').innerHTML = secs.map(s => `<a href="#${esc(s.id)}" data-t="${esc(s.id)}" class="${s.id === st.tab ? 'on' : ''}">${esc(s.name)}</a>`).join('');
+  const sec = secs.find(s => s.id === st.tab); if (!sec) return;
+  const isLeg = !!(d.chambers && d.chambers[sec.id]);
+  document.getElementById('f-local').style.display = isLeg ? '' : 'none';
+  ['unc','watch','local'].forEach(k => document.getElementById('f-' + k).classList.toggle('on', !!st[k]));
+  let races = sec.races.filter(r => matches(r, st.q.trim()) && (!st.watch || r.watch) && (!st.local || !isLeg || r.local));
+  if (isLeg) races = races.slice().sort((a, b) => a.district - b.district);
+  let html = isLeg ? summary(d.chambers[sec.id], sec) : '';
+  if (isLeg) {
+    for (const r of races) {
+      if (!r.uncontested || r.always_card) html += raceCard(r);
+      else if (!st.unc) html += `<div class="unc">${uncRow(r).replace('<div class="ur">', '<div class="ur" style="border:0">').replace('</span></div>', ' · <i>unopposed</i></span></div>')}</div>`;
+    }
+    if (!races.length) html += '<div class="empty">No races match.</div>';
+    document.getElementById('main').innerHTML = html;
+    document.documentElement.style.setProperty('--hh', document.getElementById('hdr').offsetHeight + 'px');
+    return;
+  }
+  const groups = [];
+  for (const r of races) { const g = r.group || ''; let G = groups.find(x => x.g === g); if (!G) groups.push(G = {g, c: [], u: []}); (r.uncontested && !r.always_card ? G.u : G.c).push(r); }
+  for (const G of groups) {
+    if (G.g) html += `<h3 class="grp">${esc(G.g)}</h3>`;
+    html += G.c.map(raceCard).join('');
+    if (G.u.length && !st.unc) {
+      const open = st.q.trim() ? 'open' : '';
+      html += `<details class="unc" ${open}><summary>Uncontested (${G.u.length})</summary>${G.u.map(uncRow).join('')}<div class="snote" style="padding-bottom:8px">* incumbent</div></details>`;
+    }
+  }
+  if (!races.length) html += '<div class="empty">No races match.</div>';
+  document.getElementById('main').innerHTML = html;
+  document.documentElement.style.setProperty('--hh', document.getElementById('hdr').offsetHeight + 'px');
+}
+document.getElementById('nav').addEventListener('click', e => { const a = e.target.closest('a'); if (!a) return; e.preventDefault(); st.tab = a.dataset.t; history.replaceState(null, '', '#' + st.tab); save(); render(); window.scrollTo(0, 0); });
+document.getElementById('q').addEventListener('input', e => { st.q = e.target.value; render(); });
+['unc','watch','local'].forEach(k => document.getElementById('f-' + k).addEventListener('click', () => { st[k] = !st[k]; save(); render(); }));
+window.addEventListener('hashchange', () => { st.tab = location.hash.slice(1); render(); });
+async function load() {
+  try {
+    const res = await fetch('results.json?t=' + Date.now(), {cache: 'no-store'});
+    if (!res.ok) throw new Error(res.status);
+    DATA = await res.json(); render();
+    document.getElementById('err').style.display = 'none';
+  } catch (e) { document.getElementById('err').style.display = 'block'; }
+}
+load();
+setInterval(load, 60000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+</script>
+</body>
+</html>

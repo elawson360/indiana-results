@@ -1,0 +1,1684 @@
+{
+ "title": "TEST \u2014 Hancock Co. May 2026 primary",
+ "banner": "TEST \u2014 May 2026 primary, Hancock County, unofficial",
+ "is_example": true,
+ "source_note": "Extracted by OCR from Hancock summary PDF (05/05/2026 7:58 PM). Registered voters (OCR): , 67,980.",
+ "sections": [
+  {
+   "id": "test-rep",
+   "name": "Republican primary",
+   "races": [
+    {
+     "id": "test-000",
+     "name": "U.S, Rep 6Th Dist",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Jefferson Shreve",
+       "party": "R",
+       "votes": 4073,
+       "pct": 53.23,
+       "leading": true
+      },
+      {
+       "name": "Sarah Janisse Brown",
+       "party": "R",
+       "votes": 3579,
+       "pct": 46.77,
+       "leading": false
+      }
+     ],
+     "total_votes": 7652,
+     "margin_votes": 494,
+     "margin_pct": 6.46,
+     "status": "reporting"
+    },
+    {
+     "id": "test-001",
+     "name": "State Rep Dist 53",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Ethan J. Lawson",
+       "party": "R",
+       "votes": 50,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 50,
+     "status": "reporting"
+    },
+    {
+     "id": "test-002",
+     "name": "State Rep Dist 54",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Cory Criswell",
+       "party": "R",
+       "votes": 217,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 217,
+     "status": "reporting"
+    },
+    {
+     "id": "test-003",
+     "name": "State Rep Dist 88",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Chris Jeter",
+       "party": "R",
+       "votes": 1512,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 1512,
+     "status": "reporting"
+    },
+    {
+     "id": "test-004",
+     "name": "Judge Superior Court No. 1",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Janet Miles-manship",
+       "party": "R",
+       "votes": 4603,
+       "pct": 58.05,
+       "leading": true
+      },
+      {
+       "name": "Dj. Davis",
+       "party": "R",
+       "votes": 3327,
+       "pct": 41.95,
+       "leading": false
+      }
+     ],
+     "total_votes": 7930,
+     "margin_votes": 1276,
+     "margin_pct": 16.1,
+     "status": "reporting"
+    },
+    {
+     "id": "test-005",
+     "name": "Judge Superior Court No. 2",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Cody B. Coombs",
+       "party": "R",
+       "votes": 6440,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 6440,
+     "status": "reporting"
+    },
+    {
+     "id": "test-006",
+     "name": "Attorney",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Brent E. Eaton",
+       "party": "R",
+       "votes": 6523,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 6523,
+     "status": "reporting"
+    },
+    {
+     "id": "test-007",
+     "name": "Clerk Circuit Court",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Dusty Wicker",
+       "party": "R",
+       "votes": 6407,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 6407,
+     "status": "reporting"
+    },
+    {
+     "id": "test-008",
+     "name": "Auditor Hancock",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Mary P. Bowmer",
+       "party": "R",
+       "votes": 6372,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 6372,
+     "status": "reporting"
+    },
+    {
+     "id": "test-009",
+     "name": "Recorder Hancock",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Nicole . Parcell",
+       "party": "R",
+       "votes": 6255,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 6255,
+     "status": "reporting"
+    },
+    {
+     "id": "test-010",
+     "name": "Sheriff Hancock",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Gary W. Achor, Jr",
+       "party": "R",
+       "votes": 6047,
+       "pct": 75.97,
+       "leading": true
+      },
+      {
+       "name": "John J. Jester",
+       "party": "R",
+       "votes": 1345,
+       "pct": 16.9,
+       "leading": false
+      },
+      {
+       "name": "David Carver",
+       "party": "R",
+       "votes": 568,
+       "pct": 7.14,
+       "leading": false
+      }
+     ],
+     "total_votes": 7960,
+     "margin_votes": 4702,
+     "margin_pct": 59.07,
+     "status": "reporting"
+    },
+    {
+     "id": "test-011",
+     "name": "Surveyor Hancock",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Chad . Coughenour",
+       "party": "R",
+       "votes": 6295,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 6295,
+     "status": "reporting"
+    },
+    {
+     "id": "test-012",
+     "name": "Assessor Hancock",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Debra A. Carnes",
+       "party": "R",
+       "votes": 4951,
+       "pct": 67.78,
+       "leading": true
+      },
+      {
+       "name": "Cindy Wolski Roberts",
+       "party": "R",
+       "votes": 2353,
+       "pct": 32.22,
+       "leading": false
+      }
+     ],
+     "total_votes": 7304,
+     "margin_votes": 2598,
+     "margin_pct": 35.56,
+     "status": "reporting"
+    },
+    {
+     "id": "test-013",
+     "name": "Commissioner Dist 2",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Gary Mcdaniel",
+       "party": "R",
+       "votes": 6327,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 6327,
+     "status": "reporting"
+    },
+    {
+     "id": "test-014",
+     "name": "County Council Dist 1",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Clark Smith",
+       "party": "R",
+       "votes": 1200,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 1200,
+     "status": "reporting"
+    },
+    {
+     "id": "test-015",
+     "name": "County Council Dist 2",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Marcia Moore",
+       "party": "R",
+       "votes": 835,
+       "pct": 51.86,
+       "leading": true
+      },
+      {
+       "name": "Grant Crider",
+       "party": "R",
+       "votes": 775,
+       "pct": 48.14,
+       "leading": false
+      }
+     ],
+     "total_votes": 1610,
+     "margin_votes": 60,
+     "margin_pct": 3.72,
+     "status": "reporting"
+    },
+    {
+     "id": "test-016",
+     "name": "County Council Dist 3",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Jeff Cummins",
+       "party": "R",
+       "votes": 1409,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 1409,
+     "status": "reporting"
+    },
+    {
+     "id": "test-017",
+     "name": "County Council Dist 4",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "J. Scott Wooldridge",
+       "party": "R",
+       "votes": 1901,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 1901,
+     "status": "reporting"
+    },
+    {
+     "id": "test-018",
+     "name": "Township Trustee Blue River",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Brandon Jones",
+       "party": "R",
+       "votes": 216,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 216,
+     "status": "reporting"
+    },
+    {
+     "id": "test-019",
+     "name": "Township Bd Member Blue River",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Linda Muegge",
+       "party": "R",
+       "votes": 208,
+       "pct": 57.46,
+       "leading": true
+      },
+      {
+       "name": "Kyle Engleking",
+       "party": "R",
+       "votes": 154,
+       "pct": 42.54,
+       "leading": true
+      }
+     ],
+     "total_votes": 362,
+     "status": "reporting"
+    },
+    {
+     "id": "test-020",
+     "name": "Township Trustee Brandywine",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Danielle Metz-lancaster",
+       "party": "R",
+       "votes": 206,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 206,
+     "status": "reporting"
+    },
+    {
+     "id": "test-021",
+     "name": "Township Bd Member Brandywine",
+     "group": null,
+     "vote_for": 3,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.3",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Marc J. Hill",
+       "party": "R",
+       "votes": 166,
+       "pct": 35.93,
+       "leading": true
+      },
+      {
+       "name": "Cherie Charlee) Burrow",
+       "party": "R",
+       "votes": 156,
+       "pct": 33.77,
+       "leading": true
+      },
+      {
+       "name": "Beth Ray-scott",
+       "party": "R",
+       "votes": 140,
+       "pct": 30.3,
+       "leading": true
+      }
+     ],
+     "total_votes": 462,
+     "status": "reporting"
+    },
+    {
+     "id": "test-022",
+     "name": "Township Trustee Brown",
+     "group": null,
+     "vote_for": 4,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Theresa Ebbert",
+       "party": "R",
+       "votes": 70,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 70,
+     "status": "reporting"
+    },
+    {
+     "id": "test-023",
+     "name": "Township Bd Member Brown",
+     "group": null,
+     "vote_for": 3,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.3",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Mark Grass",
+       "party": "R",
+       "votes": 299,
+       "pct": 44.1,
+       "leading": true
+      },
+      {
+       "name": "Phyllis Collier Vest",
+       "party": "R",
+       "votes": 216,
+       "pct": 31.86,
+       "leading": true
+      },
+      {
+       "name": "Joseph Ricker",
+       "party": "R",
+       "votes": 163,
+       "pct": 24.04,
+       "leading": true
+      }
+     ],
+     "total_votes": 678,
+     "status": "reporting"
+    },
+    {
+     "id": "test-024",
+     "name": "Township Trustee Buck Creek",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.4",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Mick Simunek",
+       "party": "R",
+       "votes": 374,
+       "pct": 52.02,
+       "leading": true
+      },
+      {
+       "name": "Aul W. Sergi",
+       "party": "R",
+       "votes": 345,
+       "pct": 47.98,
+       "leading": false
+      }
+     ],
+     "total_votes": 719,
+     "margin_votes": 29,
+     "margin_pct": 4.04,
+     "status": "reporting"
+    },
+    {
+     "id": "test-025",
+     "name": "Township Bd Member Buck Creek",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.4",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "David K. Stillinger",
+       "party": "R",
+       "votes": 560,
+       "pct": 64.44,
+       "leading": true
+      },
+      {
+       "name": "Andrew Delivron",
+       "party": "R",
+       "votes": 309,
+       "pct": 35.56,
+       "leading": true
+      }
+     ],
+     "total_votes": 869,
+     "status": "reporting"
+    },
+    {
+     "id": "test-026",
+     "name": "Township Trustee Center",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.4",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Thomas Lopez",
+       "party": "R",
+       "votes": 2400,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 2400,
+     "status": "reporting"
+    },
+    {
+     "id": "test-027",
+     "name": "Township Bd Member Center",
+     "group": null,
+     "vote_for": 3,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Bryan Leonard",
+       "party": "R",
+       "votes": 4524,
+       "pct": 50.22,
+       "leading": true
+      },
+      {
+       "name": "David Hawkins",
+       "party": "R",
+       "votes": 1572,
+       "pct": 17.45,
+       "leading": true
+      },
+      {
+       "name": "Dakota M. Coates",
+       "party": "R",
+       "votes": 1565,
+       "pct": 17.37,
+       "leading": true
+      },
+      {
+       "name": "Alek Venturino",
+       "party": "R",
+       "votes": 1347,
+       "pct": 14.95,
+       "leading": false
+      }
+     ],
+     "total_votes": 9008,
+     "margin_votes": 218,
+     "margin_pct": 2.42,
+     "status": "reporting"
+    },
+    {
+     "id": "test-028",
+     "name": "Township Trustee Green",
+     "group": null,
+     "vote_for": 1,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Stephanie Jones",
+       "party": "R",
+       "votes": 229,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 229,
+     "status": "reporting"
+    },
+    {
+     "id": "test-029",
+     "name": "Township Bd Member Green",
+     "group": null,
+     "vote_for": 3,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "William T. Jones, I",
+       "party": "R",
+       "votes": 450,
+       "pct": 69.66,
+       "leading": true
+      },
+      {
+       "name": "Mike Maroska",
+       "party": "R",
+       "votes": 195,
+       "pct": 30.19,
+       "leading": true
+      },
+      {
+       "name": "Bob Yeager",
+       "party": "R",
+       "votes": 1,
+       "pct": 0.15,
+       "leading": true
+      }
+     ],
+     "total_votes": 646,
+     "status": "reporting"
+    },
+    {
+     "id": "test-030",
+     "name": "Township Trustee Jackson",
+     "group": null,
+     "vote_for": 1,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Tarra Youngclaus",
+       "party": "R",
+       "votes": 216,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 216,
+     "status": "reporting"
+    },
+    {
+     "id": "test-031",
+     "name": "Township Bd Member Jackson",
+     "group": null,
+     "vote_for": 3,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Bob Mcdaniel",
+       "party": "R",
+       "votes": 183,
+       "pct": 53.51,
+       "leading": true
+      },
+      {
+       "name": "Jason Effing",
+       "party": "R",
+       "votes": 159,
+       "pct": 46.49,
+       "leading": true
+      },
+      {
+       "name": "Keith A. Wilson",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "total_votes": 342,
+     "status": "reporting"
+    },
+    {
+     "id": "test-032",
+     "name": "Township Trustee Sugar Creek",
+     "group": null,
+     "vote_for": 1,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.5",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Ayson Combs",
+       "party": "R",
+       "votes": 1304,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 1304,
+     "status": "reporting"
+    },
+    {
+     "id": "test-033",
+     "name": "Township Bd Member Sugar Creek",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Joe Fitzgerald",
+       "party": "R",
+       "votes": 1075,
+       "pct": 35.93,
+       "leading": true
+      },
+      {
+       "name": "Dale A. Kelso",
+       "party": "R",
+       "votes": 985,
+       "pct": 32.92,
+       "leading": true
+      },
+      {
+       "name": "Mark Mattes",
+       "party": "R",
+       "votes": 932,
+       "pct": 31.15,
+       "leading": true
+      }
+     ],
+     "total_votes": 2992,
+     "status": "reporting"
+    },
+    {
+     "id": "test-034",
+     "name": "Township Trustee Vernon",
+     "group": null,
+     "vote_for": 1,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.5",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Florence L. May",
+       "party": "R",
+       "votes": 838,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 838,
+     "status": "reporting"
+    },
+    {
+     "id": "test-035",
+     "name": "Township Bd Member Vernon",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Marybeth Sears",
+       "party": "R",
+       "votes": 683,
+       "pct": 29.23,
+       "leading": true
+      },
+      {
+       "name": "Tim Plank",
+       "party": "R",
+       "votes": 659,
+       "pct": 28.2,
+       "leading": true
+      },
+      {
+       "name": "Shelley R. Haney",
+       "party": "R",
+       "votes": 498,
+       "pct": 21.31,
+       "leading": true
+      },
+      {
+       "name": "Larry J. Longman",
+       "party": "R",
+       "votes": 497,
+       "pct": 21.27,
+       "leading": false
+      }
+     ],
+     "total_votes": 2337,
+     "margin_votes": 1,
+     "margin_pct": 0.04,
+     "status": "reporting"
+    },
+    {
+     "id": "test-036",
+     "name": "Town Cncl Mbr At Large Fortville",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Fritz Fentz",
+       "party": "R",
+       "votes": 221,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 221,
+     "status": "reporting"
+    },
+    {
+     "id": "test-037",
+     "name": "Town Cncl Mbr Dist 2 Fortville",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Ryan Rummell",
+       "party": "R",
+       "votes": 24,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 24,
+     "status": "reporting"
+    },
+    {
+     "id": "test-038",
+     "name": "Town Cncl At Large Mccordsville",
+     "group": null,
+     "vote_for": 2,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.5",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Scott Jones",
+       "party": "R",
+       "votes": 362,
+       "pct": 51.35,
+       "leading": true
+      },
+      {
+       "name": "Ruth Hess",
+       "party": "R",
+       "votes": 343,
+       "pct": 48.65,
+       "leading": true
+      }
+     ],
+     "total_votes": 705,
+     "status": "reporting"
+    },
+    {
+     "id": "test-039",
+     "name": "Convention Delegate At Large",
+     "group": null,
+     "vote_for": 5,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.6",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Michael R. Crider",
+       "party": "R",
+       "votes": 4978,
+       "pct": 17.69,
+       "leading": true
+      },
+      {
+       "name": "Robert Cherry",
+       "party": "R",
+       "votes": 4744,
+       "pct": 16.86,
+       "leading": true
+      },
+      {
+       "name": "Ethan J, Lawson",
+       "party": "R",
+       "votes": 4563,
+       "pct": 16.22,
+       "leading": true
+      },
+      {
+       "name": "Beverly Gard",
+       "party": "R",
+       "votes": 4062,
+       "pct": 14.44,
+       "leading": true
+      },
+      {
+       "name": "Dusty Wicker",
+       "party": "R",
+       "votes": 3134,
+       "pct": 11.14,
+       "leading": true
+      },
+      {
+       "name": "Janet Smith",
+       "party": "R",
+       "votes": 2866,
+       "pct": 10.19,
+       "leading": false
+      },
+      {
+       "name": "David Hawkins",
+       "party": "R",
+       "votes": 2067,
+       "pct": 7.35,
+       "leading": false
+      },
+      {
+       "name": "Clark Smith",
+       "party": "R",
+       "votes": 1723,
+       "pct": 6.12,
+       "leading": false
+      }
+     ],
+     "total_votes": 28137,
+     "margin_votes": 268,
+     "margin_pct": 0.95,
+     "status": "reporting"
+    },
+    {
+     "id": "test-040",
+     "name": "Convention Delegate Dist 1",
+     "group": null,
+     "vote_for": 5,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.6",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Marybeth Sears",
+       "party": "R",
+       "votes": 979,
+       "pct": 13.59,
+       "leading": true
+      },
+      {
+       "name": "Andrew M. Ebbert",
+       "party": "R",
+       "votes": 880,
+       "pct": 12.21,
+       "leading": true
+      },
+      {
+       "name": "Katelyn M. Colclazier",
+       "party": "R",
+       "votes": 820,
+       "pct": 11.38,
+       "leading": true
+      },
+      {
+       "name": "Lisa M. Lofgreen",
+       "party": "R",
+       "votes": 807,
+       "pct": 11.2,
+       "leading": true
+      },
+      {
+       "name": "Dakota M. Coates",
+       "party": "R",
+       "votes": 784,
+       "pct": 10.88,
+       "leading": true
+      },
+      {
+       "name": "Abriana Carnes",
+       "party": "R",
+       "votes": 724,
+       "pct": 10.05,
+       "leading": false
+      },
+      {
+       "name": "Dan Stock",
+       "party": "R",
+       "votes": 635,
+       "pct": 8.81,
+       "leading": false
+      },
+      {
+       "name": "Josephricker",
+       "party": "R",
+       "votes": 584,
+       "pct": 8.1,
+       "leading": false
+      },
+      {
+       "name": "Rachel Stuffle",
+       "party": "R",
+       "votes": 578,
+       "pct": 8.02,
+       "leading": false
+      },
+      {
+       "name": "Thomas S. Shevlot",
+       "party": "R",
+       "votes": 415,
+       "pct": 5.76,
+       "leading": false
+      }
+     ],
+     "total_votes": 7206,
+     "margin_votes": 60,
+     "margin_pct": 0.83,
+     "status": "reporting"
+    },
+    {
+     "id": "test-041",
+     "name": "Convention Delegate Dist 2",
+     "group": null,
+     "vote_for": 5,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.6",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Holly Lawson So",
+       "party": "R",
+       "votes": 897,
+       "pct": 16.23,
+       "leading": true
+      },
+      {
+       "name": "Janice 0. Silvey",
+       "party": "R",
+       "votes": 775,
+       "pct": 14.02,
+       "leading": true
+      },
+      {
+       "name": "Randy Sorrell",
+       "party": "R",
+       "votes": 758,
+       "pct": 13.71,
+       "leading": true
+      },
+      {
+       "name": "Greg Rogers",
+       "party": "R",
+       "votes": 561,
+       "pct": 10.15,
+       "leading": true
+      },
+      {
+       "name": "Colette A. Childress",
+       "party": "R",
+       "votes": 519,
+       "pct": 9.39,
+       "leading": true
+      },
+      {
+       "name": "Josh Smith",
+       "party": "R",
+       "votes": 480,
+       "pct": 8.68,
+       "leading": false
+      },
+      {
+       "name": "Carolyn Kadlec Flynn",
+       "party": "R",
+       "votes": 415,
+       "pct": 7.51,
+       "leading": false
+      },
+      {
+       "name": "Shirley Anngamacho",
+       "party": "R",
+       "votes": 408,
+       "pct": 7.38,
+       "leading": false
+      },
+      {
+       "name": "Shannon Cora",
+       "party": "R",
+       "votes": 392,
+       "pct": 7.09,
+       "leading": false
+      },
+      {
+       "name": "Jesse Antonio Camacho",
+       "party": "R",
+       "votes": 323,
+       "pct": 5.84,
+       "leading": false
+      }
+     ],
+     "total_votes": 5528,
+     "margin_votes": 39,
+     "margin_pct": 0.71,
+     "status": "reporting"
+    },
+    {
+     "id": "test-042",
+     "name": "Convention Delegate Dist 3",
+     "group": null,
+     "vote_for": 5,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.6",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Daniel J. Riley",
+       "party": "R",
+       "votes": 1035,
+       "pct": 19.52,
+       "leading": true
+      },
+      {
+       "name": "David A. Spencer",
+       "party": "R",
+       "votes": 1025,
+       "pct": 19.33,
+       "leading": true
+      },
+      {
+       "name": "Allyson Cummins",
+       "party": "R",
+       "votes": 856,
+       "pct": 16.14,
+       "leading": true
+      },
+      {
+       "name": "Alek Venturino",
+       "party": "R",
+       "votes": 828,
+       "pct": 15.61,
+       "leading": true
+      },
+      {
+       "name": "Jeff Cummins",
+       "party": "R",
+       "votes": 804,
+       "pct": 15.16,
+       "leading": true
+      },
+      {
+       "name": "C. Travis Ward",
+       "party": "R",
+       "votes": 755,
+       "pct": 14.24,
+       "leading": false
+      }
+     ],
+     "total_votes": 5303,
+     "margin_votes": 49,
+     "margin_pct": 0.92,
+     "status": "reporting"
+    },
+    {
+     "id": "test-043",
+     "name": "Convention Delegate Dist 4",
+     "group": null,
+     "vote_for": 5,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.7",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Bill Spalding",
+       "party": "R",
+       "votes": 1054,
+       "pct": 18.41,
+       "leading": true
+      },
+      {
+       "name": "J. Scott Wooldridge",
+       "party": "R",
+       "votes": 951,
+       "pct": 16.61,
+       "leading": true
+      },
+      {
+       "name": "Rhondacook",
+       "party": "R",
+       "votes": 807,
+       "pct": 14.09,
+       "leading": true
+      },
+      {
+       "name": "Marie Castetter",
+       "party": "R",
+       "votes": 782,
+       "pct": 13.66,
+       "leading": true
+      },
+      {
+       "name": "Evan W. Bartel",
+       "party": "R",
+       "votes": 762,
+       "pct": 13.31,
+       "leading": true
+      },
+      {
+       "name": "Katharina (katie) Lewman",
+       "party": "R",
+       "votes": 707,
+       "pct": 12.35,
+       "leading": false
+      },
+      {
+       "name": "Emily Boesen",
+       "party": "R",
+       "votes": 663,
+       "pct": 11.58,
+       "leading": false
+      }
+     ],
+     "total_votes": 5726,
+     "margin_votes": 55,
+     "margin_pct": 0.96,
+     "status": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "test-dem",
+   "name": "Democratic primary",
+   "races": [
+    {
+     "id": "test-044",
+     "name": "U.S. Rep 6Th Dist",
+     "group": null,
+     "vote_for": 4,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.7",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Cynthia (cinde) Wirth",
+       "party": "D",
+       "votes": 1700,
+       "pct": 56.97,
+       "leading": true
+      },
+      {
+       "name": "William Kory Amyx",
+       "party": "D",
+       "votes": 582,
+       "pct": 19.5,
+       "leading": true
+      },
+      {
+       "name": "David Lawrence Boyd",
+       "party": "D",
+       "votes": 374,
+       "pct": 12.53,
+       "leading": true
+      },
+      {
+       "name": "Nicholas Frederick Baker",
+       "party": "D",
+       "votes": 328,
+       "pct": 10.99,
+       "leading": true
+      }
+     ],
+     "total_votes": 2984,
+     "status": "reporting"
+    },
+    {
+     "id": "test-045",
+     "name": "State Rep Dist 53",
+     "group": null,
+     "vote_for": 1,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.7",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Reece Axel-adams",
+       "party": "D",
+       "votes": 1450,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 1450,
+     "status": "reporting"
+    },
+    {
+     "id": "test-047",
+     "name": "State Rep Dist 88",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.7",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Stephanie Jo Yocum",
+       "party": "D",
+       "votes": 4390,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 4390,
+     "status": "reporting"
+    },
+    {
+     "id": "test-054",
+     "name": "Sheriff Hancock",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.8",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "James Calvert, Jr",
+       "party": "D",
+       "votes": 2010,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 2010,
+     "status": "reporting"
+    },
+    {
+     "id": "test-057",
+     "name": "Commissioner Dist 2",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.8",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Jordan Coleman",
+       "party": "D",
+       "votes": 2804,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 2804,
+     "status": "reporting"
+    },
+    {
+     "id": "test-058",
+     "name": "County Council Dist 1",
+     "group": null,
+     "vote_for": 1,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.8",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Anthony Arnold",
+       "party": "D",
+       "votes": 766,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 766,
+     "status": "reporting"
+    },
+    {
+     "id": "test-060",
+     "name": "County Council Dist 3",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.9",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Carol Pearson",
+       "party": "D",
+       "votes": 472,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 472,
+     "status": "reporting"
+    },
+    {
+     "id": "test-069",
+     "name": "Township Bd Member Buck Creek",
+     "group": null,
+     "vote_for": 3,
+     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.10",
+     "watch": "CHECK",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Nicholas D. Mclain",
+       "party": "D",
+       "votes": 384,
+       "pct": 51.2,
+       "leading": true
+      },
+      {
+       "name": "William (bill) Mcdonald",
+       "party": "D",
+       "votes": 366,
+       "pct": 48.8,
+       "leading": true
+      }
+     ],
+     "total_votes": 750,
+     "status": "reporting"
+    },
+    {
+     "id": "test-071",
+     "name": "Township Bd Member Center",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.10",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Jesse Vetters",
+       "party": "D",
+       "votes": 657,
+       "pct": 38.22,
+       "leading": true
+      },
+      {
+       "name": "Justin S.sweigart",
+       "party": "D",
+       "votes": 541,
+       "pct": 31.47,
+       "leading": true
+      },
+      {
+       "name": "Jon P, Wogenstahl",
+       "party": "D",
+       "votes": 521,
+       "pct": 30.31,
+       "leading": true
+      }
+     ],
+     "total_votes": 1719,
+     "status": "reporting"
+    },
+    {
+     "id": "test-075",
+     "name": "Township Bd Member Jackson",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.10",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Kileyblalock",
+       "party": "D",
+       "votes": 35,
+       "pct": 100.0,
+       "leading": true
+      }
+     ],
+     "total_votes": 35,
+     "status": "reporting"
+    },
+    {
+     "id": "test-077",
+     "name": "Township Bd Member Sugar Creek",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Iza Sumpter",
+       "party": "D",
+       "votes": 471,
+       "pct": 41.35,
+       "leading": true
+      },
+      {
+       "name": "3rianr. Hollington",
+       "party": "D",
+       "votes": 336,
+       "pct": 29.5,
+       "leading": true
+      },
+      {
+       "name": "Sorey Dick",
+       "party": "D",
+       "votes": 332,
+       "pct": 29.15,
+       "leading": true
+      }
+     ],
+     "total_votes": 1139,
+     "status": "reporting"
+    },
+    {
+     "id": "test-079",
+     "name": "Township Bd Member Vernon",
+     "group": null,
+     "vote_for": 3,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Emily Benford",
+       "party": "D",
+       "votes": 816,
+       "pct": 43.15,
+       "leading": true
+      },
+      {
+       "name": "Paul D. Dayton",
+       "party": "D",
+       "votes": 548,
+       "pct": 28.98,
+       "leading": true
+      },
+      {
+       "name": "Ryan Handy",
+       "party": "D",
+       "votes": 527,
+       "pct": 27.87,
+       "leading": true
+      }
+     ],
+     "total_votes": 1891,
+     "status": "reporting"
+    },
+    {
+     "id": "test-082",
+     "name": "Town Cncl At Large Mccordsville",
+     "group": null,
+     "vote_for": 2,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Linda A. Robinson",
+       "party": "D",
+       "votes": 653,
+       "pct": 63.03,
+       "leading": true
+      },
+      {
+       "name": "Howard Lee Savage, Sr",
+       "party": "D",
+       "votes": 383,
+       "pct": 36.97,
+       "leading": true
+      }
+     ],
+     "total_votes": 1036,
+     "status": "reporting"
+    },
+    {
+     "id": "test-083",
+     "name": "Pct Committeeman G-01 North",
+     "group": null,
+     "vote_for": 1,
+     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
+     "uncontested": false,
+     "candidates": [
+      {
+       "name": "Caitlin Vanoverberghe",
+       "party": "D",
+       "votes": 45,
+       "pct": 67.16,
+       "leading": true
+      },
+      {
+       "name": "Michael (mike) Mcmahan",
+       "party": "D",
+       "votes": 22,
+       "pct": 32.84,
+       "leading": false
+      }
+     ],
+     "total_votes": 67,
+     "margin_votes": 23,
+     "margin_pct": 34.32,
+     "status": "reporting"
+    }
+   ]
+  }
+ ],
+ "any_results": true,
+ "last_updated": "10:02 PM ET, Fri Oct 9, 2026"
+}

@@ -4,6 +4,32 @@
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
  "source_note": "Candidates: Indiana Election Division candidate list (Sep 22, 2026). Unofficial results compiled from county PDFs and the state ENR.",
  "chambers": {
+  "us-house": {
+   "name": "Indiana US House delegation",
+   "seats": 9,
+   "majority": 5,
+   "supermajority": null,
+   "current": {
+    "R": 7,
+    "D": 2
+   },
+   "holdover": {
+    "R": 0,
+    "D": 0
+   },
+   "note": "All 9 seats up; all 9 incumbents running. No US Senate race in Indiana in 2026.",
+   "summary": {
+    "won": {},
+    "unopposed": {},
+    "leading": {},
+    "not_reported": 9,
+    "projected": {
+     "R": 0,
+     "D": 0
+    },
+    "flips": []
+   }
+  },
   "in-house": {
    "name": "Indiana House",
    "seats": 100,
@@ -3340,6 +3366,355 @@
        "leading": false
       }
      ],
+     "total_votes": 0,
+     "status": "not_reported"
+    }
+   ]
+  },
+  {
+   "id": "us-house",
+   "name": "US Congress",
+   "races": [
+    {
+     "id": "us-house-01",
+     "name": "US House IN-1",
+     "district": 1,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "Frank J. Mrvan",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Barb Regnitz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Alexander R (Alex) Degman",
+       "party": "W/I",
+       "party_full": "Write-In (Independent)",
+       "votes": 0,
+       "write_in": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Prescription Dope Deaths Johnson, Jr",
+       "party": "W/I",
+       "party_full": "Write-In (Other)",
+       "votes": 0,
+       "write_in": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-02",
+     "name": "US House IN-2",
+     "district": 2,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Jamee Decio",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "William Eric Henry",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Rudy Yakym",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-03",
+     "name": "US House IN-3",
+     "district": 3,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Kelly Thompson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Marlin A. Stutzman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Phillip D. Beachy (Phil)",
+       "party": "W/I",
+       "party_full": "Write-In (Independent)",
+       "votes": 0,
+       "write_in": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-04",
+     "name": "US House IN-4",
+     "district": 4,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Drew Cox",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jim Baird",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "David E. Bokash",
+       "party": "W/I",
+       "party_full": "Write-In (Independent)",
+       "votes": 0,
+       "write_in": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-05",
+     "name": "US House IN-5",
+     "district": 5,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "J.D. Ford",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Victoria Spartz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "Spartz vs. Ford · Madison Co.",
+     "local": "Madison",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-06",
+     "name": "US House IN-6",
+     "district": 6,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Cynthia (Cinde) Wirth",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Jefferson Shreve",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "watch": "Shreve vs. Wirth · Hancock Co.",
+     "local": "Hancock",
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-07",
+     "name": "US House IN-7",
+     "district": 7,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "D",
+     "candidates": [
+      {
+       "name": "André Carson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "James M Sceniak",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Patrick McAuley",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-08",
+     "name": "US House IN-8",
+     "district": 8,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Mary Allen",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Mark Messmer",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
+     "total_votes": 0,
+     "status": "not_reported"
+    },
+    {
+     "id": "us-house-09",
+     "name": "US House IN-9",
+     "district": 9,
+     "group": null,
+     "vote_for": 1,
+     "held_by": "R",
+     "candidates": [
+      {
+       "name": "Brad A. Meyer",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tonya L. Hudson",
+       "party": "L",
+       "party_full": "Libertarian",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Erin Houchin",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 0,
+       "incumbent": true,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Floyd Michael Taylor",
+       "party": "W/I",
+       "party_full": "Write-In (Independent)",
+       "votes": 0,
+       "write_in": true,
+       "pct": 0.0,
+       "leading": false
+      }
+     ],
+     "uncontested": false,
      "total_votes": 0,
      "status": "not_reported"
     }
@@ -7031,6 +7406,6 @@
   }
  ],
  "any_results": false,
- "last_updated_iso": "2026-10-09T21:12:30.901657-04:00",
- "last_updated": "9:12 PM ET, Fri Oct 9, 2026"
+ "last_updated_iso": "2026-10-09T21:15:19.054146-04:00",
+ "last_updated": "9:15 PM ET, Fri Oct 9, 2026"
 }

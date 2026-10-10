@@ -134,8 +134,8 @@ function summary(ch, sec) {
   const other = Object.keys(pr).filter(p => p !== 'R' && p !== 'D').reduce((a,p) => a + pr[p], 0);
   const hold = ch.holdover || {};
   return `<div class="sum"><h4>${esc(ch.name)}: chamber summary</h4>
-    <div class="seatbar">${segs}${other ? `<div class="sb-O" style="width:${100*other/N}%"></div>` : ''}<div class="sb-D" style="width:${100*g(pr,'D')/N}%"></div><i style="left:${100*ch.majority/N}%" title="Majority"></i><i style="left:${100*ch.supermajority/N}%" title="Supermajority"></i></div>
-    <div class="snote" style="margin:0 0 6px">Projected seats: R from the left, D from the right. Lines mark majority (${ch.majority}) and ⅔ supermajority/quorum (${ch.supermajority}).</div>
+    <div class="seatbar">${segs}${other ? `<div class="sb-O" style="width:${100*other/N}%"></div>` : ''}<div class="sb-D" style="width:${100*g(pr,'D')/N}%"></div><i style="left:${100*ch.majority/N}%" title="Majority"></i>${ch.supermajority ? `<i style="left:${100*ch.supermajority/N}%" title="Supermajority"></i>` : ''}</div>
+    <div class="snote" style="margin:0 0 6px">Projected seats: R from the left, D from the right. Line${ch.supermajority ? 's mark' : ' marks'} majority (${ch.majority})${ch.supermajority ? ` and ⅔ supermajority/quorum (${ch.supermajority})` : ''}.</div>
     <div class="sgrid">
       <div class="h"></div><div class="h">Rep</div><div class="h">Dem</div><div class="h">Other</div>
       ${(g(hold,'R')+g(hold,'D')) ? `<div>Not up (holdover)</div><div class="r">${g(hold,'R')}</div><div class="d">${g(hold,'D')}</div><div>–</div>` : ''}
@@ -144,7 +144,7 @@ function summary(ch, sec) {
       <div>Leading</div><div class="r">${g(s.leading,'R')}</div><div class="d">${g(s.leading,'D')}</div><div>${Object.keys(s.leading||{}).filter(p=>p!=='R'&&p!=='D').reduce((a,p)=>a+s.leading[p],0)}</div>
       <div><b>Projected total</b></div><div class="r">${g(pr,'R')}</div><div class="d">${g(pr,'D')}</div><div>${other}</div>
     </div>
-    <div class="snote">Not yet reported: <b>${s.not_reported ?? '–'}</b> of ${sec.races.length} races up. Current makeup: <b>${ch.current.R}R–${ch.current.D}D</b>. ${esc(ch.note || '')}${(s.flips||[]).length ? ` <b>Possible flips: ${s.flips.length}</b>.` : ''}</div>
+    <div class="snote">Not yet reported: <b>${s.not_reported ?? '–'}</b> of ${sec.races.length} seats up. Current makeup: <b>${ch.current.R}R–${ch.current.D}D</b>. ${esc(ch.note || '')}${(s.flips||[]).length ? ` <b>Possible flips: ${s.flips.length}</b>.` : ''}</div>
   </div>`;
 }
 function matches(r, q) {

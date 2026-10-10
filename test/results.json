@@ -1,20 +1,19 @@
 {
  "title": "TEST \u2014 Hancock Co. May 2026 primary",
- "banner": "TEST \u2014 May 2026 primary, Hancock County, unofficial",
+ "banner": "TEST \u2014 May 2026 primary, Hancock County, unofficial \u00b7 38 verified, 20 CHECK (shown without numbers)",
  "is_example": true,
- "source_note": "Extracted by OCR from Hancock summary PDF (05/05/2026 7:58 PM). Registered voters (OCR): , 67,980.",
+ "source_note": "OCR of Hancock summary PDF (05/05/2026 7:58 PM). Verified races cross-checked vs state certified data: 0 mismatches.",
  "sections": [
   {
    "id": "test-rep",
    "name": "Republican primary",
    "races": [
     {
-     "id": "test-000",
+     "id": "test-rep-u-s-rep-6th-dist",
      "name": "U.S, Rep 6Th Dist",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.1",
      "candidates": [
       {
        "name": "Jefferson Shreve",
@@ -37,31 +36,30 @@
      "status": "reporting"
     },
     {
-     "id": "test-001",
+     "id": "test-rep-state-rep-dist-53",
      "name": "State Rep Dist 53",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {9050: 9, 8050: 8, 5050: 7} \u00b7 PDF p.1",
      "candidates": [
       {
        "name": "Ethan J. Lawson",
        "party": "R",
-       "votes": 50,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 50,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-002",
+     "id": "test-rep-state-rep-dist-54",
      "name": "State Rep Dist 54",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.1",
      "candidates": [
       {
        "name": "Cory Criswell",
@@ -75,31 +73,30 @@
      "status": "reporting"
     },
     {
-     "id": "test-003",
+     "id": "test-rep-state-rep-dist-88",
      "name": "State Rep Dist 88",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {1512: 24, 1912: 13, 1812: 8} \u00b7 PDF p.1",
      "candidates": [
       {
        "name": "Chris Jeter",
        "party": "R",
-       "votes": 1512,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 1512,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-004",
+     "id": "test-rep-judge-superior-court-no-1",
      "name": "Judge Superior Court No. 1",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.1",
      "candidates": [
       {
        "name": "Janet Miles-manship",
@@ -122,12 +119,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-005",
+     "id": "test-rep-judge-superior-court-no-2",
      "name": "Judge Superior Court No. 2",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.1",
      "candidates": [
       {
        "name": "Cody B. Coombs",
@@ -141,12 +137,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-006",
+     "id": "test-rep-attorney",
      "name": "Attorney",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.1",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.1",
      "candidates": [
       {
        "name": "Brent E. Eaton",
@@ -160,12 +155,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-007",
+     "id": "test-rep-clerk-circuit-court",
      "name": "Clerk Circuit Court",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Dusty Wicker",
@@ -179,12 +173,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-008",
+     "id": "test-rep-auditor-hancock",
      "name": "Auditor Hancock",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Mary P. Bowmer",
@@ -198,12 +191,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-009",
+     "id": "test-rep-recorder-hancock",
      "name": "Recorder Hancock",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Nicole . Parcell",
@@ -217,12 +209,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-010",
+     "id": "test-rep-sheriff-hancock",
      "name": "Sheriff Hancock",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Gary W. Achor, Jr",
@@ -252,12 +243,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-011",
+     "id": "test-rep-surveyor-hancock",
      "name": "Surveyor Hancock",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Chad . Coughenour",
@@ -271,12 +261,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-012",
+     "id": "test-rep-assessor-hancock",
      "name": "Assessor Hancock",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Debra A. Carnes",
@@ -299,12 +288,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-013",
+     "id": "test-rep-commissioner-dist-2",
      "name": "Commissioner Dist 2",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Gary Mcdaniel",
@@ -318,31 +306,29 @@
      "status": "reporting"
     },
     {
-     "id": "test-014",
+     "id": "test-rep-county-council-dist-1",
      "name": "County Council Dist 1",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Clark Smith",
        "party": "R",
-       "votes": 1200,
+       "votes": 1906,
        "pct": 100.0,
        "leading": true
       }
      ],
-     "total_votes": 1200,
+     "total_votes": 1906,
      "status": "reporting"
     },
     {
-     "id": "test-015",
+     "id": "test-rep-county-council-dist-2",
      "name": "County Council Dist 2",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.2",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.2",
      "candidates": [
       {
        "name": "Marcia Moore",
@@ -365,12 +351,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-016",
+     "id": "test-rep-county-council-dist-3",
      "name": "County Council Dist 3",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "Jeff Cummins",
@@ -384,31 +369,30 @@
      "status": "reporting"
     },
     {
-     "id": "test-017",
+     "id": "test-rep-county-council-dist-4",
      "name": "County Council Dist 4",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {1501: 23, 1901: 20, 1801: 5} \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "J. Scott Wooldridge",
        "party": "R",
-       "votes": 1901,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 1901,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-018",
+     "id": "test-rep-township-trustee-blue-river",
      "name": "Township Trustee Blue River",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "Brandon Jones",
@@ -422,12 +406,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-019",
+     "id": "test-rep-township-bd-member-blue-river",
      "name": "Township Bd Member Blue River",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "Linda Muegge",
@@ -448,12 +431,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-020",
+     "id": "test-rep-township-trustee-brandywine",
      "name": "Township Trustee Brandywine",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "Danielle Metz-lancaster",
@@ -467,99 +449,94 @@
      "status": "reporting"
     },
     {
-     "id": "test-021",
+     "id": "test-rep-township-bd-member-brandywine",
      "name": "Township Bd Member Brandywine",
-     "group": null,
      "vote_for": 3,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.3",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "Marc J. Hill",
        "party": "R",
        "votes": 166,
-       "pct": 35.93,
+       "pct": 37.3,
        "leading": true
       },
       {
        "name": "Cherie Charlee) Burrow",
        "party": "R",
        "votes": 156,
-       "pct": 33.77,
+       "pct": 35.06,
        "leading": true
       },
       {
        "name": "Beth Ray-scott",
        "party": "R",
-       "votes": 140,
-       "pct": 30.3,
+       "votes": 123,
+       "pct": 27.64,
        "leading": true
       }
      ],
-     "total_votes": 462,
+     "total_votes": 445,
      "status": "reporting"
     },
     {
-     "id": "test-022",
+     "id": "test-rep-township-trustee-brown",
      "name": "Township Trustee Brown",
-     "group": null,
      "vote_for": 4,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.3",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {295: 6, 99: 4, 299: 3} \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "Theresa Ebbert",
        "party": "R",
-       "votes": 70,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 70,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-023",
+     "id": "test-rep-township-bd-member-brown",
      "name": "Township Bd Member Brown",
-     "group": null,
      "vote_for": 3,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.3",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.3",
      "candidates": [
       {
        "name": "Mark Grass",
        "party": "R",
-       "votes": 299,
-       "pct": 44.1,
+       "votes": 238,
+       "pct": 38.57,
        "leading": true
       },
       {
        "name": "Phyllis Collier Vest",
        "party": "R",
        "votes": 216,
-       "pct": 31.86,
+       "pct": 35.01,
        "leading": true
       },
       {
        "name": "Joseph Ricker",
        "party": "R",
        "votes": 163,
-       "pct": 24.04,
+       "pct": 26.42,
        "leading": true
       }
      ],
-     "total_votes": 678,
+     "total_votes": 617,
      "status": "reporting"
     },
     {
-     "id": "test-024",
+     "id": "test-rep-township-trustee-buck-creek",
      "name": "Township Trustee Buck Creek",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.4",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.4",
      "candidates": [
       {
        "name": "Mick Simunek",
@@ -582,12 +559,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-025",
+     "id": "test-rep-township-bd-member-buck-creek",
      "name": "Township Bd Member Buck Creek",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.4",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.4",
      "candidates": [
       {
        "name": "David K. Stillinger",
@@ -608,163 +584,155 @@
      "status": "reporting"
     },
     {
-     "id": "test-026",
+     "id": "test-rep-township-trustee-center",
      "name": "Township Trustee Center",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.4",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {2289: 10, 2209: 6, 2280: 3} \u00b7 PDF p.4",
      "candidates": [
       {
        "name": "Thomas Lopez",
        "party": "R",
-       "votes": 2400,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 2400,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-027",
+     "id": "test-rep-township-bd-member-center",
      "name": "Township Bd Member Center",
-     "group": null,
      "vote_for": 3,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: computed % do not match printed % \u00b7 PDF p.4",
      "candidates": [
       {
-       "name": "Bryan Leonard",
+       "name": "Dakota M. Coates",
        "party": "R",
-       "votes": 4524,
-       "pct": 50.22,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "David Hawkins",
        "party": "R",
-       "votes": 1572,
-       "pct": 17.45,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
-       "name": "Dakota M. Coates",
+       "name": "Bryan Leonard",
        "party": "R",
-       "votes": 1565,
-       "pct": 17.37,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Alek Venturino",
        "party": "R",
-       "votes": 1347,
-       "pct": 14.95,
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       }
      ],
-     "total_votes": 9008,
-     "margin_votes": 218,
-     "margin_pct": 2.42,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-028",
+     "id": "test-rep-township-trustee-green",
      "name": "Township Trustee Green",
-     "group": null,
      "vote_for": 1,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {29: 6, 23: 2, 229: 1} \u00b7 PDF p.4",
      "candidates": [
       {
        "name": "Stephanie Jones",
        "party": "R",
-       "votes": 229,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 229,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-029",
+     "id": "test-rep-township-bd-member-green",
      "name": "Township Bd Member Green",
-     "group": null,
      "vote_for": 3,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: computed % do not match printed % \u00b7 PDF p.4",
      "candidates": [
       {
        "name": "William T. Jones, I",
        "party": "R",
-       "votes": 450,
-       "pct": 69.66,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Mike Maroska",
        "party": "R",
-       "votes": 195,
-       "pct": 30.19,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Bob Yeager",
        "party": "R",
-       "votes": 1,
-       "pct": 0.15,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 646,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-030",
+     "id": "test-rep-township-trustee-jackson",
      "name": "Township Trustee Jackson",
-     "group": null,
      "vote_for": 1,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {210: 5, 10: 2, 216: 1} \u00b7 PDF p.4",
      "candidates": [
       {
        "name": "Tarra Youngclaus",
        "party": "R",
-       "votes": 216,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 216,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-031",
+     "id": "test-rep-township-bd-member-jackson",
      "name": "Township Bd Member Jackson",
-     "group": null,
      "vote_for": 3,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.4",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: computed % do not match printed % \u00b7 PDF p.4",
      "candidates": [
-      {
-       "name": "Bob Mcdaniel",
-       "party": "R",
-       "votes": 183,
-       "pct": 53.51,
-       "leading": true
-      },
       {
        "name": "Jason Effing",
        "party": "R",
-       "votes": 159,
-       "pct": 46.49,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Bob Mcdaniel",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Keith A. Wilson",
@@ -774,20 +742,19 @@
        "leading": false
       }
      ],
-     "total_votes": 342,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-032",
+     "id": "test-rep-township-trustee-sugar-creek",
      "name": "Township Trustee Sugar Creek",
-     "group": null,
      "vote_for": 1,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.5",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.5",
      "candidates": [
       {
-       "name": "Ayson Combs",
+       "name": "Jayson Combs",
        "party": "R",
        "votes": 1304,
        "pct": 100.0,
@@ -798,146 +765,140 @@
      "status": "reporting"
     },
     {
-     "id": "test-033",
+     "id": "test-rep-township-bd-member-sugar-creek",
      "name": "Township Bd Member Sugar Creek",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: computed % do not match printed % \u00b7 PDF p.5",
      "candidates": [
       {
-       "name": "Joe Fitzgerald",
+       "name": "Joefitzgerald",
        "party": "R",
-       "votes": 1075,
-       "pct": 35.93,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Dale A. Kelso",
        "party": "R",
-       "votes": 985,
-       "pct": 32.92,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Mark Mattes",
        "party": "R",
-       "votes": 932,
-       "pct": 31.15,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 2992,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-034",
+     "id": "test-rep-township-trustee-vernon",
      "name": "Township Trustee Vernon",
-     "group": null,
      "vote_for": 1,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.5",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {838: 14, 30: 4, 900: 4} \u00b7 PDF p.5",
      "candidates": [
       {
        "name": "Florence L. May",
        "party": "R",
-       "votes": 838,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 838,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-035",
+     "id": "test-rep-township-bd-member-vernon",
      "name": "Township Bd Member Vernon",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: unreadable cell; computed % do not match printed % \u00b7 PDF p.5",
      "candidates": [
-      {
-       "name": "Marybeth Sears",
-       "party": "R",
-       "votes": 683,
-       "pct": 29.23,
-       "leading": true
-      },
-      {
-       "name": "Tim Plank",
-       "party": "R",
-       "votes": 659,
-       "pct": 28.2,
-       "leading": true
-      },
       {
        "name": "Shelley R. Haney",
        "party": "R",
-       "votes": 498,
-       "pct": 21.31,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Larry J. Longman",
        "party": "R",
-       "votes": 497,
-       "pct": 21.27,
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Tim Plank",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Marybeth Sears",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       }
      ],
-     "total_votes": 2337,
-     "margin_votes": 1,
-     "margin_pct": 0.04,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-036",
+     "id": "test-rep-town-cncl-mbr-at-large-fortville",
      "name": "Town Cncl Mbr At Large Fortville",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {221: 10, 24: 8, 41: 6} \u00b7 PDF p.5",
      "candidates": [
       {
        "name": "Fritz Fentz",
        "party": "R",
-       "votes": 221,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 221,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-037",
+     "id": "test-rep-town-cncl-mbr-dist-2-fortville",
      "name": "Town Cncl Mbr Dist 2 Fortville",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.5",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.5",
      "candidates": [
       {
        "name": "Ryan Rummell",
        "party": "R",
-       "votes": 24,
+       "votes": 224,
        "pct": 100.0,
        "leading": true
       }
      ],
-     "total_votes": 24,
+     "total_votes": 224,
      "status": "reporting"
     },
     {
-     "id": "test-038",
+     "id": "test-rep-town-cncl-at-large-mccordsville",
      "name": "Town Cncl At Large Mccordsville",
-     "group": null,
      "vote_for": 2,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.5",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.5",
      "candidates": [
       {
        "name": "Scott Jones",
@@ -958,251 +919,243 @@
      "status": "reporting"
     },
     {
-     "id": "test-039",
+     "id": "test-rep-convention-delegate-at-large",
      "name": "Convention Delegate At Large",
-     "group": null,
      "vote_for": 5,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.6",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: unreadable cell; computed % do not match printed % \u00b7 PDF p.6",
      "candidates": [
-      {
-       "name": "Michael R. Crider",
-       "party": "R",
-       "votes": 4978,
-       "pct": 17.69,
-       "leading": true
-      },
       {
        "name": "Robert Cherry",
        "party": "R",
-       "votes": 4744,
-       "pct": 16.86,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
-       "name": "Ethan J, Lawson",
+       "name": "Michael R. Crider",
        "party": "R",
-       "votes": 4563,
-       "pct": 16.22,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Beverly Gard",
        "party": "R",
-       "votes": 4062,
-       "pct": 14.44,
-       "leading": true
-      },
-      {
-       "name": "Dusty Wicker",
-       "party": "R",
-       "votes": 3134,
-       "pct": 11.14,
-       "leading": true
-      },
-      {
-       "name": "Janet Smith",
-       "party": "R",
-       "votes": 2866,
-       "pct": 10.19,
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
        "name": "David Hawkins",
        "party": "R",
-       "votes": 2067,
-       "pct": 7.35,
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Ethan J, Lawson",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
        "name": "Clark Smith",
        "party": "R",
-       "votes": 1723,
-       "pct": 6.12,
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Janet Smith",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dusty Wicker",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       }
      ],
-     "total_votes": 28137,
-     "margin_votes": 268,
-     "margin_pct": 0.95,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-040",
+     "id": "test-rep-convention-delegate-dist-1",
      "name": "Convention Delegate Dist 1",
-     "group": null,
      "vote_for": 5,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.6",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: unreadable cell; computed % do not match printed % \u00b7 PDF p.6",
      "candidates": [
       {
-       "name": "Marybeth Sears",
+       "name": "Abriana Carnes",
        "party": "R",
-       "votes": 979,
-       "pct": 13.59,
-       "leading": true
-      },
-      {
-       "name": "Andrew M. Ebbert",
-       "party": "R",
-       "votes": 880,
-       "pct": 12.21,
-       "leading": true
-      },
-      {
-       "name": "Katelyn M. Colclazier",
-       "party": "R",
-       "votes": 820,
-       "pct": 11.38,
-       "leading": true
-      },
-      {
-       "name": "Lisa M. Lofgreen",
-       "party": "R",
-       "votes": 807,
-       "pct": 11.2,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       },
       {
        "name": "Dakota M. Coates",
        "party": "R",
-       "votes": 784,
-       "pct": 10.88,
-       "leading": true
-      },
-      {
-       "name": "Abriana Carnes",
-       "party": "R",
-       "votes": 724,
-       "pct": 10.05,
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Dan Stock",
+       "name": "Katelyn M. Colclazier",
        "party": "R",
-       "votes": 635,
-       "pct": 8.81,
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Andrew M. Ebbert",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Lisa M. Lofgreen",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
        "name": "Josephricker",
        "party": "R",
-       "votes": 584,
-       "pct": 8.1,
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Rachel Stuffle",
+       "name": "Marybeth Sears",
        "party": "R",
-       "votes": 578,
-       "pct": 8.02,
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
        "name": "Thomas S. Shevlot",
        "party": "R",
-       "votes": 415,
-       "pct": 5.76,
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Dan Stock",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Rachel Stuffle",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       }
      ],
-     "total_votes": 7206,
-     "margin_votes": 60,
-     "margin_pct": 0.83,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-041",
+     "id": "test-rep-convention-delegate-dist-2",
      "name": "Convention Delegate Dist 2",
-     "group": null,
      "vote_for": 5,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.6",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: unreadable cell; computed % do not match printed % \u00b7 PDF p.6",
      "candidates": [
       {
-       "name": "Holly Lawson So",
+       "name": "Jesse Antonio Camacho",
        "party": "R",
-       "votes": 897,
-       "pct": 16.23,
-       "leading": true
-      },
-      {
-       "name": "Janice 0. Silvey",
-       "party": "R",
-       "votes": 775,
-       "pct": 14.02,
-       "leading": true
-      },
-      {
-       "name": "Randy Sorrell",
-       "party": "R",
-       "votes": 758,
-       "pct": 13.71,
-       "leading": true
-      },
-      {
-       "name": "Greg Rogers",
-       "party": "R",
-       "votes": 561,
-       "pct": 10.15,
-       "leading": true
-      },
-      {
-       "name": "Colette A. Childress",
-       "party": "R",
-       "votes": 519,
-       "pct": 9.39,
-       "leading": true
-      },
-      {
-       "name": "Josh Smith",
-       "party": "R",
-       "votes": 480,
-       "pct": 8.68,
-       "leading": false
-      },
-      {
-       "name": "Carolyn Kadlec Flynn",
-       "party": "R",
-       "votes": 415,
-       "pct": 7.51,
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
        "name": "Shirley Anngamacho",
        "party": "R",
-       "votes": 408,
-       "pct": 7.38,
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Colette A. Childress",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
        "name": "Shannon Cora",
        "party": "R",
-       "votes": 392,
-       "pct": 7.09,
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       },
       {
-       "name": "Jesse Antonio Camacho",
+       "name": "Carolyn Kadlec Flynn",
        "party": "R",
-       "votes": 323,
-       "pct": 5.84,
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Holly Lawson So",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Greg Rogers",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Janice 0. Silvey",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Josh Smith",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
+      },
+      {
+       "name": "Randy Sorrell",
+       "party": "R",
+       "votes": 0,
+       "pct": 0.0,
        "leading": false
       }
      ],
-     "total_votes": 5528,
-     "margin_votes": 39,
-     "margin_pct": 0.71,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-042",
+     "id": "test-rep-convention-delegate-dist-3",
      "name": "Convention Delegate Dist 3",
-     "group": null,
      "vote_for": 5,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.6",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.6",
      "candidates": [
       {
        "name": "Daniel J. Riley",
@@ -1253,12 +1206,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-043",
+     "id": "test-rep-convention-delegate-dist-4",
      "name": "Convention Delegate Dist 4",
-     "group": null,
      "vote_for": 5,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.7",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.7",
      "candidates": [
       {
        "name": "Bill Spalding",
@@ -1322,12 +1274,11 @@
    "name": "Democratic primary",
    "races": [
     {
-     "id": "test-044",
+     "id": "test-dem-u-s-rep-6th-dist",
      "name": "U.S. Rep 6Th Dist",
-     "group": null,
      "vote_for": 4,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.7",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.7",
      "candidates": [
       {
        "name": "Cynthia (cinde) Wirth",
@@ -1362,70 +1313,67 @@
      "status": "reporting"
     },
     {
-     "id": "test-045",
+     "id": "test-dem-state-rep-dist-53",
      "name": "State Rep Dist 53",
-     "group": null,
      "vote_for": 1,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.7",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {1490: 5, 1480: 3, 1450: 2} \u00b7 PDF p.7",
      "candidates": [
       {
        "name": "Reece Axel-adams",
        "party": "D",
-       "votes": 1450,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 1450,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-047",
+     "id": "test-dem-state-rep-dist-88",
      "name": "State Rep Dist 88",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.7",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {1358: 18, 1888: 6, 1858: 6} \u00b7 PDF p.7",
      "candidates": [
       {
        "name": "Stephanie Jo Yocum",
        "party": "D",
-       "votes": 4390,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 4390,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-054",
+     "id": "test-dem-sheriff-hancock",
      "name": "Sheriff Hancock",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.8",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.8",
      "candidates": [
       {
        "name": "James Calvert, Jr",
        "party": "D",
-       "votes": 2010,
+       "votes": 2816,
        "pct": 100.0,
        "leading": true
       }
      ],
-     "total_votes": 2010,
+     "total_votes": 2816,
      "status": "reporting"
     },
     {
-     "id": "test-057",
+     "id": "test-dem-commissioner-dist-2",
      "name": "Commissioner Dist 2",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.8",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.8",
      "candidates": [
       {
        "name": "Jordan Coleman",
@@ -1439,32 +1387,30 @@
      "status": "reporting"
     },
     {
-     "id": "test-058",
+     "id": "test-dem-county-council-dist-1",
      "name": "County Council Dist 1",
-     "group": null,
      "vote_for": 1,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.8",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "CHECK \u2014 not published; enter manually from crop: readings disagree {0: 11, 18: 4, 100: 2} \u00b7 PDF p.8",
      "candidates": [
       {
        "name": "Anthony Arnold",
        "party": "D",
-       "votes": 766,
-       "pct": 100.0,
-       "leading": true
+       "votes": 0,
+       "pct": 0.0,
+       "leading": false
       }
      ],
-     "total_votes": 766,
-     "status": "reporting"
+     "watch": "CHECK",
+     "total_votes": 0,
+     "status": "not_reported"
     },
     {
-     "id": "test-060",
+     "id": "test-dem-county-council-dist-3",
      "name": "County Council Dist 3",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.9",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.9",
      "candidates": [
       {
        "name": "Carol Pearson",
@@ -1478,13 +1424,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-069",
+     "id": "test-dem-township-bd-member-buck-creek",
      "name": "Township Bd Member Buck Creek",
-     "group": null,
      "vote_for": 3,
-     "note": "CHECK: OCR could not reconcile with printed % \u2014 verify against PDF \u00b7 PDF p.10",
-     "watch": "CHECK",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.10",
      "candidates": [
       {
        "name": "Nicholas D. Mclain",
@@ -1494,7 +1438,7 @@
        "leading": true
       },
       {
-       "name": "William (bill) Mcdonald",
+       "name": "William",
        "party": "D",
        "votes": 366,
        "pct": 48.8,
@@ -1505,12 +1449,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-071",
+     "id": "test-dem-township-bd-member-center",
      "name": "Township Bd Member Center",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.10",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.10",
      "candidates": [
       {
        "name": "Jesse Vetters",
@@ -1538,12 +1481,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-075",
+     "id": "test-dem-township-bd-member-jackson",
      "name": "Township Bd Member Jackson",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.10",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.10",
      "candidates": [
       {
        "name": "Kileyblalock",
@@ -1557,12 +1499,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-077",
+     "id": "test-dem-township-bd-member-sugar-creek",
      "name": "Township Bd Member Sugar Creek",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.11",
      "candidates": [
       {
        "name": "Iza Sumpter",
@@ -1590,12 +1531,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-079",
+     "id": "test-dem-township-bd-member-vernon",
      "name": "Township Bd Member Vernon",
-     "group": null,
      "vote_for": 3,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.11",
      "candidates": [
       {
        "name": "Emily Benford",
@@ -1623,12 +1563,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-082",
+     "id": "test-dem-town-cncl-at-large-mccordsville",
      "name": "Town Cncl At Large Mccordsville",
-     "group": null,
      "vote_for": 2,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.11",
      "candidates": [
       {
        "name": "Linda A. Robinson",
@@ -1649,12 +1588,11 @@
      "status": "reporting"
     },
     {
-     "id": "test-083",
+     "id": "test-dem-pct-committeeman-g-01-north",
      "name": "Pct Committeeman G-01 North",
-     "group": null,
      "vote_for": 1,
-     "note": "OCR VERIFIED: computed % match printed % \u00b7 PDF p.11",
      "uncontested": false,
+     "note": "Verified by OCR (multi-pass + printed-% check) \u00b7 PDF p.11",
      "candidates": [
       {
        "name": "Caitlin Vanoverberghe",
@@ -1664,7 +1602,7 @@
        "leading": true
       },
       {
-       "name": "Michael (mike) Mcmahan",
+       "name": "Michael",
        "party": "D",
        "votes": 22,
        "pct": 32.84,
@@ -1680,5 +1618,5 @@
   }
  ],
  "any_results": true,
- "last_updated": "10:02 PM ET, Fri Oct 9, 2026"
+ "last_updated": "10:08 PM ET, Fri Oct 9, 2026"
 }

@@ -121,6 +121,7 @@ function raceCard(r) {
   if (r.held_by) meta.push(`Held by ${r.held_by}${r.open_seat ? ' · Open seat' : ''}`);
   if (r.local) meta.push(`📍 ${esc(r.local)}`);
   if (r.updated) meta.push(`Updated ${esc(r.updated)}`);
+  if (r.counties_reporting) meta.push(`Counties in: ${r.counties_reporting.map(esc).join(', ')}`);
   return `<div class="race ${r.watch ? 'watch' : ''}">
     <div class="rh"><h4>${esc(r.name)}</h4>${r.called ? `<span class="tag call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : r.uncontested ? '<span class="tag unopp">UNOPPOSED</span>' : flip ? '<span class="tag flip">FLIP?</span>' : ''}</div>
     <div class="meta">${meta.join(' · ')}${r.watch ? ` · <span class="flag">★ ${esc(r.watch)}</span>` : ''}${r.note ? `<br>${esc(r.note)}` : ''}</div>

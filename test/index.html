@@ -116,14 +116,14 @@ function raceCard(r) {
   const flip = r.held_by && (r.status === 'called' || r.status === 'reporting') && winnerParty(r) !== r.held_by;
   const meta = [];
   if (r.precincts_total) meta.push(`${fmt(r.precincts_reporting)}/${fmt(r.precincts_total)} precincts (${r.precincts_pct}%)`);
-  else meta.push(any ? 'Precincts: n/a' : 'Not yet reported');
+  else meta.push(any ? 'Precincts: n/a' : (DATA && DATA.any_results ? '<span class="flag">⏳ Verifying… count not yet confirmed</span>' : 'Not yet reported'));
   if ((r.vote_for||1) > 1) meta.push(`Vote for ${r.vote_for}`);
   if (r.held_by) meta.push(`Held by ${r.held_by}${r.open_seat ? ' · Open seat' : ''}`);
   if (r.local) meta.push(`📍 ${esc(r.local)}`);
   if (r.updated) meta.push(`Updated ${esc(r.updated)}`);
   if (r.counties_reporting) meta.push(`Counties in: ${r.counties_reporting.map(esc).join(', ')}`);
   return `<div class="race ${r.watch ? 'watch' : ''}">
-    <div class="rh"><h4>${esc(r.name)}</h4>${r.called ? `<span class="tag call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : r.uncontested ? '<span class="tag unopp">UNOPPOSED</span>' : flip ? '<span class="tag flip">FLIP?</span>' : ''}</div>
+    <div class="rh"><h4>${esc(r.name)}</h4>${r.called ? `<span class="tag call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : (!any && DATA && DATA.any_results && !r.uncontested) ? '<span class="tag">VERIFYING…</span>' : r.uncontested ? '<span class="tag unopp">UNOPPOSED</span>' : flip ? '<span class="tag flip">FLIP?</span>' : ''}</div>
     <div class="meta">${meta.join(' · ')}${r.watch ? ` · <span class="flag">★ ${esc(r.watch)}</span>` : ''}${r.note ? `<br>${esc(r.note)}` : ''}</div>
     ${r.precincts_total ? `<div class="prog"><div style="width:${r.precincts_pct}%"></div></div>` : ''}
     ${r.candidates.map(c => candRow(r, c, any)).join('')}
@@ -131,7 +131,7 @@ function raceCard(r) {
   </div>`;
 }
 function uncRow(r) {
-  return `<div class="ur"><b>${esc(r.name)}</b><span>${r.candidates.map(c => esc(c.name) + (c.party ? ` (${esc(c.party)})` : '') + (c.incumbent ? '*' : '') + (r.total_votes ? ` ${fmt(c.votes)}` : '')).join(', ') || 'No candidates'}</span></div>`;
+  return `<div class="ur"><b>${esc(r.name)}</b><span>${r.candidates.map(c => esc(c.name) + (c.party ? ` (${esc(c.party)})` : '') + (c.incumbent ? '*' : '') + (r.total_votes ? ` ${fmt(c.votes)}` : '')).join(', ') || (r.no_candidate ? '<i>No candidate filed</i>' : 'No candidates')}</span></div>`;
 }
 function summary(ch, sec) {
   const s = ch.summary || {}; const g = (o, p) => (o && o[p]) || 0;

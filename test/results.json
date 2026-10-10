@@ -1357,7 +1357,7 @@
     {
      "id": "test-dem-u-s-rep-6th-dist",
      "name": "U.S. Rep 6Th Dist",
-     "vote_for": 4,
+     "vote_for": 1,
      "uncontested": false,
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.7",
      "candidates": [
@@ -1373,25 +1373,27 @@
        "party": "D",
        "votes": 582,
        "pct": 19.5,
-       "leading": true
+       "leading": false
       },
       {
        "name": "David Lawrence Boyd",
        "party": "D",
        "votes": 374,
        "pct": 12.53,
-       "leading": true
+       "leading": false
       },
       {
        "name": "Nicholas Frederick Baker",
        "party": "D",
        "votes": 328,
        "pct": 10.99,
-       "leading": true
+       "leading": false
       }
      ],
      "total_votes": 2984,
-     "status": "reporting"
+     "status": "reporting",
+     "margin_votes": 1118,
+     "margin_pct": 37.47
     },
     {
      "id": "test-dem-state-rep-dist-53",
@@ -1759,7 +1761,7 @@
     {
      "id": "test-dem-auditor-hancock",
      "name": "Auditor Hancock",
-     "vote_for": 4,
+     "vote_for": 1,
      "uncontested": true,
      "no_candidate": true,
      "candidates": [],
@@ -1991,6 +1993,6 @@
   }
  ],
  "any_results": true,
- "last_updated": "10:19 PM ET, Fri Oct 9, 2026",
- "last_updated_iso": "2026-10-09T22:19:26.315082-04:00"
+ "last_updated": "10:20 PM ET, Fri Oct 9, 2026",
+ "last_updated_iso": "2026-10-09T22:20:06.955008-04:00"
 }

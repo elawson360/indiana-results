@@ -2,7 +2,7 @@
  "title": "Indiana Election Night Results — Nov 3, 2026",
  "is_example": false,
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
- "source_note": "Candidates: Indiana Election Division candidate list (Sep 22, 2026). Unofficial results compiled from county PDFs and the state ENR.",
+ "source_note": "TEST UPDATE (will be reset)",
  "chambers": {
   "us-house": {
    "name": "Indiana US House delegation",
@@ -5271,17 +5271,23 @@
        "name": "Ethan J. Lawson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
+       "votes": 1234,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
+       "pct": 100.0,
+       "leading": true
       }
      ],
      "local": "Hancock, Madison",
+     "always_card": true,
+     "watch": "Unopposed · tracking vote totals",
      "note": "Did not make ballot: Reece Axel-Adams (D).",
      "uncontested": true,
-     "total_votes": 0,
-     "status": "unopposed"
+     "total_votes": 1234,
+     "status": "unopposed",
+     "updated": "9:38 PM ET",
+     "precincts_reporting": 12,
+     "precincts_total": 38,
+     "precincts_pct": 31.6
     },
     {
      "id": "in-house-054",
@@ -7405,7 +7411,7 @@
    ]
   }
  ],
- "any_results": false,
- "last_updated_iso": "2026-10-09T21:15:57.968706-04:00",
- "last_updated": "9:15 PM ET, Fri Oct 9, 2026"
+ "any_results": true,
+ "last_updated_iso": "2026-10-09T21:38:25.720903-04:00",
+ "last_updated": "9:38 PM ET, Fri Oct 9, 2026"
 }

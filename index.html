@@ -34,7 +34,8 @@
   .rh { display:flex; justify-content:space-between; gap:8px; align-items:baseline; }
   .rh h4 { margin:0; font-size:15.5px; }
   .tag { flex:none; font-size:11px; font-weight:700; padding:2px 7px; border-radius:999px; background:var(--chip); color:var(--mut); }
-  .tag.call { background:#16a34a; color:#fff; } .tag.flip { background:#f59e0b; color:#111; }
+  .tag.call { background:#16a34a; color:#fff; } .tag.unopp { background:#0f766e; color:#fff; }
+  .big { font-size:26px; font-weight:800; font-variant-numeric:tabular-nums; } .big small { font-size:13px; font-weight:500; color:var(--mut); } .tag.flip { background:#f59e0b; color:#111; }
   .meta { color:var(--mut); font-size:12.5px; margin:2px 0 6px; }
   .flag { color:#b45309; font-weight:600; } @media (prefers-color-scheme: dark) { .flag { color:#fbbf24; } }
   .prog { height:3px; background:var(--line); border-radius:2px; overflow:hidden; margin:0 0 6px; } .prog div { height:100%; background:#64748b; }
@@ -92,13 +93,16 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const pc = p => (p === 'R' || p === 'D') ? p : (p ? '' : 'np');
 const st = JSON.parse(localStorage.getItem('inres') || '{}');
 st.tab = location.hash.slice(1) || st.tab || 'hancock';
-st.q = ''; st.unc = st.unc ?? false; st.watch = false; st.local = false;
+st.q = new URLSearchParams(location.search).get('q') || ''; document.getElementById('q').value = st.q; st.unc = st.unc ?? false; st.watch = false; st.local = false;
 let DATA = null;
 const save = () => localStorage.setItem('inres', JSON.stringify({tab: st.tab, unc: st.unc}));
 
 function party(c) { return c.party ? `<span class="pt ${pc(c.party)}" title="${esc(c.party_full||c.party)}">${esc(c.party)}</span>` : ''; }
 function candRow(r, c, any) {
   const lead = any && c.leading && !r.question;
+  if (r.uncontested && r.candidates.length === 1) return `<div class="c" style="grid-template-columns:1fr auto">
+    <div class="nm">${esc(c.name)}${party(c)}${c.incumbent ? ' <span class="i">(inc.)</span>' : ''}</div>
+    <div class="big">${any ? fmt(c.votes) : '–'} <small>votes</small></div></div>`;
   return `<div class="c">
     <div class="nm ${lead ? 'lead' : ''}">${esc(c.name)}${party(c)}${c.incumbent ? ' <span class="i">(inc.)</span>' : ''}${c.write_in ? ' <span class="i">(write-in)</span>' : ''}${r.called && r.called === c.name ? ' 🏆' : ''}</div>
     <div class="v">${any ? fmt(c.votes) : '–'}</div>
@@ -116,16 +120,17 @@ function raceCard(r) {
   if ((r.vote_for||1) > 1) meta.push(`Vote for ${r.vote_for}`);
   if (r.held_by) meta.push(`Held by ${r.held_by}${r.open_seat ? ' · Open seat' : ''}`);
   if (r.local) meta.push(`📍 ${esc(r.local)}`);
+  if (r.updated) meta.push(`Updated ${esc(r.updated)}`);
   return `<div class="race ${r.watch ? 'watch' : ''}">
-    <div class="rh"><h4>${esc(r.name)}</h4>${r.called ? `<span class="tag call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : flip ? '<span class="tag flip">FLIP?</span>' : ''}</div>
+    <div class="rh"><h4>${esc(r.name)}</h4>${r.called ? `<span class="tag call">CALLED${r.called_by ? ' · ' + esc(r.called_by) : ''}</span>` : r.uncontested ? '<span class="tag unopp">UNOPPOSED</span>' : flip ? '<span class="tag flip">FLIP?</span>' : ''}</div>
     <div class="meta">${meta.join(' · ')}${r.watch ? ` · <span class="flag">★ ${esc(r.watch)}</span>` : ''}${r.note ? `<br>${esc(r.note)}` : ''}</div>
     ${r.precincts_total ? `<div class="prog"><div style="width:${r.precincts_pct}%"></div></div>` : ''}
     ${r.candidates.map(c => candRow(r, c, any)).join('')}
-    ${any ? `<div class="tot">Total: ${fmt(r.total_votes)}${r.margin_votes != null ? ` · Margin ${fmt(r.margin_votes)} (${Number(r.margin_pct).toFixed(1)} pts)` : ''}</div>` : ''}
+    ${any && !(r.uncontested && r.candidates.length === 1) ? `<div class="tot">Total: ${fmt(r.total_votes)}${r.margin_votes != null ? ` · Margin ${fmt(r.margin_votes)} (${Number(r.margin_pct).toFixed(1)} pts)` : ''}</div>` : ''}
   </div>`;
 }
 function uncRow(r) {
-  return `<div class="ur"><b>${esc(r.name)}</b><span>${r.candidates.map(c => esc(c.name) + (c.party ? ` (${esc(c.party)})` : '') + (c.incumbent ? '*' : '')).join(', ') || 'No candidates'}</span></div>`;
+  return `<div class="ur"><b>${esc(r.name)}</b><span>${r.candidates.map(c => esc(c.name) + (c.party ? ` (${esc(c.party)})` : '') + (c.incumbent ? '*' : '') + (r.total_votes ? ` ${fmt(c.votes)}` : '')).join(', ') || 'No candidates'}</span></div>`;
 }
 function summary(ch, sec) {
   const s = ch.summary || {}; const g = (o, p) => (o && o[p]) || 0;
@@ -174,7 +179,7 @@ function render() {
   let html = isLeg ? summary(d.chambers[sec.id], sec) : '';
   if (isLeg) {
     for (const r of races) {
-      if (!r.uncontested) html += raceCard(r);
+      if (!r.uncontested || r.always_card) html += raceCard(r);
       else if (!st.unc) html += `<div class="unc">${uncRow(r).replace('<div class="ur">', '<div class="ur" style="border:0">').replace('</span></div>', ' · <i>unopposed</i></span></div>')}</div>`;
     }
     if (!races.length) html += '<div class="empty">No races match.</div>';
@@ -183,7 +188,7 @@ function render() {
     return;
   }
   const groups = [];
-  for (const r of races) { const g = r.group || ''; let G = groups.find(x => x.g === g); if (!G) groups.push(G = {g, c: [], u: []}); (r.uncontested ? G.u : G.c).push(r); }
+  for (const r of races) { const g = r.group || ''; let G = groups.find(x => x.g === g); if (!G) groups.push(G = {g, c: [], u: []}); (r.uncontested && !r.always_card ? G.u : G.c).push(r); }
   for (const G of groups) {
     if (G.g) html += `<h3 class="grp">${esc(G.g)}</h3>`;
     html += G.c.map(raceCard).join('');

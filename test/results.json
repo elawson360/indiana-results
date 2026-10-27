@@ -18,22 +18,23 @@
       {
        "name": "Jefferson Shreve",
        "party": "R",
-       "votes": 4073,
-       "pct": 53.23,
+       "votes": 600000,
+       "pct": 100.0,
        "leading": true
       },
       {
        "name": "Sarah Janisse Brown",
        "party": "R",
-       "votes": 3579,
-       "pct": 46.77,
+       "votes": 2,
+       "pct": 0.0,
        "leading": false
       }
      ],
-     "total_votes": 7652,
+     "total_votes": 600002,
      "status": "reporting",
-     "margin_votes": 494,
-     "margin_pct": 6.46
+     "updated": "12:06 PM ET",
+     "margin_votes": 599998,
+     "margin_pct": 100.0
     },
     {
      "id": "test-rep-state-rep-dist-53",
@@ -45,16 +46,16 @@
       {
        "name": "Ethan J. Lawson",
        "party": "R",
-       "votes": 5050,
+       "votes": 87000,
        "pct": 100.0,
        "leading": true,
        "verified": true
       }
      ],
      "watch": null,
-     "total_votes": 5050,
+     "total_votes": 87000,
      "status": "reporting",
-     "updated": "10:18 PM ET"
+     "updated": "12:06 PM ET"
     },
     {
      "id": "test-rep-state-rep-dist-54",
@@ -220,31 +221,32 @@
      "note": "Verified by OCR (multi-pass + printed-% check) · PDF p.2",
      "candidates": [
       {
+       "name": "David Carver",
+       "party": "R",
+       "votes": 2000,
+       "pct": 89.09,
+       "leading": true
+      },
+      {
        "name": "Gary W. Achor, Jr.",
        "party": "R",
-       "votes": 6047,
-       "pct": 75.97,
-       "leading": true
+       "votes": 123,
+       "pct": 5.48,
+       "leading": false
       },
       {
        "name": "John J. Jester",
        "party": "R",
-       "votes": 1345,
-       "pct": 16.9,
-       "leading": false
-      },
-      {
-       "name": "David Carver",
-       "party": "R",
-       "votes": 568,
-       "pct": 7.14,
+       "votes": 122,
+       "pct": 5.43,
        "leading": false
       }
      ],
-     "total_votes": 7960,
+     "total_votes": 2245,
      "status": "reporting",
-     "margin_votes": 4702,
-     "margin_pct": 59.07
+     "updated": "12:06 PM ET",
+     "margin_votes": 1877,
+     "margin_pct": 83.61
     },
     {
      "id": "test-rep-surveyor-hancock",
@@ -301,13 +303,14 @@
       {
        "name": "Gary McDaniel",
        "party": "R",
-       "votes": 6327,
+       "votes": 18000,
        "pct": 100.0,
        "leading": true
       }
      ],
-     "total_votes": 6327,
-     "status": "reporting"
+     "total_votes": 18000,
+     "status": "reporting",
+     "updated": "12:06 PM ET"
     },
     {
      "id": "test-rep-county-council-dist-1",
@@ -319,13 +322,14 @@
       {
        "name": "Clark Smith",
        "party": "R",
-       "votes": 1906,
+       "votes": 17,
        "pct": 100.0,
        "leading": true
       }
      ],
-     "total_votes": 1906,
-     "status": "reporting"
+     "total_votes": 17,
+     "status": "reporting",
+     "updated": "12:06 PM ET"
     },
     {
      "id": "test-rep-county-council-dist-2",
@@ -1993,6 +1997,6 @@
   }
  ],
  "any_results": true,
- "last_updated": "10:34 PM ET, Fri Oct 9, 2026",
- "last_updated_iso": "2026-10-09T22:34:43.699766-04:00"
+ "last_updated": "12:06 PM ET, Tue Oct 27, 2026",
+ "last_updated_iso": "2026-10-27T12:06:04.492713-04:00"
 }

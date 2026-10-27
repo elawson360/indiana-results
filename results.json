@@ -2,7 +2,7 @@
  "title": "Indiana Election Night Results — Nov 3, 2026",
  "is_example": false,
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
- "source_note": "Candidates: Indiana Election Division candidate list (Sep 22, 2026). Unofficial results compiled from county PDFs and the state ENR.",
+ "source_note": "Candidates: Indiana Election Division candidate list (Sep 22, 2026), rechecked against the state ENR general-election feed Oct 27, 2026. Unofficial results compiled from county PDFs and the state ENR.",
  "chambers": {
   "us-house": {
    "name": "Indiana US House delegation",
@@ -2463,7 +2463,7 @@
      "id": "mad-lapel-town-council-at-large",
      "name": "Lapel Town Council, At Large",
      "group": "Towns",
-     "vote_for": 2,
+     "vote_for": 3,
      "candidates": [
       {
        "name": "Allicia N Rockwell-West",
@@ -2483,7 +2483,7 @@
        "leading": false
       }
      ],
-     "note": "DISCREPANCY: state list (Sep 22) shows Rockwell-West; Ballotpedia & voter guide show Roger Fouse (R, incumbent) instead. Verify on sample ballot.",
+     "note": "Vote for 3 (2 candidates). Rockwell-West confirmed on state candidate list and state ENR general feed (Oct 27 check); earlier Ballotpedia/voter-guide listing of Roger Fouse is outdated.",
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed"
@@ -3267,7 +3267,7 @@
      "group": "Judicial retention",
      "vote_for": 1,
      "question": true,
-     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "note": "2nd District counties only (includes Madison; NOT on Hancock ballots). Source: Indiana courts, Aug 27, 2026 release; IC 33-25-1-2.",
      "uncontested": false,
      "candidates": [
       {
@@ -3294,7 +3294,7 @@
      "group": "Judicial retention",
      "vote_for": 1,
      "question": true,
-     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "note": "On every Indiana ballot (4th District = entire state). Source: Indiana courts, Aug 27, 2026 release.",
      "uncontested": false,
      "candidates": [
       {
@@ -3321,7 +3321,7 @@
      "group": "Judicial retention",
      "vote_for": 1,
      "question": true,
-     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "note": "On every Indiana ballot (5th District = entire state). Source: Indiana courts, Aug 27, 2026 release.",
      "uncontested": false,
      "candidates": [
       {
@@ -3348,7 +3348,7 @@
      "group": "Judicial retention",
      "vote_for": 1,
      "question": true,
-     "note": "Listed in Madison Co. voter guide; statewide scope not independently verified.",
+     "note": "On every Indiana ballot (Tax Court). Source: Indiana courts, Aug 27, 2026 release.",
      "uncontested": false,
      "candidates": [
       {
@@ -6943,6 +6943,7 @@
       }
      ],
      "uncontested": false,
+     "note": "Alting (R) said Oct 21 he will resign if reelected; his name stays on the ballot and a GOP caucus would fill the seat.",
      "total_votes": 0,
      "status": "not_reported"
     },
@@ -7408,6 +7409,6 @@
   }
  ],
  "any_results": false,
- "last_updated_iso": "2026-10-09T22:34:43.657211-04:00",
- "last_updated": "10:34 PM ET, Fri Oct 9, 2026"
+ "last_updated_iso": "2026-10-27T09:31:11.900365-04:00",
+ "last_updated": "9:31 AM ET, Tue Oct 27, 2026"
 }

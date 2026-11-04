@@ -455,41 +455,41 @@
        "name": "William (Bill) McDonald",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 326,
-       "pct": 29.96,
+       "votes": 398,
+       "pct": 27.24,
        "leading": true
       },
       {
        "name": "Greg Rogers",
        "party": "R",
        "party_full": "Republican",
-       "votes": 274,
-       "pct": 25.18,
+       "votes": 381,
+       "pct": 26.08,
        "leading": true
       },
       {
        "name": "David K. Stillinger",
        "party": "R",
        "party_full": "Republican",
-       "votes": 262,
-       "pct": 24.08,
+       "votes": 365,
+       "pct": 24.98,
        "leading": true
       },
       {
        "name": "Andrew deLivron",
        "party": "R",
        "party_full": "Republican",
-       "votes": 226,
-       "pct": 20.77,
+       "votes": 317,
+       "pct": 21.7,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1088,
+     "total_votes": 1461,
      "status": "reporting",
-     "updated": "8:03 PM ET",
-     "margin_votes": 36,
-     "margin_pct": 3.31
+     "updated": "8:21 PM ET",
+     "margin_votes": 48,
+     "margin_pct": 3.28
     },
     {
      "id": "han-center-twp-board",
@@ -8097,6 +8097,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:14:37.005689-05:00",
- "last_updated": "8:14 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:21:03.680347-05:00",
+ "last_updated": "8:21 PM ET, Tue Nov 3, 2026"
 }

@@ -3421,32 +3421,32 @@
        "name": "Elise Nieshalla",
        "party": "R",
        "party_full": "Republican",
-       "votes": 87049,
+       "votes": 89700,
        "incumbent": true,
-       "pct": 49.49,
+       "pct": 49.82,
        "leading": true
       },
       {
        "name": "Jessica Bailey",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 84164,
-       "pct": 47.85,
+       "votes": 85452,
+       "pct": 47.46,
        "leading": false
       },
       {
        "name": "John Schick",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 4664,
-       "pct": 2.65,
+       "votes": 4884,
+       "pct": 2.71,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 175877,
+     "total_votes": 180036,
      "status": "reporting",
-     "updated": "8:22 PM ET",
+     "updated": "8:28 PM ET",
      "county_votes": {
       "Madison": {
        "Elise Nieshalla": 11979,
@@ -3459,9 +3459,9 @@
        "John Schick": 3548
       },
       "Hancock": {
-       "Elise Nieshalla": 3007,
-       "Jessica Bailey": 1429,
-       "John Schick": 282
+       "Elise Nieshalla": 5658,
+       "Jessica Bailey": 2717,
+       "John Schick": 502
       }
      },
      "counties_reporting": [
@@ -3469,8 +3469,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 2885,
-     "margin_pct": 1.64
+     "margin_votes": 4248,
+     "margin_pct": 2.36
     },
     {
      "id": "in-treasurer",
@@ -3482,24 +3482,24 @@
        "name": "Daniel Elliott",
        "party": "R",
        "party_full": "Republican",
-       "votes": 91654,
+       "votes": 94540,
        "incumbent": true,
-       "pct": 52.01,
+       "pct": 52.41,
        "leading": true
       },
       {
        "name": "Coumba Kebe",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 84557,
-       "pct": 47.99,
+       "votes": 85842,
+       "pct": 47.59,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 176211,
+     "total_votes": 180382,
      "status": "reporting",
-     "updated": "8:22 PM ET",
+     "updated": "8:28 PM ET",
      "county_votes": {
       "Madison": {
        "Daniel Elliott": 13155,
@@ -3510,8 +3510,8 @@
        "Coumba Kebe": 71865
       },
       "Hancock": {
-       "Daniel Elliott": 3288,
-       "Coumba Kebe": 1430
+       "Daniel Elliott": 6174,
+       "Coumba Kebe": 2715
       }
      },
      "counties_reporting": [
@@ -3519,8 +3519,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 7097,
-     "margin_pct": 4.02
+     "margin_votes": 8698,
+     "margin_pct": 4.82
     },
     {
      "id": "in-pq1",
@@ -8099,6 +8099,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:27:55.898057-05:00",
- "last_updated": "8:27 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:28:44.027025-05:00",
+ "last_updated": "8:28 PM ET, Tue Nov 3, 2026"
 }

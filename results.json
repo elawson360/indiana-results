@@ -1199,23 +1199,25 @@
        "name": "S. Katie Sanford Evanoff",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 1753,
+       "pct": 61.34,
+       "leading": true
       },
       {
        "name": "Rebekah Cerqua",
        "party": "",
        "party_full": "No party listed",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 1105,
+       "pct": 38.66,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:22 PM ET"
+     "total_votes": 2858,
+     "status": "reporting",
+     "updated": "8:30 PM ET",
+     "margin_votes": 648,
+     "margin_pct": 22.68
     },
     {
      "id": "han-school-new-palestine-d3",
@@ -1227,23 +1229,25 @@
        "name": "Emily Boesen",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 1349,
+       "pct": 59.58,
+       "leading": true
       },
       {
        "name": "Brian Hart",
        "party": "I",
        "party_full": "Independent",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 915,
+       "pct": 40.42,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:22 PM ET"
+     "total_votes": 2264,
+     "status": "reporting",
+     "updated": "8:30 PM ET",
+     "margin_votes": 434,
+     "margin_pct": 19.16
     },
     {
      "id": "han-school-eastern-hancock-d1",
@@ -8099,6 +8103,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:29:12.281203-05:00",
- "last_updated": "8:29 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:30:13.335996-05:00",
+ "last_updated": "8:30 PM ET, Tue Nov 3, 2026"
 }

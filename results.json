@@ -1,5 +1,5 @@
 {
- "title": "Indiana Election Night Results — Nov 3, 2026",
+ "title": "Hancock & Madison County Results — Nov 3, 2026",
  "is_example": false,
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
  "source_note": "Hancock Co. unofficial final (Election Summary 11/04/2026 1:10 AM)",
@@ -3347,6 +3347,7 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-04T02:08:33.470257-05:00",
- "last_updated": "2:08 AM ET, Wed Nov 4, 2026"
+ "last_updated_iso": "2026-11-04T02:10:29.600635-05:00",
+ "last_updated": "2:10 AM ET, Wed Nov 4, 2026",
+ "banner": "PRELIMINARY FINAL RESULTS — UNOFFICIAL"
 }

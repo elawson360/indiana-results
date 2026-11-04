@@ -6924,41 +6924,41 @@
        "name": "Chris Jeter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1916,
+       "votes": 2099,
        "incumbent": true,
-       "pct": 50.9,
+       "pct": 51.64,
        "leading": true
       },
       {
        "name": "Stephanie Jo Yocum",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1848,
-       "pct": 49.1,
+       "votes": 1966,
+       "pct": 48.36,
        "leading": false
       }
      ],
      "local": "Hancock, Madison",
      "uncontested": false,
-     "total_votes": 3764,
+     "total_votes": 4065,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:27 PM ET",
      "county_votes": {
       "Madison": {
        "Chris Jeter": 1265,
        "Stephanie Jo Yocum": 1278
       },
       "Hancock": {
-       "Chris Jeter": 651,
-       "Stephanie Jo Yocum": 570
+       "Chris Jeter": 834,
+       "Stephanie Jo Yocum": 688
       }
      },
      "counties_reporting": [
       "Hancock",
       "Madison"
      ],
-     "margin_votes": 68,
-     "margin_pct": 1.8
+     "margin_votes": 133,
+     "margin_pct": 3.28
     },
     {
      "id": "in-house-089",
@@ -8099,6 +8099,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:26:57.903149-05:00",
- "last_updated": "8:26 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:27:37.856927-05:00",
+ "last_updated": "8:27 PM ET, Tue Nov 3, 2026"
 }

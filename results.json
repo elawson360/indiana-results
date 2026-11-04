@@ -3338,32 +3338,32 @@
        "name": "Beau Bayh",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 92649,
-       "pct": 51.01,
+       "votes": 94087,
+       "pct": 50.63,
        "leading": true
       },
       {
        "name": "Max Engling",
        "party": "R",
        "party_full": "Republican",
-       "votes": 81451,
-       "pct": 44.85,
+       "votes": 83898,
+       "pct": 45.14,
        "leading": false
       },
       {
        "name": "Greg Ballard",
        "party": "Lincoln",
        "party_full": "Lincoln Party",
-       "votes": 4395,
-       "pct": 2.42,
+       "votes": 4622,
+       "pct": 2.49,
        "leading": false
       },
       {
        "name": "Lauri A. Shillings",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 3127,
-       "pct": 1.72,
+       "votes": 3237,
+       "pct": 1.74,
        "leading": false
       },
       {
@@ -3379,9 +3379,9 @@
      "note": "Open seat (Morales lost GOP convention)",
      "watch": "Marquee statewide race",
      "uncontested": false,
-     "total_votes": 181624,
+     "total_votes": 185846,
      "status": "reporting",
-     "updated": "8:22 PM ET",
+     "updated": "8:29 PM ET",
      "county_votes": {
       "Madison": {
        "Max Engling": 10677,
@@ -3397,10 +3397,10 @@
        "Andrew Delano": 2
       },
       "Hancock": {
-       "Max Engling": 2700,
-       "Beau Bayh": 1633,
-       "Lauri A. Shillings": 115,
-       "Greg Ballard": 326
+       "Max Engling": 5147,
+       "Beau Bayh": 3071,
+       "Lauri A. Shillings": 225,
+       "Greg Ballard": 553
       }
      },
      "counties_reporting": [
@@ -3408,8 +3408,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 11198,
-     "margin_pct": 6.16
+     "margin_votes": 10189,
+     "margin_pct": 5.49
     },
     {
      "id": "in-comptroller",
@@ -8099,6 +8099,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:28:44.027025-05:00",
- "last_updated": "8:28 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:29:12.281203-05:00",
+ "last_updated": "8:29 PM ET, Tue Nov 3, 2026"
 }

@@ -668,58 +668,60 @@
      "vote_for": 3,
      "candidates": [
       {
-       "name": "Larry J. Longman",
+       "name": "Marybeth Sears",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 205,
+       "pct": 18.3,
+       "leading": true
       },
       {
        "name": "Tim Plank",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Marybeth Sears",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 199,
+       "pct": 17.77,
+       "leading": true
       },
       {
        "name": "Emily Benford",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 198,
+       "pct": 17.68,
+       "leading": true
+      },
+      {
+       "name": "Larry J. Longman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 190,
+       "pct": 16.96,
        "leading": false
       },
       {
        "name": "Paul D. Dayton",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 168,
+       "pct": 15.0,
        "leading": false
       },
       {
        "name": "Ryan Handy",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 160,
+       "pct": 14.29,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:22 PM ET"
+     "total_votes": 1120,
+     "status": "reporting",
+     "updated": "8:23 PM ET",
+     "margin_votes": 8,
+     "margin_pct": 0.72
     },
     {
      "id": "han-blue-river-twp-board",
@@ -8097,6 +8099,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:22:20.231603-05:00",
- "last_updated": "8:22 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:23:26.630207-05:00",
+ "last_updated": "8:23 PM ET, Tue Nov 3, 2026"
 }

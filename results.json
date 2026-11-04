@@ -1054,42 +1054,44 @@
      "vote_for": 2,
      "candidates": [
       {
+       "name": "Linda A. Robinson",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 205,
+       "pct": 32.44,
+       "leading": true
+      },
+      {
        "name": "Ruth Hess",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 143,
+       "pct": 22.63,
+       "leading": true
+      },
+      {
+       "name": "Howard Lee Savage, Sr.",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 143,
+       "pct": 22.63,
        "leading": false
       },
       {
        "name": "Scott Jones",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Linda A. Robinson",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Howard Lee Savage, Sr.",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 141,
+       "pct": 22.31,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:22 PM ET"
+     "total_votes": 632,
+     "status": "reporting",
+     "updated": "8:30 PM ET",
+     "margin_votes": 0,
+     "margin_pct": 0.0
     },
     {
      "id": "han-fortville-town-council-at-large",
@@ -8103,6 +8105,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:30:13.335996-05:00",
+ "last_updated_iso": "2026-11-03T20:30:34.247408-05:00",
  "last_updated": "8:30 PM ET, Tue Nov 3, 2026"
 }

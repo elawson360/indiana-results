@@ -158,24 +158,26 @@
        "name": "Gary McDaniel",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
+       "votes": 3137,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
+       "pct": 66.99,
+       "leading": true
       },
       {
        "name": "Jordan Coleman",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 1546,
+       "pct": 33.01,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:01 PM ET"
+     "total_votes": 4683,
+     "status": "reporting",
+     "updated": "8:03 PM ET",
+     "margin_votes": 1591,
+     "margin_pct": 33.98
     },
     {
      "id": "han-council-d1",
@@ -187,23 +189,25 @@
        "name": "Clark Smith",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 945,
+       "pct": 77.46,
+       "leading": true
       },
       {
        "name": "Anthony Arnold",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 275,
+       "pct": 22.54,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:01 PM ET"
+     "total_votes": 1220,
+     "status": "reporting",
+     "updated": "8:03 PM ET",
+     "margin_votes": 670,
+     "margin_pct": 54.92
     },
     {
      "id": "han-council-d2",
@@ -215,23 +219,25 @@
        "name": "Marcia Moore",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 505,
+       "pct": 64.91,
+       "leading": true
       },
       {
        "name": "Luke J Lomax",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 273,
+       "pct": 35.09,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:01 PM ET"
+     "total_votes": 778,
+     "status": "reporting",
+     "updated": "8:03 PM ET",
+     "margin_votes": 232,
+     "margin_pct": 29.82
     },
     {
      "id": "han-council-d3",
@@ -448,42 +454,44 @@
      "vote_for": 3,
      "candidates": [
       {
-       "name": "Andrew deLivron",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "name": "William (Bill) McDonald",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 326,
+       "pct": 29.96,
+       "leading": true
       },
       {
        "name": "Greg Rogers",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 274,
+       "pct": 25.18,
+       "leading": true
       },
       {
        "name": "David K. Stillinger",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 262,
+       "pct": 24.08,
+       "leading": true
       },
       {
-       "name": "William (Bill) McDonald",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "name": "Andrew deLivron",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 226,
+       "pct": 20.77,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:01 PM ET"
+     "total_votes": 1088,
+     "status": "reporting",
+     "updated": "8:03 PM ET",
+     "margin_votes": 36,
+     "margin_pct": 3.31
     },
     {
      "id": "han-center-twp-board",
@@ -8069,6 +8077,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:01:34.217305-05:00",
- "last_updated": "8:01 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:03:23.116144-05:00",
+ "last_updated": "8:03 PM ET, Tue Nov 3, 2026"
 }

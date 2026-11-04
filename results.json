@@ -215,25 +215,25 @@
        "name": "Marcia Moore",
        "party": "R",
        "party_full": "Republican",
-       "votes": 601,
-       "pct": 67.3,
+       "votes": 1006,
+       "pct": 69.81,
        "leading": true
       },
       {
        "name": "Luke J Lomax",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 292,
-       "pct": 32.7,
+       "votes": 435,
+       "pct": 30.19,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 893,
+     "total_votes": 1441,
      "status": "reporting",
-     "updated": "8:14 PM ET",
-     "margin_votes": 309,
-     "margin_pct": 34.6
+     "updated": "8:26 PM ET",
+     "margin_votes": 571,
+     "margin_pct": 39.62
     },
     {
      "id": "han-council-d3",
@@ -245,25 +245,25 @@
        "name": "Jeff Cummins",
        "party": "R",
        "party_full": "Republican",
-       "votes": 221,
-       "pct": 65.38,
+       "votes": 1167,
+       "pct": 61.88,
        "leading": true
       },
       {
        "name": "Carol Pearson",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 117,
-       "pct": 34.62,
+       "votes": 719,
+       "pct": 38.12,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 338,
+     "total_votes": 1886,
      "status": "reporting",
-     "updated": "8:14 PM ET",
-     "margin_votes": 104,
-     "margin_pct": 30.76
+     "updated": "8:26 PM ET",
+     "margin_votes": 448,
+     "margin_pct": 23.76
     },
     {
      "id": "han-council-d4",
@@ -8099,6 +8099,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:25:40.164699-05:00",
- "last_updated": "8:25 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:26:57.903149-05:00",
+ "last_updated": "8:26 PM ET, Tue Nov 3, 2026"
 }

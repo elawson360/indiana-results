@@ -2,7 +2,7 @@
  "title": "Indiana Election Night Results — Nov 3, 2026",
  "is_example": false,
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
- "source_note": "ENR: 4345/5067 precincts statewide · Imported from Indiana ENR",
+ "source_note": "Hancock Co. unofficial final (11:23 PM report; Daily Reporter final as of 11:40 PM)",
  "chambers": {
   "us-house": {
    "name": "Indiana US House delegation",
@@ -133,25 +133,25 @@
        "name": "Gary W. Achor, Jr.",
        "party": "R",
        "party_full": "Republican",
-       "votes": 7399,
-       "pct": 69.23,
+       "votes": 16589,
+       "pct": 61.25,
        "leading": true
       },
       {
        "name": "James Calvert, Jr.",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 3289,
-       "pct": 30.77,
+       "votes": 10497,
+       "pct": 38.75,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 10688,
+     "total_votes": 27086,
      "status": "reporting",
-     "updated": "9:04 PM ET",
-     "margin_votes": 4110,
-     "margin_pct": 38.46
+     "updated": "12:04 AM ET",
+     "margin_votes": 6092,
+     "margin_pct": 22.5
     },
     {
      "id": "han-commissioner-d2",
@@ -163,26 +163,26 @@
        "name": "Gary McDaniel",
        "party": "R",
        "party_full": "Republican",
-       "votes": 6835,
+       "votes": 15360,
        "incumbent": true,
-       "pct": 64.65,
+       "pct": 57.3,
        "leading": true
       },
       {
        "name": "Jordan Coleman",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 3737,
-       "pct": 35.35,
+       "votes": 11447,
+       "pct": 42.7,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 10572,
+     "total_votes": 26807,
      "status": "reporting",
-     "updated": "9:04 PM ET",
-     "margin_votes": 3098,
-     "margin_pct": 29.3
+     "updated": "12:04 AM ET",
+     "margin_votes": 3913,
+     "margin_pct": 14.6
     },
     {
      "id": "han-council-d1",
@@ -194,25 +194,25 @@
        "name": "Clark Smith",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2508,
-       "pct": 71.13,
+       "votes": 4808,
+       "pct": 61.63,
        "leading": true
       },
       {
        "name": "Anthony Arnold",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1018,
-       "pct": 28.87,
+       "votes": 2994,
+       "pct": 38.37,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 3526,
+     "total_votes": 7802,
      "status": "reporting",
-     "updated": "9:04 PM ET",
-     "margin_votes": 1490,
-     "margin_pct": 42.26
+     "updated": "12:04 AM ET",
+     "margin_votes": 1814,
+     "margin_pct": 23.26
     },
     {
      "id": "han-council-d2",
@@ -224,25 +224,25 @@
        "name": "Marcia Moore",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1301,
-       "pct": 67.62,
+       "votes": 3913,
+       "pct": 64.9,
        "leading": true
       },
       {
        "name": "Luke J Lomax",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 623,
-       "pct": 32.38,
+       "votes": 2116,
+       "pct": 35.1,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1924,
+     "total_votes": 6029,
      "status": "reporting",
-     "updated": "9:04 PM ET",
-     "margin_votes": 678,
-     "margin_pct": 35.24
+     "updated": "12:04 AM ET",
+     "margin_votes": 1797,
+     "margin_pct": 29.8
     },
     {
      "id": "han-council-d3",
@@ -254,25 +254,25 @@
        "name": "Jeff Cummins",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1178,
-       "pct": 61.68,
+       "votes": 2707,
+       "pct": 56.08,
        "leading": true
       },
       {
        "name": "Carol Pearson",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 732,
-       "pct": 38.32,
+       "votes": 2120,
+       "pct": 43.92,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1910,
+     "total_votes": 4827,
      "status": "reporting",
-     "updated": "9:04 PM ET",
-     "margin_votes": 446,
-     "margin_pct": 23.36
+     "updated": "12:04 AM ET",
+     "margin_votes": 587,
+     "margin_pct": 12.16
     },
     {
      "id": "han-council-d4",
@@ -464,41 +464,41 @@
        "name": "William (Bill) McDonald",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 723,
-       "pct": 30.61,
+       "votes": 1656,
+       "pct": 31.51,
        "leading": true
       },
       {
        "name": "Greg Rogers",
        "party": "R",
        "party_full": "Republican",
-       "votes": 591,
-       "pct": 25.02,
+       "votes": 1267,
+       "pct": 24.11,
        "leading": true
       },
       {
        "name": "David K. Stillinger",
        "party": "R",
        "party_full": "Republican",
-       "votes": 559,
-       "pct": 23.67,
+       "votes": 1243,
+       "pct": 23.65,
        "leading": true
       },
       {
        "name": "Andrew deLivron",
        "party": "R",
        "party_full": "Republican",
-       "votes": 489,
-       "pct": 20.7,
+       "votes": 1089,
+       "pct": 20.72,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2362,
+     "total_votes": 5255,
      "status": "reporting",
-     "updated": "9:45 PM ET",
-     "margin_votes": 70,
-     "margin_pct": 2.97
+     "updated": "12:04 AM ET",
+     "margin_votes": 154,
+     "margin_pct": 2.93
     },
     {
      "id": "han-center-twp-board",
@@ -510,57 +510,57 @@
        "name": "Dakota M. Coates",
        "party": "R",
        "party_full": "Republican",
-       "votes": 87,
-       "pct": 23.2,
+       "votes": 3563,
+       "pct": 20.36,
        "leading": true
       },
       {
        "name": "David Hawkins",
        "party": "R",
        "party_full": "Republican",
-       "votes": 80,
-       "pct": 21.33,
+       "votes": 3377,
+       "pct": 19.3,
        "leading": true
       },
       {
        "name": "Bryan Leonard",
        "party": "R",
        "party_full": "Republican",
-       "votes": 72,
-       "pct": 19.2,
+       "votes": 3244,
+       "pct": 18.54,
        "leading": true
       },
       {
        "name": "Jesse Vetters",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 51,
-       "pct": 13.6,
+       "votes": 2748,
+       "pct": 15.71,
        "leading": false
       },
       {
        "name": "Justin S. Sweigart",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 43,
-       "pct": 11.47,
+       "votes": 2442,
+       "pct": 13.96,
        "leading": false
       },
       {
        "name": "Jon P. Wogenstahl",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 42,
-       "pct": 11.2,
+       "votes": 2122,
+       "pct": 12.13,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 375,
+     "total_votes": 17496,
      "status": "reporting",
-     "updated": "8:11 PM ET",
-     "margin_votes": 21,
-     "margin_pct": 5.6
+     "updated": "12:04 AM ET",
+     "margin_votes": 496,
+     "margin_pct": 2.83
     },
     {
      "id": "han-jackson-twp-board",
@@ -572,41 +572,41 @@
        "name": "Jason Effing",
        "party": "R",
        "party_full": "Republican",
-       "votes": 101,
-       "pct": 31.17,
+       "votes": 321,
+       "pct": 29.94,
        "leading": true
       },
       {
        "name": "Bob McDaniel",
        "party": "R",
        "party_full": "Republican",
-       "votes": 95,
-       "pct": 29.32,
+       "votes": 303,
+       "pct": 28.26,
        "leading": true
       },
       {
        "name": "Keith A. Wilson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 93,
-       "pct": 28.7,
+       "votes": 290,
+       "pct": 27.05,
        "leading": true
       },
       {
        "name": "Kiley Blalock",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 35,
-       "pct": 10.8,
+       "votes": 158,
+       "pct": 14.74,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 324,
+     "total_votes": 1072,
      "status": "reporting",
-     "updated": "8:11 PM ET",
-     "margin_votes": 58,
-     "margin_pct": 17.9
+     "updated": "12:04 AM ET",
+     "margin_votes": 132,
+     "margin_pct": 12.31
     },
     {
      "id": "han-sugar-creek-twp-board",
@@ -618,57 +618,57 @@
        "name": "Joe Fitzgerald",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1160,
-       "pct": 25.21,
+       "votes": 2773,
+       "pct": 22.51,
        "leading": true
       },
       {
        "name": "Dale A. Kelso",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1016,
-       "pct": 22.08,
+       "votes": 2555,
+       "pct": 20.74,
        "leading": true
       },
       {
        "name": "Mark Mattes",
        "party": "R",
        "party_full": "Republican",
-       "votes": 945,
-       "pct": 20.54,
+       "votes": 2402,
+       "pct": 19.5,
        "leading": true
       },
       {
        "name": "Liza Sumpter",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 551,
-       "pct": 11.98,
+       "votes": 1694,
+       "pct": 13.75,
        "leading": false
       },
       {
        "name": "Corey Dick",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 466,
-       "pct": 10.13,
+       "votes": 1457,
+       "pct": 11.83,
        "leading": false
       },
       {
        "name": "Brian R. Hollington",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 463,
-       "pct": 10.06,
+       "votes": 1436,
+       "pct": 11.66,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 4601,
+     "total_votes": 12317,
      "status": "reporting",
-     "updated": "8:11 PM ET",
-     "margin_votes": 394,
-     "margin_pct": 8.56
+     "updated": "12:04 AM ET",
+     "margin_votes": 708,
+     "margin_pct": 5.75
     },
     {
      "id": "han-vernon-twp-board",
@@ -677,60 +677,60 @@
      "vote_for": 3,
      "candidates": [
       {
-       "name": "Marybeth Sears",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 1225,
-       "pct": 18.67,
-       "leading": true
-      },
-      {
        "name": "Emily Benford",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1182,
-       "pct": 18.02,
+       "votes": 2777,
+       "pct": 19.42,
+       "leading": true
+      },
+      {
+       "name": "Marybeth Sears",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 2387,
+       "pct": 16.69,
        "leading": true
       },
       {
        "name": "Tim Plank",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1181,
-       "pct": 18.0,
+       "votes": 2315,
+       "pct": 16.19,
        "leading": true
-      },
-      {
-       "name": "Larry J. Longman",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 1153,
-       "pct": 17.57,
-       "leading": false
       },
       {
        "name": "Paul D. Dayton",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 918,
-       "pct": 13.99,
+       "votes": 2296,
+       "pct": 16.06,
        "leading": false
       },
       {
        "name": "Ryan Handy",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 902,
-       "pct": 13.75,
+       "votes": 2266,
+       "pct": 15.85,
+       "leading": false
+      },
+      {
+       "name": "Larry J. Longman",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 2258,
+       "pct": 15.79,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 6561,
+     "total_votes": 14299,
      "status": "reporting",
-     "updated": "9:45 PM ET",
-     "margin_votes": 28,
-     "margin_pct": 0.43
+     "updated": "12:04 AM ET",
+     "margin_votes": 19,
+     "margin_pct": 0.13
     },
     {
      "id": "han-blue-river-twp-board",
@@ -1066,41 +1066,41 @@
        "name": "Linda A. Robinson",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 899,
-       "pct": 30.22,
+       "votes": 2118,
+       "pct": 32.47,
+       "leading": true
+      },
+      {
+       "name": "Howard Lee Savage, Sr.",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 1609,
+       "pct": 24.67,
        "leading": true
       },
       {
        "name": "Ruth Hess",
        "party": "R",
        "party_full": "Republican",
-       "votes": 719,
-       "pct": 24.17,
-       "leading": true
+       "votes": 1408,
+       "pct": 21.59,
+       "leading": false
       },
       {
        "name": "Scott Jones",
        "party": "R",
        "party_full": "Republican",
-       "votes": 718,
-       "pct": 24.13,
-       "leading": false
-      },
-      {
-       "name": "Howard Lee Savage, Sr.",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 639,
-       "pct": 21.48,
+       "votes": 1388,
+       "pct": 21.28,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2975,
+     "total_votes": 6523,
      "status": "reporting",
-     "updated": "9:45 PM ET",
-     "margin_votes": 1,
-     "margin_pct": 0.04
+     "updated": "12:04 AM ET",
+     "margin_votes": 201,
+     "margin_pct": 3.08
     },
     {
      "id": "han-fortville-town-council-at-large",
@@ -1150,27 +1150,29 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Rosina T. (Rose) Metz",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Tammy Stunda",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 975,
+       "pct": 60.11,
+       "leading": true
+      },
+      {
+       "name": "Rosina T. (Rose) Metz",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 647,
+       "pct": 39.89,
        "leading": false
       }
      ],
      "note": "Number of seats (vote for N) not verified.",
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "11:27 PM ET"
+     "total_votes": 1622,
+     "status": "reporting",
+     "updated": "12:04 AM ET",
+     "margin_votes": 328,
+     "margin_pct": 20.22
     },
     {
      "id": "han-school-greenfield-central-d2",
@@ -1182,23 +1184,25 @@
        "name": "David F. Long",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 3881,
+       "pct": 52.88,
+       "leading": true
       },
       {
        "name": "Trent Taylor",
        "party": "I",
        "party_full": "Independent",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 3458,
+       "pct": 47.12,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "11:27 PM ET"
+     "total_votes": 7339,
+     "status": "reporting",
+     "updated": "12:04 AM ET",
+     "margin_votes": 423,
+     "margin_pct": 5.76
     },
     {
      "id": "han-school-greenfield-central-d3",
@@ -1210,25 +1214,25 @@
        "name": "S. Katie Sanford Evanoff",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1753,
-       "pct": 61.34,
+       "votes": 4059,
+       "pct": 56.4,
        "leading": true
       },
       {
        "name": "Rebekah Cerqua",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1105,
-       "pct": 38.66,
+       "votes": 3138,
+       "pct": 43.6,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2858,
+     "total_votes": 7197,
      "status": "reporting",
-     "updated": "8:30 PM ET",
-     "margin_votes": 648,
-     "margin_pct": 22.68
+     "updated": "12:04 AM ET",
+     "margin_votes": 921,
+     "margin_pct": 12.8
     },
     {
      "id": "han-school-new-palestine-d3",
@@ -1240,25 +1244,25 @@
        "name": "Emily Boesen",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1403,
-       "pct": 59.37,
+       "votes": 3036,
+       "pct": 56.04,
        "leading": true
       },
       {
        "name": "Brian Hart",
        "party": "I",
        "party_full": "Independent",
-       "votes": 960,
-       "pct": 40.63,
+       "votes": 2382,
+       "pct": 43.96,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2363,
+     "total_votes": 5418,
      "status": "reporting",
-     "updated": "9:04 PM ET",
-     "margin_votes": 443,
-     "margin_pct": 18.74
+     "updated": "12:04 AM ET",
+     "margin_votes": 654,
+     "margin_pct": 12.08
     },
     {
      "id": "han-school-eastern-hancock-d1",
@@ -1287,26 +1291,26 @@
      "vote_for": 2,
      "candidates": [
       {
-       "name": "Brandon Ecker",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
        "name": "Kellie Freeman",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 4643,
+       "pct": 52.49,
+       "leading": true
+      },
+      {
+       "name": "Brandon Ecker",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 4202,
+       "pct": 47.51,
+       "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 0,
+     "total_votes": 8845,
      "status": "unopposed",
-     "updated": "11:27 PM ET"
+     "updated": "12:04 AM ET"
     },
     {
      "id": "han-school-new-palestine-d5",
@@ -7050,33 +7054,33 @@
        "name": "Stephanie Jo Yocum",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 8698,
-       "pct": 50.63,
+       "votes": 11644,
+       "pct": 52.27,
        "leading": true
       },
       {
        "name": "Chris Jeter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 8483,
+       "votes": 10631,
        "incumbent": true,
-       "pct": 49.37,
+       "pct": 47.73,
        "leading": false
       }
      ],
      "local": "Hancock, Madison",
      "uncontested": false,
-     "total_votes": 17181,
+     "total_votes": 22275,
      "status": "reporting",
-     "updated": "11:01 PM ET",
+     "updated": "12:04 AM ET",
      "county_votes": {
       "Madison": {
        "Chris Jeter": 1423,
        "Stephanie Jo Yocum": 1369
       },
       "Hancock": {
-       "Chris Jeter": 2313,
-       "Stephanie Jo Yocum": 2250
+       "Chris Jeter": 4461,
+       "Stephanie Jo Yocum": 5196
       },
       "State feed (other counties)": {
        "Stephanie Jo Yocum": 5079,
@@ -7088,8 +7092,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 215,
-     "margin_pct": 1.26
+     "margin_votes": 1013,
+     "margin_pct": 4.54
     },
     {
      "id": "in-house-089",
@@ -8275,6 +8279,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T23:27:56.939661-05:00",
- "last_updated": "11:27 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-04T00:04:41.747758-05:00",
+ "last_updated": "12:04 AM ET, Wed Nov 4, 2026"
 }

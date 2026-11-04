@@ -5818,7 +5818,7 @@
        "name": "Ethan J. Lawson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 4932,
+       "votes": 7831,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
@@ -5829,15 +5829,15 @@
      "watch": "Unopposed · tracking vote totals",
      "note": "Did not make ballot: Reece Axel-Adams (D).",
      "uncontested": true,
-     "total_votes": 4932,
+     "total_votes": 7831,
      "status": "unopposed",
-     "updated": "8:13 PM ET",
+     "updated": "8:31 PM ET",
      "county_votes": {
       "Madison": {
        "Ethan J. Lawson": 2202
       },
       "Hancock": {
-       "Ethan J. Lawson": 2730
+       "Ethan J. Lawson": 5629
       }
      },
      "counties_reporting": [
@@ -5857,36 +5857,36 @@
        "name": "Cory Criswell",
        "party": "R",
        "party_full": "Republican",
-       "votes": 222,
+       "votes": 271,
        "incumbent": true,
-       "pct": 84.41,
+       "pct": 82.12,
        "leading": true
       },
       {
        "name": "Nan Polk",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 41,
-       "pct": 15.59,
+       "votes": 59,
+       "pct": 17.88,
        "leading": false
       }
      ],
      "local": "Hancock",
      "uncontested": false,
-     "total_votes": 263,
+     "total_votes": 330,
      "status": "reporting",
-     "updated": "8:01 PM ET",
+     "updated": "8:31 PM ET",
      "county_votes": {
       "Hancock": {
-       "Cory Criswell": 222,
-       "Nan Polk": 41
+       "Cory Criswell": 271,
+       "Nan Polk": 59
       }
      },
      "counties_reporting": [
       "Hancock"
      ],
-     "margin_votes": 181,
-     "margin_pct": 68.82
+     "margin_votes": 212,
+     "margin_pct": 64.24
     },
     {
      "id": "in-house-055",
@@ -8105,6 +8105,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:30:34.247408-05:00",
- "last_updated": "8:30 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:31:50.593195-05:00",
+ "last_updated": "8:31 PM ET, Tue Nov 3, 2026"
 }

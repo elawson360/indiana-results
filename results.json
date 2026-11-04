@@ -2602,31 +2602,31 @@
      "id": "mad-lapel-town-council-at-large",
      "name": "Lapel Town Council, At Large",
      "group": "Towns",
-     "vote_for": 3,
+     "vote_for": 2,
      "candidates": [
       {
        "name": "Allicia N Rockwell-West",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 95,
+       "pct": 50.26,
+       "leading": true
       },
       {
        "name": "Lindsay Washmuth",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
+       "votes": 94,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
+       "pct": 49.74,
+       "leading": true
       }
      ],
      "note": "Vote for 3 (2 candidates). Rockwell-West confirmed on state candidate list and state ENR general feed (Oct 27 check); earlier Ballotpedia/voter-guide listing of Roger Fouse is outdated.",
      "uncontested": true,
-     "total_votes": 0,
+     "total_votes": 189,
      "status": "unopposed",
-     "updated": "7:21 PM ET"
+     "updated": "7:22 PM ET"
     },
     {
      "id": "mad-pendleton-town-council-at-large-2",
@@ -7961,6 +7961,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T19:21:58.481167-05:00",
- "last_updated": "7:21 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T19:22:04.481233-05:00",
+ "last_updated": "7:22 PM ET, Tue Nov 3, 2026"
 }

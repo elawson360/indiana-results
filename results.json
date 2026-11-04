@@ -57,21 +57,20 @@
      "R": 3
     },
     "leading": {
-     "R": 13,
-     "D": 6
+     "R": 14,
+     "D": 5
     },
     "not_reported": 60,
     "projected": {
-     "R": 16,
-     "D": 24
+     "R": 17,
+     "D": 23
     },
     "flips": [
      "in-house-015",
      "in-house-019",
      "in-house-021",
      "in-house-036",
-     "in-house-048",
-     "in-house-088"
+     "in-house-048"
     ]
    }
   },
@@ -503,55 +502,57 @@
        "name": "Dakota M. Coates",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 87,
+       "pct": 23.2,
+       "leading": true
       },
       {
        "name": "David Hawkins",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 80,
+       "pct": 21.33,
+       "leading": true
       },
       {
        "name": "Bryan Leonard",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 72,
+       "pct": 19.2,
+       "leading": true
+      },
+      {
+       "name": "Jesse Vetters",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 51,
+       "pct": 13.6,
        "leading": false
       },
       {
        "name": "Justin S. Sweigart",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Jesse Vetters",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 43,
+       "pct": 11.47,
        "leading": false
       },
       {
        "name": "Jon P. Wogenstahl",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 42,
+       "pct": 11.2,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:01 PM ET"
+     "total_votes": 375,
+     "status": "reporting",
+     "updated": "8:11 PM ET",
+     "margin_votes": 21,
+     "margin_pct": 5.6
     },
     {
      "id": "han-jackson-twp-board",
@@ -563,39 +564,41 @@
        "name": "Jason Effing",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 101,
+       "pct": 31.17,
+       "leading": true
       },
       {
        "name": "Bob McDaniel",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 95,
+       "pct": 29.32,
+       "leading": true
       },
       {
        "name": "Keith A. Wilson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 93,
+       "pct": 28.7,
+       "leading": true
       },
       {
        "name": "Kiley Blalock",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 35,
+       "pct": 10.8,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:01 PM ET"
+     "total_votes": 324,
+     "status": "reporting",
+     "updated": "8:11 PM ET",
+     "margin_votes": 58,
+     "margin_pct": 17.9
     },
     {
      "id": "han-sugar-creek-twp-board",
@@ -607,55 +610,57 @@
        "name": "Joe Fitzgerald",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 1160,
+       "pct": 25.21,
+       "leading": true
       },
       {
        "name": "Dale A. Kelso",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 1016,
+       "pct": 22.08,
+       "leading": true
       },
       {
        "name": "Mark Mattes",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 945,
+       "pct": 20.54,
+       "leading": true
+      },
+      {
+       "name": "Liza Sumpter",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 551,
+       "pct": 11.98,
        "leading": false
       },
       {
        "name": "Corey Dick",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 466,
+       "pct": 10.13,
        "leading": false
       },
       {
        "name": "Brian R. Hollington",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
-      },
-      {
-       "name": "Liza Sumpter",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 463,
+       "pct": 10.06,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:01 PM ET"
+     "total_votes": 4601,
+     "status": "reporting",
+     "updated": "8:11 PM ET",
+     "margin_votes": 394,
+     "margin_pct": 8.56
     },
     {
      "id": "han-vernon-twp-board",
@@ -6901,44 +6906,44 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "Stephanie Jo Yocum",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 1794,
-       "pct": 50.11,
-       "leading": true
-      },
-      {
        "name": "Chris Jeter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1786,
+       "votes": 1877,
        "incumbent": true,
-       "pct": 49.89,
+       "pct": 50.62,
+       "leading": true
+      },
+      {
+       "name": "Stephanie Jo Yocum",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 1831,
+       "pct": 49.38,
        "leading": false
       }
      ],
      "local": "Hancock, Madison",
      "uncontested": false,
-     "total_votes": 3580,
+     "total_votes": 3708,
      "status": "reporting",
-     "updated": "8:01 PM ET",
+     "updated": "8:11 PM ET",
      "county_votes": {
       "Madison": {
        "Chris Jeter": 1226,
        "Stephanie Jo Yocum": 1261
       },
       "Hancock": {
-       "Chris Jeter": 560,
-       "Stephanie Jo Yocum": 533
+       "Chris Jeter": 651,
+       "Stephanie Jo Yocum": 570
       }
      },
      "counties_reporting": [
       "Hancock",
       "Madison"
      ],
-     "margin_votes": 8,
-     "margin_pct": 0.22
+     "margin_votes": 46,
+     "margin_pct": 1.24
     },
     {
      "id": "in-house-089",
@@ -8077,6 +8082,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:03:23.116144-05:00",
- "last_updated": "8:03 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:11:44.908825-05:00",
+ "last_updated": "8:11 PM ET, Tue Nov 3, 2026"
 }

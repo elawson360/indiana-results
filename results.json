@@ -121,25 +121,25 @@
        "name": "Gary W. Achor, Jr.",
        "party": "R",
        "party_full": "Republican",
-       "votes": 6370,
-       "pct": 71.24,
+       "votes": 7399,
+       "pct": 69.23,
        "leading": true
       },
       {
        "name": "James Calvert, Jr.",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2571,
-       "pct": 28.76,
+       "votes": 3289,
+       "pct": 30.77,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 8941,
+     "total_votes": 10688,
      "status": "reporting",
-     "updated": "8:25 PM ET",
-     "margin_votes": 3799,
-     "margin_pct": 42.48
+     "updated": "9:04 PM ET",
+     "margin_votes": 4110,
+     "margin_pct": 38.46
     },
     {
      "id": "han-commissioner-d2",
@@ -151,26 +151,26 @@
        "name": "Gary McDaniel",
        "party": "R",
        "party_full": "Republican",
-       "votes": 4030,
+       "votes": 6835,
        "incumbent": true,
-       "pct": 68.5,
+       "pct": 64.65,
        "leading": true
       },
       {
        "name": "Jordan Coleman",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1853,
-       "pct": 31.5,
+       "votes": 3737,
+       "pct": 35.35,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 5883,
+     "total_votes": 10572,
      "status": "reporting",
-     "updated": "8:14 PM ET",
-     "margin_votes": 2177,
-     "margin_pct": 37.0
+     "updated": "9:04 PM ET",
+     "margin_votes": 3098,
+     "margin_pct": 29.3
     },
     {
      "id": "han-council-d1",
@@ -182,25 +182,25 @@
        "name": "Clark Smith",
        "party": "R",
        "party_full": "Republican",
-       "votes": 945,
-       "pct": 77.46,
+       "votes": 2508,
+       "pct": 71.13,
        "leading": true
       },
       {
        "name": "Anthony Arnold",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 275,
-       "pct": 22.54,
+       "votes": 1018,
+       "pct": 28.87,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1220,
+     "total_votes": 3526,
      "status": "reporting",
-     "updated": "8:03 PM ET",
-     "margin_votes": 670,
-     "margin_pct": 54.92
+     "updated": "9:04 PM ET",
+     "margin_votes": 1490,
+     "margin_pct": 42.26
     },
     {
      "id": "han-council-d2",
@@ -212,25 +212,25 @@
        "name": "Marcia Moore",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1006,
-       "pct": 69.81,
+       "votes": 1301,
+       "pct": 67.62,
        "leading": true
       },
       {
        "name": "Luke J Lomax",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 435,
-       "pct": 30.19,
+       "votes": 623,
+       "pct": 32.38,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1441,
+     "total_votes": 1924,
      "status": "reporting",
-     "updated": "8:26 PM ET",
-     "margin_votes": 571,
-     "margin_pct": 39.62
+     "updated": "9:04 PM ET",
+     "margin_votes": 678,
+     "margin_pct": 35.24
     },
     {
      "id": "han-council-d3",
@@ -242,25 +242,25 @@
        "name": "Jeff Cummins",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1167,
-       "pct": 61.88,
+       "votes": 1178,
+       "pct": 61.68,
        "leading": true
       },
       {
        "name": "Carol Pearson",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 719,
-       "pct": 38.12,
+       "votes": 732,
+       "pct": 38.32,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1886,
+     "total_votes": 1910,
      "status": "reporting",
-     "updated": "8:26 PM ET",
-     "margin_votes": 448,
-     "margin_pct": 23.76
+     "updated": "9:04 PM ET",
+     "margin_votes": 446,
+     "margin_pct": 23.36
     },
     {
      "id": "han-council-d4",
@@ -452,41 +452,41 @@
        "name": "William (Bill) McDonald",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 398,
-       "pct": 27.24,
+       "votes": 633,
+       "pct": 28.93,
        "leading": true
       },
       {
        "name": "Greg Rogers",
        "party": "R",
        "party_full": "Republican",
-       "votes": 381,
-       "pct": 26.08,
+       "votes": 560,
+       "pct": 25.59,
        "leading": true
       },
       {
        "name": "David K. Stillinger",
        "party": "R",
        "party_full": "Republican",
-       "votes": 365,
-       "pct": 24.98,
+       "votes": 534,
+       "pct": 24.41,
        "leading": true
       },
       {
        "name": "Andrew deLivron",
        "party": "R",
        "party_full": "Republican",
-       "votes": 317,
-       "pct": 21.7,
+       "votes": 461,
+       "pct": 21.07,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1461,
+     "total_votes": 2188,
      "status": "reporting",
-     "updated": "8:21 PM ET",
-     "margin_votes": 48,
-     "margin_pct": 3.28
+     "updated": "9:04 PM ET",
+     "margin_votes": 73,
+     "margin_pct": 3.34
     },
     {
      "id": "han-center-twp-board",
@@ -1228,25 +1228,25 @@
        "name": "Emily Boesen",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1349,
-       "pct": 59.58,
+       "votes": 1403,
+       "pct": 59.37,
        "leading": true
       },
       {
        "name": "Brian Hart",
        "party": "I",
        "party_full": "Independent",
-       "votes": 915,
-       "pct": 40.42,
+       "votes": 960,
+       "pct": 40.63,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2264,
+     "total_votes": 2363,
      "status": "reporting",
-     "updated": "8:30 PM ET",
-     "margin_votes": 434,
-     "margin_pct": 19.16
+     "updated": "9:04 PM ET",
+     "margin_votes": 443,
+     "margin_pct": 18.74
     },
     {
      "id": "han-school-eastern-hancock-d1",
@@ -3341,7 +3341,7 @@
        "name": "Max Engling",
        "party": "R",
        "party_full": "Republican",
-       "votes": 240496,
+       "votes": 241325,
        "pct": 47.86,
        "leading": true
       },
@@ -3349,23 +3349,23 @@
        "name": "Beau Bayh",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 235023,
-       "pct": 46.77,
+       "votes": 235781,
+       "pct": 46.76,
        "leading": false
       },
       {
        "name": "Greg Ballard",
        "party": "Lincoln",
        "party_full": "Lincoln Party",
-       "votes": 16566,
-       "pct": 3.3,
+       "votes": 16688,
+       "pct": 3.31,
        "leading": false
       },
       {
        "name": "Lauri A. Shillings",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 10384,
+       "votes": 10433,
        "pct": 2.07,
        "leading": false
       },
@@ -3382,9 +3382,9 @@
      "note": "Open seat (Morales lost GOP convention)",
      "watch": "Marquee statewide race",
      "uncontested": false,
-     "total_votes": 502472,
+     "total_votes": 504230,
      "status": "reporting",
-     "updated": "9:01 PM ET",
+     "updated": "9:04 PM ET",
      "county_votes": {
       "Madison": {
        "Max Engling": 14661,
@@ -3400,10 +3400,10 @@
        "Andrew Delano": 3
       },
       "Hancock": {
-       "Max Engling": 5147,
-       "Beau Bayh": 3071,
-       "Lauri A. Shillings": 225,
-       "Greg Ballard": 553
+       "Max Engling": 5976,
+       "Beau Bayh": 3829,
+       "Lauri A. Shillings": 274,
+       "Greg Ballard": 675
       }
      },
      "counties_reporting": [
@@ -3411,8 +3411,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 5473,
-     "margin_pct": 1.09
+     "margin_votes": 5544,
+     "margin_pct": 1.1
     },
     {
      "id": "in-comptroller",
@@ -3997,37 +3997,42 @@
        "name": "Jefferson Shreve",
        "party": "R",
        "party_full": "Republican",
-       "votes": 5880,
+       "votes": 36650,
        "incumbent": true,
-       "pct": 66.61,
+       "pct": 60.34,
        "leading": true
       },
       {
        "name": "Cynthia (Cinde) Wirth",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2948,
-       "pct": 33.39,
+       "votes": 24086,
+       "pct": 39.66,
        "leading": false
       }
      ],
      "watch": "Shreve vs. Wirth · Hancock Co.",
      "local": "Hancock",
      "uncontested": false,
-     "total_votes": 8828,
+     "total_votes": 60736,
      "status": "reporting",
-     "updated": "8:27 PM ET",
+     "updated": "9:04 PM ET",
      "county_votes": {
       "Hancock": {
-       "Jefferson Shreve": 5880,
-       "Cynthia (Cinde) Wirth": 2948
+       "Jefferson Shreve": 6856,
+       "Cynthia (Cinde) Wirth": 3707
+      },
+      "State feed (other counties)": {
+       "Jefferson Shreve": 29794,
+       "Cynthia (Cinde) Wirth": 20379
       }
      },
      "counties_reporting": [
-      "Hancock"
+      "Hancock",
+      "State feed (other counties)"
      ],
-     "margin_votes": 2932,
-     "margin_pct": 33.22
+     "margin_votes": 12564,
+     "margin_pct": 20.68
     },
     {
      "id": "us-house-07",
@@ -5833,7 +5838,7 @@
        "name": "Ethan J. Lawson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 9141,
+       "votes": 9330,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
@@ -5844,15 +5849,15 @@
      "watch": "Unopposed · tracking vote totals",
      "note": "Did not make ballot: Reece Axel-Adams (D).",
      "uncontested": true,
-     "total_votes": 9141,
+     "total_votes": 9330,
      "status": "unopposed",
-     "updated": "9:01 PM ET",
+     "updated": "9:04 PM ET",
      "county_votes": {
       "Madison": {
        "Ethan J. Lawson": 3512
       },
       "Hancock": {
-       "Ethan J. Lawson": 5629
+       "Ethan J. Lawson": 5818
       }
      },
      "counties_reporting": [
@@ -5872,36 +5877,41 @@
        "name": "Cory Criswell",
        "party": "R",
        "party_full": "Republican",
-       "votes": 271,
+       "votes": 3719,
        "incumbent": true,
-       "pct": 82.12,
+       "pct": 71.89,
        "leading": true
       },
       {
        "name": "Nan Polk",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 59,
-       "pct": 17.88,
+       "votes": 1454,
+       "pct": 28.11,
        "leading": false
       }
      ],
      "local": "Hancock",
      "uncontested": false,
-     "total_votes": 330,
+     "total_votes": 5173,
      "status": "reporting",
-     "updated": "8:31 PM ET",
+     "updated": "9:04 PM ET",
      "county_votes": {
       "Hancock": {
        "Cory Criswell": 271,
        "Nan Polk": 59
+      },
+      "State feed (other counties)": {
+       "Cory Criswell": 3448,
+       "Nan Polk": 1395
       }
      },
      "counties_reporting": [
-      "Hancock"
+      "Hancock",
+      "State feed (other counties)"
      ],
-     "margin_votes": 212,
-     "margin_pct": 64.24
+     "margin_votes": 2265,
+     "margin_pct": 43.78
     },
     {
      "id": "in-house-055",
@@ -6965,41 +6975,46 @@
        "name": "Chris Jeter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2315,
+       "votes": 3982,
        "incumbent": true,
-       "pct": 52.58,
+       "pct": 53.53,
        "leading": true
       },
       {
        "name": "Stephanie Jo Yocum",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2088,
-       "pct": 47.42,
+       "votes": 3457,
+       "pct": 46.47,
        "leading": false
       }
      ],
      "local": "Hancock, Madison",
      "uncontested": false,
-     "total_votes": 4403,
+     "total_votes": 7439,
      "status": "reporting",
-     "updated": "9:01 PM ET",
+     "updated": "9:04 PM ET",
      "county_votes": {
       "Madison": {
        "Chris Jeter": 1422,
        "Stephanie Jo Yocum": 1368
       },
       "Hancock": {
+       "Chris Jeter": 1667,
+       "Stephanie Jo Yocum": 1369
+      },
+      "State feed (other counties)": {
        "Chris Jeter": 893,
        "Stephanie Jo Yocum": 720
       }
      },
      "counties_reporting": [
       "Hancock",
-      "Madison"
+      "Madison",
+      "State feed (other counties)"
      ],
-     "margin_votes": 227,
-     "margin_pct": 5.16
+     "margin_votes": 525,
+     "margin_pct": 7.06
     },
     {
      "id": "in-house-089",
@@ -8168,6 +8183,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T21:01:18.986434-05:00",
- "last_updated": "9:01 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T21:04:27.268786-05:00",
+ "last_updated": "9:04 PM ET, Tue Nov 3, 2026"
 }

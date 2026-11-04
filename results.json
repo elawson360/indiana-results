@@ -2,7 +2,7 @@
  "title": "Indiana Election Night Results — Nov 3, 2026",
  "is_example": false,
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
- "source_note": "Madison Co. Election Summary 10:24 PM ET Nov 3 2026 (preliminary, unofficial, 112/112 precincts, 37,080 ballots)",
+ "source_note": "Hamilton Co. IntermediateCounts 10:38:45 PM ET, 234/234 precincts",
  "chambers": {
   "us-house": {
    "name": "Indiana US House delegation",
@@ -5341,35 +5341,35 @@
        "name": "Lauren S. Cole",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 13103,
-       "pct": 51.58,
+       "votes": 13318,
+       "pct": 51.52,
        "leading": true
       },
       {
        "name": "Todd Huston",
        "party": "R",
        "party_full": "Republican",
-       "votes": 12299,
+       "votes": 12532,
        "incumbent": true,
-       "pct": 48.42,
+       "pct": 48.48,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 25402,
+     "total_votes": 25850,
      "status": "reporting",
-     "updated": "9:59 PM ET",
+     "updated": "10:42 PM ET",
      "county_votes": {
       "Hamilton": {
-       "Todd Huston": 12299,
-       "Lauren S. Cole": 13103
+       "Todd Huston": 12532,
+       "Lauren S. Cole": 13318
       }
      },
      "counties_reporting": [
       "Hamilton"
      ],
-     "margin_votes": 804,
-     "margin_pct": 3.16
+     "margin_votes": 786,
+     "margin_pct": 3.04
     },
     {
      "id": "in-house-038",
@@ -5416,36 +5416,36 @@
        "name": "Lindsay Gramlich",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 15759,
-       "pct": 54.14,
+       "votes": 16369,
+       "pct": 54.11,
        "leading": true
       },
       {
        "name": "Danny Lopez",
        "party": "R",
        "party_full": "Republican",
-       "votes": 13349,
+       "votes": 13884,
        "incumbent": true,
-       "pct": 45.86,
+       "pct": 45.89,
        "leading": false
       }
      ],
      "watch": "DLCC pickup target",
      "uncontested": false,
-     "total_votes": 29108,
+     "total_votes": 30253,
      "status": "reporting",
-     "updated": "9:59 PM ET",
+     "updated": "10:42 PM ET",
      "county_votes": {
       "Hamilton": {
-       "Danny Lopez": 13349,
-       "Lindsay Gramlich": 15759
+       "Danny Lopez": 13884,
+       "Lindsay Gramlich": 16369
       }
      },
      "counties_reporting": [
       "Hamilton"
      ],
-     "margin_votes": 2410,
-     "margin_pct": 8.28
+     "margin_votes": 2485,
+     "margin_pct": 8.22
     },
     {
      "id": "in-house-040",
@@ -7045,23 +7045,23 @@
        "name": "Stephanie Jo Yocum",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 8073,
-       "pct": 50.75,
+       "votes": 8698,
+       "pct": 50.63,
        "leading": true
       },
       {
        "name": "Chris Jeter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 7834,
+       "votes": 8483,
        "incumbent": true,
-       "pct": 49.25,
+       "pct": 49.37,
        "leading": false
       }
      ],
      "local": "Hancock, Madison",
      "uncontested": false,
-     "total_votes": 15907,
+     "total_votes": 17181,
      "status": "reporting",
      "updated": "10:42 PM ET",
      "county_votes": {
@@ -7078,8 +7078,8 @@
        "Stephanie Jo Yocum": 720
       },
       "Hamilton": {
-       "Chris Jeter": 3205,
-       "Stephanie Jo Yocum": 3734
+       "Chris Jeter": 3854,
+       "Stephanie Jo Yocum": 4359
       }
      },
      "counties_reporting": [
@@ -7088,8 +7088,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 239,
-     "margin_pct": 1.5
+     "margin_votes": 215,
+     "margin_pct": 1.26
     },
     {
      "id": "in-house-089",
@@ -8268,6 +8268,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T22:42:44.935957-05:00",
+ "last_updated_iso": "2026-11-03T22:42:47.156564-05:00",
  "last_updated": "10:42 PM ET, Tue Nov 3, 2026"
 }

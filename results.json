@@ -2,7 +2,7 @@
  "title": "Indiana Election Night Results — Nov 3, 2026",
  "is_example": false,
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
- "source_note": "ENR: 1210/5067 precincts statewide · Imported from Indiana ENR",
+ "source_note": "Madison Co. Election Summary 8:25 PM ET Nov 3 2026 (preliminary)",
  "chambers": {
   "us-house": {
    "name": "Indiana US House delegation",
@@ -22,17 +22,15 @@
     "won": {},
     "unopposed": {},
     "leading": {
-     "D": 2,
-     "R": 6
+     "D": 1,
+     "R": 7
     },
     "not_reported": 1,
     "projected": {
-     "R": 6,
-     "D": 2
+     "R": 7,
+     "D": 1
     },
-    "flips": [
-     "us-house-05"
-    ]
+    "flips": []
    }
   },
   "in-house": {
@@ -1335,26 +1333,26 @@
        "name": "John L Beeman",
        "party": "R",
        "party_full": "Republican",
-       "votes": 13171,
+       "votes": 17069,
        "incumbent": true,
-       "pct": 53.76,
+       "pct": 54.97,
        "leading": true
       },
       {
        "name": "Norman Rayford, Jr",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 11329,
-       "pct": 46.24,
+       "votes": 13983,
+       "pct": 45.03,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 24500,
+     "total_votes": 31052,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1842,
-     "margin_pct": 7.52
+     "updated": "8:36 PM ET",
+     "margin_votes": 3086,
+     "margin_pct": 9.94
     },
     {
      "id": "mad-commissioner-d1",
@@ -1366,34 +1364,34 @@
        "name": "Danny (Dan) Girt",
        "party": "R",
        "party_full": "Republican",
-       "votes": 11465,
-       "pct": 47.05,
+       "votes": 14895,
+       "pct": 48.17,
        "leading": true
       },
       {
        "name": "Todd Shelton",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 10654,
-       "pct": 43.72,
+       "votes": 12993,
+       "pct": 42.02,
        "leading": false
       },
       {
        "name": "Mike A Garringer",
        "party": "I",
        "party_full": "Independent",
-       "votes": 2251,
-       "pct": 9.24,
+       "votes": 3034,
+       "pct": 9.81,
        "leading": false
       }
      ],
      "watch": "Three-way race",
      "uncontested": false,
-     "total_votes": 24370,
+     "total_votes": 30922,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 811,
-     "margin_pct": 3.33
+     "updated": "8:36 PM ET",
+     "margin_votes": 1902,
+     "margin_pct": 6.15
     },
     {
      "id": "mad-council-d1",
@@ -1405,25 +1403,25 @@
        "name": "Cory Bohlander",
        "party": "R",
        "party_full": "Republican",
-       "votes": 3917,
-       "pct": 60.01,
+       "votes": 4936,
+       "pct": 61.95,
        "leading": true
       },
       {
        "name": "Helen E Wean",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2610,
-       "pct": 39.99,
+       "votes": 3032,
+       "pct": 38.05,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 6527,
+     "total_votes": 7968,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1307,
-     "margin_pct": 20.02
+     "updated": "8:36 PM ET",
+     "margin_votes": 1904,
+     "margin_pct": 23.9
     },
     {
      "id": "mad-council-d2",
@@ -1435,33 +1433,33 @@
        "name": "Mikeal Vaughn",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2630,
-       "pct": 48.05,
+       "votes": 3287,
+       "pct": 48.35,
        "leading": true
       },
       {
        "name": "Caroline (Carrie) Bale",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2521,
-       "pct": 46.05,
+       "votes": 3075,
+       "pct": 45.23,
        "leading": false
       },
       {
        "name": "Brandon Collins",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 323,
-       "pct": 5.9,
+       "votes": 436,
+       "pct": 6.41,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 5474,
+     "total_votes": 6798,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 109,
-     "margin_pct": 2.0
+     "updated": "8:36 PM ET",
+     "margin_votes": 212,
+     "margin_pct": 3.12
     },
     {
      "id": "mad-council-d3",
@@ -1473,33 +1471,33 @@
        "name": "Fred Reese",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2385,
-       "pct": 59.36,
+       "votes": 3241,
+       "pct": 56.82,
        "leading": true
       },
       {
        "name": "Mike Reed",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1352,
-       "pct": 33.65,
+       "votes": 2016,
+       "pct": 35.34,
        "leading": false
       },
       {
        "name": "Greg Noland",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 281,
-       "pct": 6.99,
+       "votes": 447,
+       "pct": 7.84,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 4018,
+     "total_votes": 5704,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1033,
-     "margin_pct": 25.71
+     "updated": "8:36 PM ET",
+     "margin_votes": 1225,
+     "margin_pct": 21.48
     },
     {
      "id": "mad-circuit-court-clerk",
@@ -1511,26 +1509,26 @@
        "name": "Linda S Smith",
        "party": "R",
        "party_full": "Republican",
-       "votes": 13247,
+       "votes": 17267,
        "incumbent": true,
-       "pct": 54.44,
+       "pct": 55.94,
        "leading": true
       },
       {
        "name": "Stephany Mae Stennis",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 11087,
-       "pct": 45.56,
+       "votes": 13601,
+       "pct": 44.06,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 24334,
+     "total_votes": 30868,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 2160,
-     "margin_pct": 8.88
+     "updated": "8:36 PM ET",
+     "margin_votes": 3666,
+     "margin_pct": 11.88
     },
     {
      "id": "mad-treasurer",
@@ -1542,26 +1540,26 @@
        "name": "Rick Gardner",
        "party": "R",
        "party_full": "Republican",
-       "votes": 12629,
+       "votes": 16457,
        "incumbent": true,
-       "pct": 51.89,
+       "pct": 53.33,
        "leading": true
       },
       {
        "name": "Shannon Watters",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 11708,
-       "pct": 48.11,
+       "votes": 14402,
+       "pct": 46.67,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 24337,
+     "total_votes": 30859,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 921,
-     "margin_pct": 3.78
+     "updated": "8:36 PM ET",
+     "margin_votes": 2055,
+     "margin_pct": 6.66
     },
     {
      "id": "mad-recorder",
@@ -1573,26 +1571,26 @@
        "name": "Angela (Angie) Abel",
        "party": "R",
        "party_full": "Republican",
-       "votes": 13130,
+       "votes": 17131,
        "incumbent": true,
-       "pct": 53.88,
+       "pct": 55.43,
        "leading": true
       },
       {
        "name": "Amy Terry",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 11237,
-       "pct": 46.12,
+       "votes": 13773,
+       "pct": 44.57,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 24367,
+     "total_votes": 30904,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1893,
-     "margin_pct": 7.76
+     "updated": "8:36 PM ET",
+     "margin_votes": 3358,
+     "margin_pct": 10.86
     },
     {
      "id": "mad-circuit-court-5",
@@ -1604,26 +1602,26 @@
        "name": "Scott A. Norrick",
        "party": "R",
        "party_full": "Republican",
-       "votes": 12956,
+       "votes": 16888,
        "incumbent": true,
-       "pct": 53.17,
+       "pct": 54.64,
        "leading": true
       },
       {
        "name": "Emilee A. Hammond",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 11413,
-       "pct": 46.83,
+       "votes": 14022,
+       "pct": 45.36,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 24369,
+     "total_votes": 30910,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1543,
-     "margin_pct": 6.34
+     "updated": "8:36 PM ET",
+     "margin_votes": 2866,
+     "margin_pct": 9.28
     },
     {
      "id": "mad-council-d4",
@@ -1635,16 +1633,16 @@
        "name": "Rob Steele",
        "party": "R",
        "party_full": "Republican",
-       "votes": 6496,
+       "votes": 8314,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 6496,
+     "total_votes": 8314,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-prosecutor",
@@ -1656,16 +1654,16 @@
        "name": "Andrew Hanna",
        "party": "R",
        "party_full": "Republican",
-       "votes": 18221,
+       "votes": 23579,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 18221,
+     "total_votes": 23579,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-assessor",
@@ -1677,16 +1675,16 @@
        "name": "Larry D Davis",
        "party": "R",
        "party_full": "Republican",
-       "votes": 18082,
+       "votes": 23409,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 18082,
+     "total_votes": 23409,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-circuit-court-1",
@@ -1698,16 +1696,16 @@
        "name": "Angela Warner Sims",
        "party": "R",
        "party_full": "Republican",
-       "votes": 18172,
+       "votes": 23536,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 18172,
+     "total_votes": 23536,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-circuit-court-2",
@@ -1719,16 +1717,16 @@
        "name": "Stephen J. Koester",
        "party": "R",
        "party_full": "Republican",
-       "votes": 18175,
+       "votes": 23529,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 18175,
+     "total_votes": 23529,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-circuit-court-4",
@@ -1740,16 +1738,16 @@
        "name": "David A. Happe",
        "party": "R",
        "party_full": "Republican",
-       "votes": 18390,
+       "votes": 23798,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 18390,
+     "total_votes": 23798,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-adams-twp-trustee",
@@ -1761,25 +1759,25 @@
        "name": "Lana Evans",
        "party": "R",
        "party_full": "Republican",
-       "votes": 715,
-       "pct": 62.94,
+       "votes": 842,
+       "pct": 64.72,
        "leading": true
       },
       {
        "name": "Kimberly Bell",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 421,
-       "pct": 37.06,
+       "votes": 459,
+       "pct": 35.28,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1136,
+     "total_votes": 1301,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 294,
-     "margin_pct": 25.88
+     "updated": "8:36 PM ET",
+     "margin_votes": 383,
+     "margin_pct": 29.44
     },
     {
      "id": "mad-anderson-twp-board",
@@ -1791,59 +1789,59 @@
        "name": "Meredith (CoCo) Armstrong",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 3702,
-       "pct": 21.11,
+       "votes": 5023,
+       "pct": 20.23,
        "leading": true
       },
       {
        "name": "Leandre (Andre) Smith",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 3307,
+       "votes": 4512,
        "incumbent": true,
-       "pct": 18.86,
+       "pct": 18.17,
        "leading": true
       },
       {
        "name": "Domanic Wills",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 3183,
-       "pct": 18.15,
+       "votes": 4380,
+       "pct": 17.64,
        "leading": true
       },
       {
        "name": "Danny McGhee",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2595,
-       "pct": 14.8,
+       "votes": 3858,
+       "pct": 15.54,
        "leading": false
       },
       {
        "name": "Kevin A Sulc",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2412,
+       "votes": 3566,
        "incumbent": true,
-       "pct": 13.75,
+       "pct": 14.36,
        "leading": false
       },
       {
        "name": "Dan Murrell",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2339,
-       "pct": 13.34,
+       "votes": 3490,
+       "pct": 14.06,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 17538,
+     "total_votes": 24829,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 588,
-     "margin_pct": 3.35
+     "updated": "8:36 PM ET",
+     "margin_votes": 522,
+     "margin_pct": 2.1
     },
     {
      "id": "mad-anderson-twp-trustee",
@@ -1855,26 +1853,26 @@
        "name": "Obadiah Smith, Jr",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 4003,
-       "pct": 58.23,
+       "votes": 5399,
+       "pct": 55.98,
        "leading": true
       },
       {
        "name": "Michael (Mike) Shively",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2872,
+       "votes": 4246,
        "incumbent": true,
-       "pct": 41.77,
+       "pct": 44.02,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 6875,
+     "total_votes": 9645,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1131,
-     "margin_pct": 16.46
+     "updated": "8:36 PM ET",
+     "margin_votes": 1153,
+     "margin_pct": 11.96
     },
     {
      "id": "mad-fall-creek-twp-trustee",
@@ -1886,26 +1884,26 @@
        "name": "Marcy DeShong",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1591,
-       "pct": 52.8,
+       "votes": 2620,
+       "pct": 57.86,
        "leading": true
       },
       {
        "name": "Fred Keith Gaskill",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1422,
+       "votes": 1908,
        "incumbent": true,
-       "pct": 47.2,
+       "pct": 42.14,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 3013,
+     "total_votes": 4528,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 169,
-     "margin_pct": 5.6
+     "updated": "8:36 PM ET",
+     "margin_votes": 712,
+     "margin_pct": 15.72
     },
     {
      "id": "mad-lafayette-twp-board",
@@ -1917,24 +1915,24 @@
        "name": "David (Dave) Wise",
        "party": "R",
        "party_full": "Republican",
-       "votes": 758,
+       "votes": 847,
        "incumbent": true,
-       "pct": 27.46,
+       "pct": 27.38,
        "leading": true
       },
       {
        "name": "Dennis L Adams",
        "party": "R",
        "party_full": "Republican",
-       "votes": 721,
-       "pct": 26.12,
+       "votes": 809,
+       "pct": 26.16,
        "leading": true
       },
       {
        "name": "Bryan L Frank",
        "party": "R",
        "party_full": "Republican",
-       "votes": 686,
+       "votes": 769,
        "pct": 24.86,
        "leading": true
       },
@@ -1942,18 +1940,18 @@
        "name": "Patricia (Patty) Mauck",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 595,
+       "votes": 668,
        "incumbent": true,
-       "pct": 21.56,
+       "pct": 21.6,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2760,
+     "total_votes": 3093,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 91,
-     "margin_pct": 3.3
+     "updated": "8:36 PM ET",
+     "margin_votes": 101,
+     "margin_pct": 3.26
     },
     {
      "id": "mad-pipe-creek-twp-board",
@@ -1965,51 +1963,51 @@
        "name": "Richard L Shepherd",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1338,
-       "pct": 24.27,
+       "votes": 1362,
+       "pct": 24.36,
        "leading": true
       },
       {
        "name": "Joseph Miller",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1209,
+       "votes": 1229,
        "incumbent": true,
-       "pct": 21.93,
+       "pct": 21.98,
        "leading": true
       },
       {
        "name": "Tonita (Toni) Perkins",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1174,
-       "pct": 21.3,
+       "votes": 1193,
+       "pct": 21.34,
        "leading": true
       },
       {
        "name": "Sheila R McPhearson",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 991,
+       "votes": 999,
        "incumbent": true,
-       "pct": 17.98,
+       "pct": 17.87,
        "leading": false
       },
       {
        "name": "Jeffrey (Jeff) Myers",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 800,
-       "pct": 14.51,
+       "votes": 808,
+       "pct": 14.45,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 5512,
+     "total_votes": 5591,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 183,
-     "margin_pct": 3.32
+     "updated": "8:36 PM ET",
+     "margin_votes": 194,
+     "margin_pct": 3.47
     },
     {
      "id": "mad-pipe-creek-twp-trustee",
@@ -2021,25 +2019,25 @@
        "name": "Lisa A Hobbs",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1114,
-       "pct": 50.48,
+       "votes": 1122,
+       "pct": 50.18,
        "leading": true
       },
       {
        "name": "Patrick A Hoose",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1093,
-       "pct": 49.52,
+       "votes": 1114,
+       "pct": 49.82,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2207,
+     "total_votes": 2236,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 21,
-     "margin_pct": 0.96
+     "updated": "8:36 PM ET",
+     "margin_votes": 8,
+     "margin_pct": 0.36
     },
     {
      "id": "mad-stony-creek-twp-board",
@@ -2051,41 +2049,41 @@
        "name": "Jeffrey Thomas Purdue",
        "party": "R",
        "party_full": "Republican",
-       "votes": 728,
-       "pct": 27.98,
+       "votes": 773,
+       "pct": 28.07,
        "leading": true
       },
       {
        "name": "Connie Sears",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 688,
-       "pct": 26.44,
+       "votes": 725,
+       "pct": 26.33,
        "leading": true
       },
       {
        "name": "Rob Trotter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 681,
-       "pct": 26.17,
+       "votes": 719,
+       "pct": 26.11,
        "leading": true
       },
       {
        "name": "Tom Shelton",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 505,
-       "pct": 19.41,
+       "votes": 537,
+       "pct": 19.5,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2602,
+     "total_votes": 2754,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 176,
-     "margin_pct": 6.76
+     "updated": "8:36 PM ET",
+     "margin_votes": 182,
+     "margin_pct": 6.61
     },
     {
      "id": "mad-adams-twp-board",
@@ -2097,16 +2095,16 @@
        "name": "Nancy L Lowe",
        "party": "R",
        "party_full": "Republican",
-       "votes": 859,
+       "votes": 1005,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 859,
+     "total_votes": 1005,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-boone-twp-board",
@@ -2118,24 +2116,24 @@
        "name": "Ryan J Pattison",
        "party": "R",
        "party_full": "Republican",
-       "votes": 149,
+       "votes": 176,
        "incumbent": true,
-       "pct": 50.17,
+       "pct": 50.57,
        "leading": true
       },
       {
        "name": "John R Hiatt",
        "party": "R",
        "party_full": "Republican",
-       "votes": 148,
-       "pct": 49.83,
+       "votes": 172,
+       "pct": 49.43,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 297,
+     "total_votes": 348,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-boone-twp-trustee",
@@ -2147,16 +2145,16 @@
        "name": "Lisa A Schwinn",
        "party": "R",
        "party_full": "Republican",
-       "votes": 166,
+       "votes": 199,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 166,
+     "total_votes": 199,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-duck-creek-twp-board",
@@ -2177,7 +2175,7 @@
      "uncontested": true,
      "total_votes": 86,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-duck-creek-twp-trustee",
@@ -2197,7 +2195,7 @@
      "uncontested": true,
      "total_votes": 86,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-fall-creek-twp-board",
@@ -2209,31 +2207,31 @@
        "name": "Beth Carey",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1950,
-       "pct": 33.92,
+       "votes": 3104,
+       "pct": 34.01,
        "leading": true
       },
       {
        "name": "Robert (Bob) Adams",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1928,
-       "pct": 33.54,
+       "votes": 3051,
+       "pct": 33.42,
        "leading": true
       },
       {
        "name": "David L Martin",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1871,
-       "pct": 32.54,
+       "votes": 2973,
+       "pct": 32.57,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 5749,
+     "total_votes": 9128,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-green-twp-board",
@@ -2245,34 +2243,34 @@
        "name": "Sharon Robinson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1743,
+       "votes": 1927,
        "incumbent": true,
-       "pct": 34.85,
+       "pct": 34.76,
        "leading": true
       },
       {
        "name": "Jerry A Manges",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1671,
+       "votes": 1859,
        "incumbent": true,
-       "pct": 33.41,
+       "pct": 33.54,
        "leading": true
       },
       {
        "name": "Farrell Jason Smith",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1587,
+       "votes": 1757,
        "incumbent": true,
-       "pct": 31.73,
+       "pct": 31.7,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 5001,
+     "total_votes": 5543,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-green-twp-trustee",
@@ -2284,16 +2282,16 @@
        "name": "Greg Valentine",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2005,
+       "votes": 2217,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 2005,
+     "total_votes": 2217,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-jackson-twp-trustee",
@@ -2305,16 +2303,16 @@
        "name": "Joshua Miller",
        "party": "R",
        "party_full": "Republican",
-       "votes": 490,
+       "votes": 536,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 490,
+     "total_votes": 536,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-lafayette-twp-trustee",
@@ -2326,15 +2324,15 @@
        "name": "Jeremy Chubb",
        "party": "R",
        "party_full": "Republican",
-       "votes": 975,
+       "votes": 1088,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 975,
+     "total_votes": 1088,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-monroe-twp-board",
@@ -2346,34 +2344,34 @@
        "name": "Sarah Collis",
        "party": "R",
        "party_full": "Republican",
-       "votes": 992,
+       "votes": 1601,
        "incumbent": true,
-       "pct": 34.04,
+       "pct": 33.96,
        "leading": true
       },
       {
        "name": "Valerie Jerrils",
        "party": "R",
        "party_full": "Republican",
-       "votes": 977,
+       "votes": 1568,
        "incumbent": true,
-       "pct": 33.53,
+       "pct": 33.26,
        "leading": true
       },
       {
        "name": "Jennifer Ward",
        "party": "R",
        "party_full": "Republican",
-       "votes": 945,
+       "votes": 1546,
        "incumbent": true,
-       "pct": 32.43,
+       "pct": 32.79,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 2914,
+     "total_votes": 4715,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-monroe-twp-trustee",
@@ -2385,16 +2383,16 @@
        "name": "George (Chip) McFerran",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1175,
+       "votes": 1888,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 1175,
+     "total_votes": 1888,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-richland-twp-board",
@@ -2406,34 +2404,34 @@
        "name": "Michelle Davis",
        "party": "R",
        "party_full": "Republican",
-       "votes": 655,
+       "votes": 996,
        "incumbent": true,
-       "pct": 34.56,
+       "pct": 34.57,
        "leading": true
       },
       {
        "name": "Dale Russell Cook",
        "party": "R",
        "party_full": "Republican",
-       "votes": 642,
+       "votes": 968,
        "incumbent": true,
-       "pct": 33.88,
+       "pct": 33.6,
        "leading": true
       },
       {
        "name": "Horace (Bill) England",
        "party": "R",
        "party_full": "Republican",
-       "votes": 598,
+       "votes": 917,
        "incumbent": true,
-       "pct": 31.56,
+       "pct": 31.83,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 1895,
+     "total_votes": 2881,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-richland-twp-trustee",
@@ -2445,16 +2443,16 @@
        "name": "Douglas C Stein",
        "party": "R",
        "party_full": "Republican",
-       "votes": 793,
+       "votes": 1191,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 793,
+     "total_votes": 1191,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-stony-creek-twp-trustee",
@@ -2466,15 +2464,15 @@
        "name": "Alan L Bays",
        "party": "R",
        "party_full": "Republican",
-       "votes": 997,
+       "votes": 1056,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 997,
+     "total_votes": 1056,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-union-twp-board",
@@ -2486,33 +2484,33 @@
        "name": "Lloyd Brown",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1445,
+       "votes": 1614,
        "incumbent": true,
-       "pct": 34.32,
+       "pct": 34.22,
        "leading": true
       },
       {
        "name": "Jack Odle",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1434,
+       "votes": 1607,
        "incumbent": true,
-       "pct": 34.06,
+       "pct": 34.08,
        "leading": true
       },
       {
        "name": "Russ Willis",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1331,
-       "pct": 31.62,
+       "votes": 1495,
+       "pct": 31.7,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 4210,
+     "total_votes": 4716,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-union-twp-trustee",
@@ -2524,16 +2522,16 @@
        "name": "Timothy (Tim) Dunham",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1777,
+       "votes": 1992,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 1777,
+     "total_votes": 1992,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-van-buren-twp-board",
@@ -2545,25 +2543,25 @@
        "name": "Ralph Gordon",
        "party": "R",
        "party_full": "Republican",
-       "votes": 309,
+       "votes": 320,
        "incumbent": true,
-       "pct": 55.78,
+       "pct": 56.34,
        "leading": true
       },
       {
        "name": "Stephen Andrew Waller",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 245,
+       "votes": 248,
        "incumbent": true,
-       "pct": 44.22,
+       "pct": 43.66,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 554,
+     "total_votes": 568,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-van-buren-twp-trustee",
@@ -2575,16 +2573,16 @@
        "name": "Dee Amos",
        "party": "R",
        "party_full": "Republican",
-       "votes": 370,
+       "votes": 381,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 370,
+     "total_votes": 381,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-ingalls-town-council-at-large",
@@ -2596,35 +2594,35 @@
        "name": "Crystal A Everhart",
        "party": "R",
        "party_full": "Republican",
-       "votes": 494,
+       "votes": 548,
        "incumbent": true,
-       "pct": 36.76,
+       "pct": 37.05,
        "leading": true
       },
       {
        "name": "Cody Head",
        "party": "R",
        "party_full": "Republican",
-       "votes": 429,
-       "pct": 31.92,
+       "votes": 476,
+       "pct": 32.18,
        "leading": true
       },
       {
        "name": "Georgia Parker",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 421,
+       "votes": 455,
        "incumbent": true,
-       "pct": 31.32,
+       "pct": 30.76,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 1344,
+     "total_votes": 1479,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 8,
-     "margin_pct": 0.6
+     "updated": "8:36 PM ET",
+     "margin_votes": 21,
+     "margin_pct": 1.42
     },
     {
      "id": "mad-lapel-town-council-at-large",
@@ -2636,25 +2634,25 @@
        "name": "Allicia N Rockwell-West",
        "party": "R",
        "party_full": "Republican",
-       "votes": 494,
-       "pct": 52.05,
+       "votes": 503,
+       "pct": 51.96,
        "leading": true
       },
       {
        "name": "Lindsay Washmuth",
        "party": "R",
        "party_full": "Republican",
-       "votes": 455,
+       "votes": 465,
        "incumbent": true,
-       "pct": 47.95,
+       "pct": 48.04,
        "leading": true
       }
      ],
      "note": "Vote for 3 (2 candidates). Rockwell-West confirmed on state candidate list and state ENR general feed (Oct 27 check); earlier Ballotpedia/voter-guide listing of Roger Fouse is outdated.",
      "uncontested": true,
-     "total_votes": 949,
+     "total_votes": 968,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-pendleton-town-council-at-large-2",
@@ -2666,15 +2664,15 @@
        "name": "Jennifer Roberts",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1201,
+       "votes": 1733,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 1201,
+     "total_votes": 1733,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-pendleton-town-council-d3",
@@ -2686,16 +2684,16 @@
        "name": "Bryan R Williams",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1231,
+       "votes": 1769,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 1231,
+     "total_votes": 1769,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-summitville-town-council-at-large",
@@ -2707,16 +2705,16 @@
        "name": "Steven Conrad",
        "party": "R",
        "party_full": "Republican",
-       "votes": 144,
+       "votes": 149,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 144,
+     "total_votes": 149,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-summitville-town-council-d1",
@@ -2728,16 +2726,16 @@
        "name": "Dedira Ann Pierce",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 181,
+       "votes": 183,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 181,
+     "total_votes": 183,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-anderson-at-large",
@@ -2749,50 +2747,50 @@
        "name": "Olunda K Hunt",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2595,
-       "pct": 30.49,
+       "votes": 3417,
+       "pct": 29.48,
        "leading": true
       },
       {
        "name": "Aufwiedersehen (Veda) Morris-May",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1895,
-       "pct": 22.27,
+       "votes": 2582,
+       "pct": 22.28,
        "leading": false
       },
       {
        "name": "JoAnna G Collette",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1626,
+       "votes": 2226,
        "incumbent": true,
-       "pct": 19.11,
+       "pct": 19.2,
        "leading": false
       },
       {
        "name": "Neal Alan Prange",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1233,
-       "pct": 14.49,
+       "votes": 1729,
+       "pct": 14.92,
        "leading": false
       },
       {
        "name": "Margie Harvey",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1161,
-       "pct": 13.64,
+       "votes": 1637,
+       "pct": 14.12,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 8510,
+     "total_votes": 11591,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 700,
-     "margin_pct": 8.22
+     "updated": "8:36 PM ET",
+     "margin_votes": 835,
+     "margin_pct": 7.2
     },
     {
      "id": "mad-school-anderson-central-d-position-2",
@@ -2804,26 +2802,26 @@
        "name": "Robert (Buckie) Bookhart",
        "party": "",
        "party_full": "No party listed",
-       "votes": 4795,
+       "votes": 6635,
        "incumbent": true,
-       "pct": 58.75,
+       "pct": 59.28,
        "leading": true
       },
       {
        "name": "Jonathan Trick",
        "party": "",
        "party_full": "No party listed",
-       "votes": 3367,
-       "pct": 41.25,
+       "votes": 4557,
+       "pct": 40.72,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 8162,
+     "total_votes": 11192,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1428,
-     "margin_pct": 17.5
+     "updated": "8:36 PM ET",
+     "margin_votes": 2078,
+     "margin_pct": 18.56
     },
     {
      "id": "mad-school-anderson-east-d-position-1",
@@ -2835,51 +2833,51 @@
        "name": "Nickolas W Freeman",
        "party": "R",
        "party_full": "Republican",
-       "votes": 3214,
-       "pct": 35.6,
+       "votes": 4563,
+       "pct": 37.01,
        "leading": true
       },
       {
        "name": "Olivia M Reyes",
        "party": "I",
        "party_full": "Independent",
-       "votes": 1786,
-       "pct": 19.79,
+       "votes": 2444,
+       "pct": 19.82,
        "leading": false
       },
       {
        "name": "Lindsay Brown",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1639,
+       "votes": 2215,
        "incumbent": true,
-       "pct": 18.16,
+       "pct": 17.96,
        "leading": false
       },
       {
        "name": "Laura Crenshaw",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1416,
-       "pct": 15.69,
+       "votes": 1877,
+       "pct": 15.22,
        "leading": false
       },
       {
        "name": "Patrick Hill",
        "party": "",
        "party_full": "No party listed",
-       "votes": 972,
+       "votes": 1231,
        "incumbent": true,
-       "pct": 10.77,
+       "pct": 9.98,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 9027,
+     "total_votes": 12330,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 1428,
-     "margin_pct": 15.81
+     "updated": "8:36 PM ET",
+     "margin_votes": 2119,
+     "margin_pct": 17.19
     },
     {
      "id": "mad-school-anderson-south-d-position-2",
@@ -2891,41 +2889,41 @@
        "name": "Eric T Davis",
        "party": "",
        "party_full": "No party listed",
-       "votes": 3196,
-       "pct": 40.78,
+       "votes": 4423,
+       "pct": 40.92,
        "leading": true
       },
       {
        "name": "Cathy Hodson",
        "party": "",
        "party_full": "No party listed",
-       "votes": 2229,
-       "pct": 28.44,
+       "votes": 3036,
+       "pct": 28.09,
        "leading": false
       },
       {
        "name": "Mary Baker-Boudissa",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1624,
-       "pct": 20.72,
+       "votes": 2250,
+       "pct": 20.81,
        "leading": false
       },
       {
        "name": "Sheila (Shay) Fakhreddine",
        "party": "",
        "party_full": "No party listed",
-       "votes": 788,
-       "pct": 10.05,
+       "votes": 1101,
+       "pct": 10.19,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 7837,
+     "total_votes": 10810,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 967,
-     "margin_pct": 12.34
+     "updated": "8:36 PM ET",
+     "margin_votes": 1387,
+     "margin_pct": 12.83
     },
     {
      "id": "mad-school-elwood-at-large",
@@ -2937,43 +2935,43 @@
        "name": "Steven (Alex) Mireles",
        "party": "",
        "party_full": "No party listed",
-       "votes": 831,
-       "pct": 35.06,
+       "votes": 837,
+       "pct": 35.08,
        "leading": true
       },
       {
        "name": "Sandra (Sandy) Ratliff",
        "party": "",
        "party_full": "No party listed",
-       "votes": 576,
+       "votes": 578,
        "incumbent": true,
-       "pct": 24.3,
+       "pct": 24.22,
        "leading": true
       },
       {
        "name": "David (Mike) Peterson",
        "party": "",
        "party_full": "No party listed",
-       "votes": 554,
+       "votes": 557,
        "incumbent": true,
-       "pct": 23.38,
+       "pct": 23.34,
        "leading": false
       },
       {
        "name": "Joseph Greg Tackett",
        "party": "",
        "party_full": "No party listed",
-       "votes": 409,
-       "pct": 17.26,
+       "votes": 414,
+       "pct": 17.35,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2370,
+     "total_votes": 2386,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 22,
-     "margin_pct": 0.92
+     "updated": "8:36 PM ET",
+     "margin_votes": 21,
+     "margin_pct": 0.88
     },
     {
      "id": "mad-school-madison-grant-d3",
@@ -2985,28 +2983,28 @@
        "name": "Katti Sneed",
        "party": "",
        "party_full": "No party listed",
-       "votes": 409,
+       "votes": 434,
        "incumbent": true,
-       "pct": 69.2,
+       "pct": 68.67,
        "leading": true
       },
       {
        "name": "Dylan C. Vetor",
        "party": "",
        "party_full": "No party listed",
-       "votes": 182,
-       "pct": 30.8,
+       "votes": 198,
+       "pct": 31.33,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 591,
+     "total_votes": 632,
      "status": "reporting",
-     "updated": "8:35 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Katti Sneed": 409,
-       "Dylan C. Vetor": 182
+       "Katti Sneed": 434,
+       "Dylan C. Vetor": 198
       },
       "State feed (other counties)": {
        "Katti Sneed": 0,
@@ -3017,8 +3015,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 227,
-     "margin_pct": 38.4
+     "margin_votes": 236,
+     "margin_pct": 37.34
     },
     {
      "id": "mad-school-alexandria-d2",
@@ -3030,15 +3028,15 @@
        "name": "Barrett Key",
        "party": "",
        "party_full": "No party listed",
-       "votes": 1126,
+       "votes": 1797,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 1126,
+     "total_votes": 1797,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-alexandria-d3",
@@ -3050,16 +3048,16 @@
        "name": "Kyle Williams",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1116,
+       "votes": 1798,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 1116,
+     "total_votes": 1798,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-frankton-lapel-at-large-d7",
@@ -3071,15 +3069,15 @@
        "name": "Seth Bays",
        "party": "",
        "party_full": "No party listed",
-       "votes": 2981,
+       "votes": 3149,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 2981,
+     "total_votes": 3149,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-frankton-lapel-d5-lapel",
@@ -3091,15 +3089,15 @@
        "name": "Landon Paddock",
        "party": "",
        "party_full": "No party listed",
-       "votes": 2948,
+       "votes": 3120,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 2948,
+     "total_votes": 3120,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-frankton-lapel-d6-frankton",
@@ -3111,15 +3109,15 @@
        "name": "Billie B Brobston, Jr",
        "party": "",
        "party_full": "No party listed",
-       "votes": 2861,
+       "votes": 3024,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 2861,
+     "total_votes": 3024,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-madison-grant-d2",
@@ -3131,19 +3129,19 @@
        "name": "John Hanes",
        "party": "R",
        "party_full": "Republican",
-       "votes": 542,
+       "votes": 582,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 542,
+     "total_votes": 582,
      "status": "unopposed",
-     "updated": "8:35 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "John Hanes": 542
+       "John Hanes": 582
       },
       "State feed (other counties)": {
        "John Hanes": 0
@@ -3164,16 +3162,16 @@
        "name": "Donald Bruce Stanley",
        "party": "R",
        "party_full": "Republican",
-       "votes": 545,
+       "votes": 585,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 545,
+     "total_votes": 585,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-madison-grant-d7",
@@ -3185,18 +3183,18 @@
        "name": "Erik Davidson",
        "party": "",
        "party_full": "No party listed",
-       "votes": 548,
+       "votes": 587,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 548,
+     "total_votes": 587,
      "status": "unopposed",
-     "updated": "8:35 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Erik Davidson": 548
+       "Erik Davidson": 587
       },
       "State feed (other counties)": {
        "Erik Davidson": 0
@@ -3217,16 +3215,16 @@
        "name": "Kevin Ginder",
        "party": "",
        "party_full": "No party listed",
-       "votes": 5116,
+       "votes": 6700,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 5116,
+     "total_votes": 6700,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-south-madison-d2-fall-creek",
@@ -3238,15 +3236,15 @@
        "name": "Tom Jewell",
        "party": "R",
        "party_full": "Republican",
-       "votes": 5029,
+       "votes": 6683,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 5029,
+     "total_votes": 6683,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-school-south-madison-d3-green",
@@ -3258,15 +3256,15 @@
        "name": "Craig Lee",
        "party": "",
        "party_full": "No party listed",
-       "votes": 4964,
+       "votes": 6508,
        "pct": 100.0,
        "leading": true
       }
      ],
      "uncontested": true,
-     "total_votes": 4964,
+     "total_votes": 6508,
      "status": "unopposed",
-     "updated": "8:13 PM ET"
+     "updated": "8:36 PM ET"
     },
     {
      "id": "mad-ref-anderson-schools",
@@ -3280,23 +3278,23 @@
       {
        "name": "Yes",
        "party": "",
-       "votes": 4986,
-       "pct": 50.63,
+       "votes": 6702,
+       "pct": 50.19,
        "leading": true
       },
       {
        "name": "No",
        "party": "",
-       "votes": 4861,
-       "pct": 49.37,
+       "votes": 6650,
+       "pct": 49.81,
        "leading": false
       }
      ],
-     "total_votes": 9847,
+     "total_votes": 13352,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 125,
-     "margin_pct": 1.26
+     "updated": "8:36 PM ET",
+     "margin_votes": 52,
+     "margin_pct": 0.38
     },
     {
      "id": "mad-ref-elwood-schools",
@@ -3311,22 +3309,22 @@
        "name": "Yes",
        "party": "",
        "votes": 658,
-       "pct": 46.87,
+       "pct": 46.6,
        "leading": false
       },
       {
        "name": "No",
        "party": "",
-       "votes": 746,
-       "pct": 53.13,
+       "votes": 754,
+       "pct": 53.4,
        "leading": true
       }
      ],
-     "total_votes": 1404,
+     "total_votes": 1412,
      "status": "reporting",
-     "updated": "8:13 PM ET",
-     "margin_votes": 88,
-     "margin_pct": 6.26
+     "updated": "8:36 PM ET",
+     "margin_votes": 96,
+     "margin_pct": 6.8
     }
    ]
   },
@@ -3344,32 +3342,32 @@
        "name": "Max Engling",
        "party": "R",
        "party_full": "Republican",
-       "votes": 159389,
-       "pct": 48.5,
+       "votes": 162712,
+       "pct": 48.54,
        "leading": true
       },
       {
        "name": "Beau Bayh",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 153953,
-       "pct": 46.84,
+       "votes": 156743,
+       "pct": 46.76,
        "leading": false
       },
       {
        "name": "Greg Ballard",
        "party": "Lincoln",
        "party_full": "Lincoln Party",
-       "votes": 8704,
-       "pct": 2.65,
+       "votes": 8969,
+       "pct": 2.68,
        "leading": false
       },
       {
        "name": "Lauri A. Shillings",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 6603,
-       "pct": 2.01,
+       "votes": 6807,
+       "pct": 2.03,
        "leading": false
       },
       {
@@ -3385,15 +3383,15 @@
      "note": "Open seat (Morales lost GOP convention)",
      "watch": "Marquee statewide race",
      "uncontested": false,
-     "total_votes": 328651,
+     "total_votes": 335233,
      "status": "reporting",
-     "updated": "8:35 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Max Engling": 10677,
-       "Beau Bayh": 12493,
-       "Lauri A. Shillings": 492,
-       "Greg Ballard": 915
+       "Max Engling": 14000,
+       "Beau Bayh": 15283,
+       "Lauri A. Shillings": 696,
+       "Greg Ballard": 1180
       },
       "State feed (other counties)": {
        "Max Engling": 143565,
@@ -3414,8 +3412,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 5436,
-     "margin_pct": 1.66
+     "margin_votes": 5969,
+     "margin_pct": 1.78
     },
     {
      "id": "in-comptroller",
@@ -3427,37 +3425,37 @@
        "name": "Elise Nieshalla",
        "party": "R",
        "party_full": "Republican",
-       "votes": 170900,
+       "votes": 174562,
        "incumbent": true,
-       "pct": 53.26,
+       "pct": 53.31,
        "leading": true
       },
       {
        "name": "Jessica Bailey",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 140122,
-       "pct": 43.67,
+       "votes": 142688,
+       "pct": 43.58,
        "leading": false
       },
       {
        "name": "John Schick",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 9870,
-       "pct": 3.08,
+       "votes": 10179,
+       "pct": 3.11,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 320892,
+     "total_votes": 327429,
      "status": "reporting",
-     "updated": "8:35 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Elise Nieshalla": 11979,
-       "Jessica Bailey": 11571,
-       "John Schick": 834
+       "Elise Nieshalla": 15641,
+       "Jessica Bailey": 14137,
+       "John Schick": 1143
       },
       "State feed (other counties)": {
        "Elise Nieshalla": 153263,
@@ -3475,8 +3473,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 30778,
-     "margin_pct": 9.59
+     "margin_votes": 31874,
+     "margin_pct": 9.73
     },
     {
      "id": "in-treasurer",
@@ -3488,28 +3486,28 @@
        "name": "Daniel Elliott",
        "party": "R",
        "party_full": "Republican",
-       "votes": 184607,
+       "votes": 188607,
        "incumbent": true,
-       "pct": 57.13,
+       "pct": 57.2,
        "leading": true
       },
       {
        "name": "Coumba Kebe",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 138553,
-       "pct": 42.87,
+       "votes": 141107,
+       "pct": 42.8,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 323160,
+     "total_votes": 329714,
      "status": "reporting",
-     "updated": "8:35 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Daniel Elliott": 13155,
-       "Coumba Kebe": 11262
+       "Daniel Elliott": 17155,
+       "Coumba Kebe": 13816
       },
       "State feed (other counties)": {
        "Daniel Elliott": 165278,
@@ -3525,8 +3523,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 46054,
-     "margin_pct": 14.26
+     "margin_votes": 47500,
+     "margin_pct": 14.4
     },
     {
      "id": "in-pq1",
@@ -3540,32 +3538,32 @@
       {
        "name": "Yes",
        "party": "",
-       "votes": 13358,
-       "pct": 57.21,
+       "votes": 16963,
+       "pct": 56.9,
        "leading": true
       },
       {
        "name": "No",
        "party": "",
-       "votes": 9993,
-       "pct": 42.79,
+       "votes": 12848,
+       "pct": 43.1,
        "leading": false
       }
      ],
-     "total_votes": 23351,
+     "total_votes": 29811,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Yes": 13358,
-       "No": 9993
+       "Yes": 16963,
+       "No": 12848
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 3365,
-     "margin_pct": 14.42
+     "margin_votes": 4115,
+     "margin_pct": 13.8
     },
     {
      "id": "in-pq2",
@@ -3579,32 +3577,32 @@
       {
        "name": "Yes",
        "party": "",
-       "votes": 14447,
-       "pct": 62.06,
+       "votes": 18400,
+       "pct": 61.92,
        "leading": true
       },
       {
        "name": "No",
        "party": "",
-       "votes": 8832,
-       "pct": 37.94,
+       "votes": 11318,
+       "pct": 38.08,
        "leading": false
       }
      ],
-     "total_votes": 23279,
+     "total_votes": 29718,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Yes": 14447,
-       "No": 8832
+       "Yes": 18400,
+       "No": 11318
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 5615,
-     "margin_pct": 24.12
+     "margin_votes": 7082,
+     "margin_pct": 23.84
     },
     {
      "id": "in-ret-coa-kenworthy",
@@ -3618,32 +3616,32 @@
       {
        "name": "Yes",
        "party": "",
-       "votes": 14317,
-       "pct": 70.41,
+       "votes": 18336,
+       "pct": 70.47,
        "leading": true
       },
       {
        "name": "No",
        "party": "",
-       "votes": 6018,
-       "pct": 29.59,
+       "votes": 7683,
+       "pct": 29.53,
        "leading": false
       }
      ],
-     "total_votes": 20335,
+     "total_votes": 26019,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Yes": 14317,
-       "No": 6018
+       "Yes": 18336,
+       "No": 7683
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 8299,
-     "margin_pct": 40.82
+     "margin_votes": 10653,
+     "margin_pct": 40.94
     },
     {
      "id": "in-ret-coa-deboer",
@@ -3657,32 +3655,32 @@
       {
        "name": "Yes",
        "party": "",
-       "votes": 14098,
-       "pct": 68.54,
+       "votes": 18043,
+       "pct": 68.52,
        "leading": true
       },
       {
        "name": "No",
        "party": "",
-       "votes": 6471,
-       "pct": 31.46,
+       "votes": 8291,
+       "pct": 31.48,
        "leading": false
       }
      ],
-     "total_votes": 20569,
+     "total_votes": 26334,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Yes": 14098,
-       "No": 6471
+       "Yes": 18043,
+       "No": 8291
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 7627,
-     "margin_pct": 37.08
+     "margin_votes": 9752,
+     "margin_pct": 37.04
     },
     {
      "id": "in-ret-coa-felix",
@@ -3696,32 +3694,32 @@
       {
        "name": "Yes",
        "party": "",
-       "votes": 13827,
-       "pct": 67.94,
+       "votes": 17723,
+       "pct": 68.07,
        "leading": true
       },
       {
        "name": "No",
        "party": "",
-       "votes": 6524,
-       "pct": 32.06,
+       "votes": 8315,
+       "pct": 31.93,
        "leading": false
       }
      ],
-     "total_votes": 20351,
+     "total_votes": 26038,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Yes": 13827,
-       "No": 6524
+       "Yes": 17723,
+       "No": 8315
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 7303,
-     "margin_pct": 35.88
+     "margin_votes": 9408,
+     "margin_pct": 36.14
     },
     {
      "id": "in-ret-tax-mcadam",
@@ -3735,32 +3733,32 @@
       {
        "name": "Yes",
        "party": "",
-       "votes": 13969,
-       "pct": 68.95,
+       "votes": 17859,
+       "pct": 68.87,
        "leading": true
       },
       {
        "name": "No",
        "party": "",
-       "votes": 6292,
-       "pct": 31.05,
+       "votes": 8074,
+       "pct": 31.13,
        "leading": false
       }
      ],
-     "total_votes": 20261,
+     "total_votes": 25933,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Yes": 13969,
-       "No": 6292
+       "Yes": 17859,
+       "No": 8074
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 7677,
-     "margin_pct": 37.9
+     "margin_votes": 9785,
+     "margin_pct": 37.74
     }
    ]
   },
@@ -3953,40 +3951,40 @@
      "held_by": "R",
      "candidates": [
       {
-       "name": "J.D. Ford",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 12167,
-       "pct": 50.08,
-       "leading": true
-      },
-      {
        "name": "Victoria Spartz",
        "party": "R",
        "party_full": "Republican",
-       "votes": 12130,
+       "votes": 15825,
        "incumbent": true,
-       "pct": 49.92,
+       "pct": 51.38,
+       "leading": true
+      },
+      {
+       "name": "J.D. Ford",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 14976,
+       "pct": 48.62,
        "leading": false
       }
      ],
      "watch": "Spartz vs. Ford · Madison Co.",
      "local": "Madison",
      "uncontested": false,
-     "total_votes": 24297,
+     "total_votes": 30801,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Victoria Spartz": 12130,
-       "J.D. Ford": 12167
+       "Victoria Spartz": 15825,
+       "J.D. Ford": 14976
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 37,
-     "margin_pct": 0.16
+     "margin_votes": 849,
+     "margin_pct": 2.76
     },
     {
      "id": "us-house-06",
@@ -5072,36 +5070,36 @@
        "name": "Lori J. Goss-Reaves",
        "party": "R",
        "party_full": "Republican",
-       "votes": 495,
+       "votes": 529,
        "incumbent": true,
-       "pct": 65.05,
+       "pct": 65.63,
        "leading": true
       },
       {
        "name": "Katie Robins",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 266,
-       "pct": 34.95,
+       "votes": 277,
+       "pct": 34.37,
        "leading": false
       }
      ],
      "local": "Madison",
      "uncontested": false,
-     "total_votes": 761,
+     "total_votes": 806,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Lori J. Goss-Reaves": 495,
-       "Katie Robins": 266
+       "Lori J. Goss-Reaves": 529,
+       "Katie Robins": 277
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 229,
-     "margin_pct": 30.1
+     "margin_votes": 252,
+     "margin_pct": 31.26
     },
     {
      "id": "in-house-032",
@@ -5212,36 +5210,36 @@
        "name": "Elizabeth Rowray",
        "party": "R",
        "party_full": "Republican",
-       "votes": 4702,
+       "votes": 5789,
        "incumbent": true,
-       "pct": 59.78,
+       "pct": 61.27,
        "leading": true
       },
       {
        "name": "Phil G. Gift",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 3164,
-       "pct": 40.22,
+       "votes": 3659,
+       "pct": 38.73,
        "leading": false
       }
      ],
      "local": "Madison",
      "uncontested": false,
-     "total_votes": 7866,
+     "total_votes": 9448,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Elizabeth Rowray": 4702,
-       "Phil G. Gift": 3164
+       "Elizabeth Rowray": 5789,
+       "Phil G. Gift": 3659
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 1538,
-     "margin_pct": 19.56
+     "margin_votes": 2130,
+     "margin_pct": 22.54
     },
     {
      "id": "in-house-036",
@@ -5255,37 +5253,37 @@
        "name": "Kimberly (Kim) Townsend",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 5677,
-       "pct": 55.37,
+       "votes": 7324,
+       "pct": 54.55,
        "leading": true
       },
       {
        "name": "Kyle Pierce",
        "party": "R",
        "party_full": "Republican",
-       "votes": 4576,
+       "votes": 6101,
        "incumbent": true,
-       "pct": 44.63,
+       "pct": 45.45,
        "leading": false
       }
      ],
      "watch": "DLCC pickup target · Madison Co.",
      "local": "Madison",
      "uncontested": false,
-     "total_votes": 10253,
+     "total_votes": 13425,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Kyle Pierce": 4576,
-       "Kimberly (Kim) Townsend": 5677
+       "Kyle Pierce": 6101,
+       "Kimberly (Kim) Townsend": 7324
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 1101,
-     "margin_pct": 10.74
+     "margin_votes": 1223,
+     "margin_pct": 9.1
     },
     {
      "id": "in-house-037",
@@ -5824,7 +5822,7 @@
        "name": "Ethan J. Lawson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 7831,
+       "votes": 9137,
        "incumbent": true,
        "pct": 100.0,
        "leading": true
@@ -5835,12 +5833,12 @@
      "watch": "Unopposed · tracking vote totals",
      "note": "Did not make ballot: Reece Axel-Adams (D).",
      "uncontested": true,
-     "total_votes": 7831,
+     "total_votes": 9137,
      "status": "unopposed",
-     "updated": "8:31 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Ethan J. Lawson": 2202
+       "Ethan J. Lawson": 3508
       },
       "Hancock": {
        "Ethan J. Lawson": 5629
@@ -6952,29 +6950,29 @@
        "name": "Chris Jeter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2099,
+       "votes": 2254,
        "incumbent": true,
-       "pct": 51.64,
+       "pct": 52.36,
        "leading": true
       },
       {
        "name": "Stephanie Jo Yocum",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1966,
-       "pct": 48.36,
+       "votes": 2051,
+       "pct": 47.64,
        "leading": false
       }
      ],
      "local": "Hancock, Madison",
      "uncontested": false,
-     "total_votes": 4065,
+     "total_votes": 4305,
      "status": "reporting",
-     "updated": "8:27 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Chris Jeter": 1265,
-       "Stephanie Jo Yocum": 1278
+       "Chris Jeter": 1420,
+       "Stephanie Jo Yocum": 1363
       },
       "Hancock": {
        "Chris Jeter": 834,
@@ -6985,8 +6983,8 @@
       "Hancock",
       "Madison"
      ],
-     "margin_votes": 133,
-     "margin_pct": 3.28
+     "margin_votes": 203,
+     "margin_pct": 4.72
     },
     {
      "id": "in-house-089",
@@ -7690,36 +7688,36 @@
        "name": "Mike Gaskill",
        "party": "R",
        "party_full": "Republican",
-       "votes": 12540,
+       "votes": 16340,
        "incumbent": true,
-       "pct": 51.37,
+       "pct": 52.77,
        "leading": true
       },
       {
        "name": "Tamie Dixon-Tatum",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 11870,
-       "pct": 48.63,
+       "votes": 14623,
+       "pct": 47.23,
        "leading": false
       }
      ],
      "local": "Madison",
      "uncontested": false,
-     "total_votes": 24410,
+     "total_votes": 30963,
      "status": "reporting",
-     "updated": "8:13 PM ET",
+     "updated": "8:36 PM ET",
      "county_votes": {
       "Madison": {
-       "Mike Gaskill": 12540,
-       "Tamie Dixon-Tatum": 11870
+       "Mike Gaskill": 16340,
+       "Tamie Dixon-Tatum": 14623
       }
      },
      "counties_reporting": [
       "Madison"
      ],
-     "margin_votes": 670,
-     "margin_pct": 2.74
+     "margin_votes": 1717,
+     "margin_pct": 5.54
     },
     {
      "id": "in-senate-26",
@@ -8135,6 +8133,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:35:59.766508-05:00",
- "last_updated": "8:35 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:36:01.732457-05:00",
+ "last_updated": "8:36 PM ET, Tue Nov 3, 2026"
 }

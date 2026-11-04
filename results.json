@@ -3994,37 +3994,37 @@
        "name": "Jefferson Shreve",
        "party": "R",
        "party_full": "Republican",
-       "votes": 3134,
+       "votes": 5880,
        "incumbent": true,
-       "pct": 66.84,
+       "pct": 66.61,
        "leading": true
       },
       {
        "name": "Cynthia (Cinde) Wirth",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1555,
-       "pct": 33.16,
+       "votes": 2948,
+       "pct": 33.39,
        "leading": false
       }
      ],
      "watch": "Shreve vs. Wirth · Hancock Co.",
      "local": "Hancock",
      "uncontested": false,
-     "total_votes": 4689,
+     "total_votes": 8828,
      "status": "reporting",
-     "updated": "8:01 PM ET",
+     "updated": "8:27 PM ET",
      "county_votes": {
       "Hancock": {
-       "Jefferson Shreve": 3134,
-       "Cynthia (Cinde) Wirth": 1555
+       "Jefferson Shreve": 5880,
+       "Cynthia (Cinde) Wirth": 2948
       }
      },
      "counties_reporting": [
       "Hancock"
      ],
-     "margin_votes": 1579,
-     "margin_pct": 33.68
+     "margin_votes": 2932,
+     "margin_pct": 33.22
     },
     {
      "id": "us-house-07",
@@ -8099,6 +8099,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:27:37.856927-05:00",
+ "last_updated_iso": "2026-11-03T20:27:55.898057-05:00",
  "last_updated": "8:27 PM ET, Tue Nov 3, 2026"
 }

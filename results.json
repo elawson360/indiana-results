@@ -3953,37 +3953,42 @@
        "name": "Victoria Spartz",
        "party": "R",
        "party_full": "Republican",
-       "votes": 16589,
+       "votes": 30030,
        "incumbent": true,
-       "pct": 50.64,
+       "pct": 52.62,
        "leading": true
       },
       {
        "name": "J.D. Ford",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 16167,
-       "pct": 49.36,
+       "votes": 27040,
+       "pct": 47.38,
        "leading": false
       }
      ],
      "watch": "Spartz vs. Ford · Madison Co.",
      "local": "Madison",
      "uncontested": false,
-     "total_votes": 32756,
+     "total_votes": 57070,
      "status": "reporting",
-     "updated": "9:01 PM ET",
+     "updated": "9:15 PM ET",
      "county_votes": {
       "Madison": {
        "Victoria Spartz": 16589,
        "J.D. Ford": 16167
+      },
+      "State feed (other counties)": {
+       "Victoria Spartz": 13441,
+       "J.D. Ford": 10873
       }
      },
      "counties_reporting": [
-      "Madison"
+      "Madison",
+      "State feed (other counties)"
      ],
-     "margin_votes": 422,
-     "margin_pct": 1.28
+     "margin_votes": 2990,
+     "margin_pct": 5.24
     },
     {
      "id": "us-house-06",
@@ -3997,42 +4002,42 @@
        "name": "Jefferson Shreve",
        "party": "R",
        "party_full": "Republican",
-       "votes": 36650,
+       "votes": 38017,
        "incumbent": true,
-       "pct": 60.34,
+       "pct": 60.63,
        "leading": true
       },
       {
        "name": "Cynthia (Cinde) Wirth",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 24086,
-       "pct": 39.66,
+       "votes": 24691,
+       "pct": 39.37,
        "leading": false
       }
      ],
      "watch": "Shreve vs. Wirth · Hancock Co.",
      "local": "Hancock",
      "uncontested": false,
-     "total_votes": 60736,
+     "total_votes": 62708,
      "status": "reporting",
-     "updated": "9:04 PM ET",
+     "updated": "9:15 PM ET",
      "county_votes": {
       "Hancock": {
        "Jefferson Shreve": 6856,
        "Cynthia (Cinde) Wirth": 3707
       },
       "State feed (other counties)": {
-       "Jefferson Shreve": 29794,
-       "Cynthia (Cinde) Wirth": 20379
+       "Jefferson Shreve": 31161,
+       "Cynthia (Cinde) Wirth": 20984
       }
      },
      "counties_reporting": [
       "Hancock",
       "State feed (other counties)"
      ],
-     "margin_votes": 12564,
-     "margin_pct": 20.68
+     "margin_votes": 13326,
+     "margin_pct": 21.26
     },
     {
      "id": "us-house-07",
@@ -8183,6 +8188,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T21:07:27.147257-05:00",
- "last_updated": "9:07 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T21:15:26.945969-05:00",
+ "last_updated": "9:15 PM ET, Tue Nov 3, 2026"
 }

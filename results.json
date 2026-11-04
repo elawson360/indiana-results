@@ -2,7 +2,7 @@
  "title": "Indiana Election Night Results — Nov 3, 2026",
  "is_example": false,
  "status_message": "Results not yet available — polls close 6 PM ET Nov 3",
- "source_note": "ENR: 1579/5067 precincts statewide · Imported from Indiana ENR",
+ "source_note": "ENR: 1799/5067 precincts statewide · Imported from Indiana ENR",
  "chambers": {
   "us-house": {
    "name": "Indiana US House delegation",
@@ -54,18 +54,17 @@
      "R": 3
     },
     "leading": {
-     "R": 37,
-     "D": 10
+     "R": 39,
+     "D": 9
     },
-    "not_reported": 32,
+    "not_reported": 31,
     "projected": {
-     "R": 40,
-     "D": 28
+     "R": 42,
+     "D": 27
     },
     "flips": [
      "in-house-015",
      "in-house-019",
-     "in-house-023",
      "in-house-036",
      "in-house-048"
     ]
@@ -93,11 +92,11 @@
     },
     "leading": {
      "D": 3,
-     "R": 12
+     "R": 13
     },
-    "not_reported": 8,
+    "not_reported": 7,
     "projected": {
-     "R": 31,
+     "R": 32,
      "D": 11
     },
     "flips": [
@@ -281,7 +280,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-prosecutor",
@@ -301,7 +300,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-circuit-court-clerk",
@@ -321,7 +320,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-auditor",
@@ -341,7 +340,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-recorder",
@@ -361,7 +360,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-surveyor",
@@ -381,7 +380,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-assessor",
@@ -401,7 +400,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-superior-court-1",
@@ -421,7 +420,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-superior-court-2",
@@ -441,7 +440,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-buck-creek-twp-board",
@@ -755,7 +754,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-blue-river-twp-trustee",
@@ -775,7 +774,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-brandywine-twp-board",
@@ -811,7 +810,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-brandywine-twp-trustee",
@@ -831,7 +830,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-brown-twp-board",
@@ -867,7 +866,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-brown-twp-trustee",
@@ -887,7 +886,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-buck-creek-twp-trustee",
@@ -907,7 +906,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-center-twp-trustee",
@@ -927,7 +926,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-green-twp-board",
@@ -963,7 +962,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-green-twp-trustee",
@@ -983,7 +982,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-jackson-twp-trustee",
@@ -1003,7 +1002,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-sugar-creek-twp-trustee",
@@ -1023,7 +1022,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-vernon-twp-trustee",
@@ -1043,7 +1042,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-mccordsville-town-council-at-large",
@@ -1110,7 +1109,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-fortville-town-council-d2",
@@ -1130,7 +1129,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-school-eastern-hancock-at-large",
@@ -1159,7 +1158,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-school-greenfield-central-d2",
@@ -1187,7 +1186,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-school-greenfield-central-d3",
@@ -1267,7 +1266,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-school-mt-vernon-at-large",
@@ -1295,7 +1294,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "han-school-new-palestine-d5",
@@ -1315,7 +1314,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     }
    ]
   },
@@ -3000,7 +2999,7 @@
      "uncontested": false,
      "total_votes": 632,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "county_votes": {
       "Madison": {
        "Katti Sneed": 434,
@@ -3138,7 +3137,7 @@
      "uncontested": true,
      "total_votes": 582,
      "status": "unopposed",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "county_votes": {
       "Madison": {
        "John Hanes": 582
@@ -3191,7 +3190,7 @@
      "uncontested": true,
      "total_votes": 587,
      "status": "unopposed",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "county_votes": {
       "Madison": {
        "Erik Davidson": 587
@@ -3339,42 +3338,42 @@
      "vote_for": 1,
      "candidates": [
       {
-       "name": "Beau Bayh",
-       "party": "D",
-       "party_full": "Democratic",
-       "votes": 214704,
-       "pct": 48.22,
-       "leading": true
-      },
-      {
        "name": "Max Engling",
        "party": "R",
        "party_full": "Republican",
-       "votes": 206739,
-       "pct": 46.43,
+       "votes": 234663,
+       "pct": 47.73,
+       "leading": true
+      },
+      {
+       "name": "Beau Bayh",
+       "party": "D",
+       "party_full": "Democratic",
+       "votes": 230662,
+       "pct": 46.91,
        "leading": false
       },
       {
        "name": "Greg Ballard",
        "party": "Lincoln",
        "party_full": "Lincoln Party",
-       "votes": 14746,
-       "pct": 3.31,
+       "votes": 16185,
+       "pct": 3.29,
        "leading": false
       },
       {
        "name": "Lauri A. Shillings",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 9091,
-       "pct": 2.04,
+       "votes": 10152,
+       "pct": 2.06,
        "leading": false
       },
       {
        "name": "Andrew Delano",
        "party": "W/I",
        "party_full": "Write-In (National Socialist American Workers')",
-       "votes": 2,
+       "votes": 3,
        "write_in": true,
        "pct": 0.0,
        "leading": false
@@ -3383,9 +3382,9 @@
      "note": "Open seat (Morales lost GOP convention)",
      "watch": "Marquee statewide race",
      "uncontested": false,
-     "total_votes": 445282,
+     "total_votes": 491665,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "county_votes": {
       "Madison": {
        "Max Engling": 14000,
@@ -3394,11 +3393,11 @@
        "Greg Ballard": 1180
       },
       "State feed (other counties)": {
-       "Beau Bayh": 196350,
-       "Max Engling": 187592,
-       "Greg Ballard": 13013,
-       "Lauri A. Shillings": 8170,
-       "Andrew Delano": 2
+       "Max Engling": 215516,
+       "Beau Bayh": 212308,
+       "Greg Ballard": 14452,
+       "Lauri A. Shillings": 9231,
+       "Andrew Delano": 3
       },
       "Hancock": {
        "Max Engling": 5147,
@@ -3412,8 +3411,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 7965,
-     "margin_pct": 1.79
+     "margin_votes": 4001,
+     "margin_pct": 0.82
     },
     {
      "id": "in-comptroller",
@@ -3425,32 +3424,32 @@
        "name": "Elise Nieshalla",
        "party": "R",
        "party_full": "Republican",
-       "votes": 220296,
+       "votes": 249065,
        "incumbent": true,
-       "pct": 51.19,
+       "pct": 52.23,
        "leading": true
       },
       {
        "name": "Jessica Bailey",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 196496,
-       "pct": 45.66,
+       "votes": 212693,
+       "pct": 44.6,
        "leading": false
       },
       {
        "name": "John Schick",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 13586,
-       "pct": 3.16,
+       "votes": 15117,
+       "pct": 3.17,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 430378,
+     "total_votes": 476875,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "county_votes": {
       "Madison": {
        "Elise Nieshalla": 15641,
@@ -3458,9 +3457,9 @@
        "John Schick": 1143
       },
       "State feed (other counties)": {
-       "Elise Nieshalla": 198997,
-       "Jessica Bailey": 179642,
-       "John Schick": 11941
+       "Elise Nieshalla": 227766,
+       "Jessica Bailey": 195839,
+       "John Schick": 13472
       },
       "Hancock": {
        "Elise Nieshalla": 5658,
@@ -3473,8 +3472,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 23800,
-     "margin_pct": 5.53
+     "margin_votes": 36372,
+     "margin_pct": 7.63
     },
     {
      "id": "in-treasurer",
@@ -3486,32 +3485,32 @@
        "name": "Daniel Elliott",
        "party": "R",
        "party_full": "Republican",
-       "votes": 238065,
+       "votes": 265597,
        "incumbent": true,
-       "pct": 55.04,
+       "pct": 56.4,
        "leading": true
       },
       {
        "name": "Coumba Kebe",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 194480,
-       "pct": 44.96,
+       "votes": 205331,
+       "pct": 43.6,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 432545,
+     "total_votes": 470928,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "county_votes": {
       "Madison": {
        "Daniel Elliott": 17155,
        "Coumba Kebe": 13816
       },
       "State feed (other counties)": {
-       "Daniel Elliott": 214736,
-       "Coumba Kebe": 177949
+       "Daniel Elliott": 242268,
+       "Coumba Kebe": 188800
       },
       "Hancock": {
        "Daniel Elliott": 6174,
@@ -3523,8 +3522,8 @@
       "Madison",
       "State feed (other counties)"
      ],
-     "margin_votes": 43585,
-     "margin_pct": 10.08
+     "margin_votes": 60266,
+     "margin_pct": 12.8
     },
     {
      "id": "in-pq1",
@@ -3813,7 +3812,7 @@
      "uncontested": false,
      "total_votes": 69402,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 25484,
      "margin_pct": 36.72
     },
@@ -3829,34 +3828,34 @@
        "name": "Rudy Yakym",
        "party": "R",
        "party_full": "Republican",
-       "votes": 17046,
+       "votes": 19787,
        "incumbent": true,
-       "pct": 57.49,
+       "pct": 58.78,
        "leading": true
       },
       {
        "name": "Jamee Decio",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 11992,
-       "pct": 40.45,
+       "votes": 13104,
+       "pct": 38.93,
        "leading": false
       },
       {
        "name": "William Eric Henry",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 611,
-       "pct": 2.06,
+       "votes": 770,
+       "pct": 2.29,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 29649,
+     "total_votes": 33661,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 5054,
-     "margin_pct": 17.04
+     "updated": "8:55 PM ET",
+     "margin_votes": 6683,
+     "margin_pct": 19.85
     },
     {
      "id": "us-house-03",
@@ -3896,7 +3895,7 @@
      "uncontested": false,
      "total_votes": 59076,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 17873,
      "margin_pct": 30.25
     },
@@ -3912,17 +3911,17 @@
        "name": "Jim Baird",
        "party": "R",
        "party_full": "Republican",
-       "votes": 3266,
+       "votes": 6469,
        "incumbent": true,
-       "pct": 62.71,
+       "pct": 60.53,
        "leading": true
       },
       {
        "name": "Drew Cox",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1942,
-       "pct": 37.29,
+       "votes": 4218,
+       "pct": 39.47,
        "leading": false
       },
       {
@@ -3936,11 +3935,11 @@
       }
      ],
      "uncontested": false,
-     "total_votes": 5208,
+     "total_votes": 10687,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 1324,
-     "margin_pct": 25.42
+     "updated": "8:55 PM ET",
+     "margin_votes": 2251,
+     "margin_pct": 21.06
     },
     {
      "id": "us-house-05",
@@ -4067,7 +4066,7 @@
      "uncontested": false,
      "total_votes": 45509,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 19533,
      "margin_pct": 42.92
     },
@@ -4083,26 +4082,26 @@
        "name": "Mark Messmer",
        "party": "R",
        "party_full": "Republican",
-       "votes": 26039,
+       "votes": 33690,
        "incumbent": true,
-       "pct": 61.48,
+       "pct": 63.21,
        "leading": true
       },
       {
        "name": "Mary Allen",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 16314,
-       "pct": 38.52,
+       "votes": 19607,
+       "pct": 36.79,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 42353,
+     "total_votes": 53297,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 9725,
-     "margin_pct": 22.96
+     "updated": "8:55 PM ET",
+     "margin_votes": 14083,
+     "margin_pct": 26.42
     },
     {
      "id": "us-house-09",
@@ -4150,7 +4149,7 @@
      "uncontested": false,
      "total_votes": 89273,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 19791,
      "margin_pct": 22.17
     }
@@ -4181,7 +4180,7 @@
      "uncontested": true,
      "total_votes": 3565,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-002",
@@ -4204,7 +4203,7 @@
      "uncontested": true,
      "total_votes": 4623,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-003",
@@ -4227,7 +4226,7 @@
      "uncontested": true,
      "total_votes": 5259,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-004",
@@ -4267,7 +4266,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-005",
@@ -4298,7 +4297,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-006",
@@ -4321,7 +4320,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-007",
@@ -4352,7 +4351,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-008",
@@ -4383,7 +4382,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-009",
@@ -4415,7 +4414,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-010",
@@ -4447,7 +4446,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-011",
@@ -4478,7 +4477,7 @@
      "uncontested": false,
      "total_votes": 6220,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 230,
      "margin_pct": 3.7
     },
@@ -4503,7 +4502,7 @@
      "uncontested": true,
      "total_votes": 7753,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-013",
@@ -4542,7 +4541,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-014",
@@ -4565,7 +4564,7 @@
      "uncontested": true,
      "total_votes": 7457,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-015",
@@ -4596,7 +4595,7 @@
      "uncontested": false,
      "total_votes": 15448,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 764,
      "margin_pct": 4.94
     },
@@ -4629,7 +4628,7 @@
      "uncontested": false,
      "total_votes": 2839,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1105,
      "margin_pct": 38.92
     },
@@ -4662,7 +4661,7 @@
      "uncontested": false,
      "total_votes": 727,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 323,
      "margin_pct": 44.42
     },
@@ -4687,7 +4686,7 @@
      "uncontested": true,
      "total_votes": 4796,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-019",
@@ -4718,7 +4717,7 @@
      "uncontested": false,
      "total_votes": 12781,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1709,
      "margin_pct": 13.38
     },
@@ -4751,7 +4750,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-021",
@@ -4782,7 +4781,7 @@
      "uncontested": false,
      "total_votes": 7471,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1567,
      "margin_pct": 20.98
     },
@@ -4807,7 +4806,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-023",
@@ -4818,29 +4817,29 @@
      "held_by": "R",
      "candidates": [
       {
+       "name": "Ethan Manning",
+       "party": "R",
+       "party_full": "Republican",
+       "votes": 5198,
+       "incumbent": true,
+       "pct": 63.19,
+       "leading": true
+      },
+      {
        "name": "Austin D. Meives",
        "party": "D",
        "party_full": "Democratic",
        "votes": 3028,
-       "pct": 100.0,
-       "leading": true
-      },
-      {
-       "name": "Ethan Manning",
-       "party": "R",
-       "party_full": "Republican",
-       "votes": 0,
-       "incumbent": true,
-       "pct": 0.0,
+       "pct": 36.81,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 3028,
+     "total_votes": 8226,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 3028,
-     "margin_pct": 100.0
+     "updated": "8:55 PM ET",
+     "margin_votes": 2170,
+     "margin_pct": 26.38
     },
     {
      "id": "in-house-024",
@@ -4872,7 +4871,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-025",
@@ -4904,7 +4903,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-026",
@@ -4935,7 +4934,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-027",
@@ -4966,7 +4965,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-028",
@@ -4997,7 +4996,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-029",
@@ -5028,7 +5027,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-030",
@@ -5060,7 +5059,7 @@
      "uncontested": false,
      "total_votes": 17905,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1181,
      "margin_pct": 6.6
     },
@@ -5136,7 +5135,7 @@
      "uncontested": false,
      "total_votes": 412,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 232,
      "margin_pct": 56.32
     },
@@ -5169,7 +5168,7 @@
      "uncontested": false,
      "total_votes": 3014,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 900,
      "margin_pct": 29.86
     },
@@ -5204,7 +5203,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-035",
@@ -5322,7 +5321,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-038",
@@ -5336,26 +5335,26 @@
        "name": "Heath R. VanNatter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 4654,
+       "votes": 5554,
        "incumbent": true,
-       "pct": 62.58,
+       "pct": 63.94,
        "leading": true
       },
       {
        "name": "Nate Stout",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2783,
-       "pct": 37.42,
+       "votes": 3132,
+       "pct": 36.06,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 7437,
+     "total_votes": 8686,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 1871,
-     "margin_pct": 25.16
+     "updated": "8:55 PM ET",
+     "margin_votes": 2422,
+     "margin_pct": 27.88
     },
     {
      "id": "in-house-039",
@@ -5387,7 +5386,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-040",
@@ -5418,7 +5417,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-041",
@@ -5449,7 +5448,7 @@
      "uncontested": false,
      "total_votes": 4289,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1515,
      "margin_pct": 35.32
     },
@@ -5465,26 +5464,26 @@
        "name": "Tim R. Yocum",
        "party": "R",
        "party_full": "Republican",
-       "votes": 3474,
+       "votes": 6280,
        "incumbent": true,
-       "pct": 69.2,
+       "pct": 67.06,
        "leading": true
       },
       {
        "name": "Brandi Vandivier",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1546,
-       "pct": 30.8,
+       "votes": 3085,
+       "pct": 32.94,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 5020,
+     "total_votes": 9365,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 1928,
-     "margin_pct": 38.4
+     "updated": "8:55 PM ET",
+     "margin_votes": 3195,
+     "margin_pct": 34.12
     },
     {
      "id": "in-house-043",
@@ -5516,7 +5515,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-044",
@@ -5547,7 +5546,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-045",
@@ -5561,27 +5560,27 @@
        "name": "Kellie E. Streeter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 5849,
-       "pct": 70.11,
+       "votes": 6642,
+       "pct": 71.53,
        "leading": true
       },
       {
        "name": "Rebecca Dawn (Becky) Mayfield",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2494,
-       "pct": 29.89,
+       "votes": 2644,
+       "pct": 28.47,
        "leading": false
       }
      ],
      "open_seat": true,
      "note": "Incumbent Bruce Borders (R) lost primary",
      "uncontested": false,
-     "total_votes": 8343,
+     "total_votes": 9286,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 3355,
-     "margin_pct": 40.22
+     "updated": "8:55 PM ET",
+     "margin_votes": 3998,
+     "margin_pct": 43.06
     },
     {
      "id": "in-house-046",
@@ -5612,7 +5611,7 @@
      "uncontested": false,
      "total_votes": 1963,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 919,
      "margin_pct": 46.82
     },
@@ -5645,7 +5644,7 @@
      "uncontested": false,
      "total_votes": 4433,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1833,
      "margin_pct": 41.34
     },
@@ -5686,7 +5685,7 @@
      "uncontested": false,
      "total_votes": 8066,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 37,
      "margin_pct": 0.46
     },
@@ -5719,7 +5718,7 @@
      "uncontested": false,
      "total_votes": 9200,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 2232,
      "margin_pct": 24.26
     },
@@ -5752,7 +5751,7 @@
      "uncontested": false,
      "total_votes": 10838,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 3532,
      "margin_pct": 32.58
     },
@@ -5785,7 +5784,7 @@
      "uncontested": false,
      "total_votes": 12082,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 3796,
      "margin_pct": 31.42
     },
@@ -5818,7 +5817,7 @@
      "uncontested": false,
      "total_votes": 13744,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 4438,
      "margin_pct": 32.3
     },
@@ -5916,26 +5915,26 @@
        "name": "Lindsay Patterson",
        "party": "R",
        "party_full": "Republican",
-       "votes": 7264,
+       "votes": 11025,
        "incumbent": true,
-       "pct": 73.3,
+       "pct": 72.55,
        "leading": true
       },
       {
        "name": "Victoria C. Martz",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 2646,
-       "pct": 26.7,
+       "votes": 4172,
+       "pct": 27.45,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 9910,
+     "total_votes": 15197,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 4618,
-     "margin_pct": 46.6
+     "updated": "8:55 PM ET",
+     "margin_votes": 6853,
+     "margin_pct": 45.1
     },
     {
      "id": "in-house-056",
@@ -5949,25 +5948,27 @@
        "name": "Randy Retter",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 9511,
+       "pct": 58.74,
+       "leading": true
       },
       {
        "name": "Thomas Scott Rockwell",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 6681,
+       "pct": 41.26,
        "leading": false
       }
      ],
      "open_seat": true,
      "note": "Barrett (R) retiring",
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "total_votes": 16192,
+     "status": "reporting",
+     "updated": "8:55 PM ET",
+     "margin_votes": 2830,
+     "margin_pct": 17.48
     },
     {
      "id": "in-house-057",
@@ -5999,7 +6000,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-058",
@@ -6031,7 +6032,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-059",
@@ -6062,7 +6063,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-060",
@@ -6093,7 +6094,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-061",
@@ -6116,7 +6117,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-062",
@@ -6148,7 +6149,7 @@
      "uncontested": false,
      "total_votes": 955,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 543,
      "margin_pct": 56.86
     },
@@ -6164,27 +6165,27 @@
        "name": "Amy Kippenbrock",
        "party": "R",
        "party_full": "Republican",
-       "votes": 7381,
-       "pct": 58.57,
+       "votes": 11100,
+       "pct": 60.64,
        "leading": true
       },
       {
        "name": "Tiffanie Arthur",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 5220,
-       "pct": 41.43,
+       "votes": 7206,
+       "pct": 39.36,
        "leading": false
       }
      ],
      "open_seat": true,
      "note": "Lindauer (R) retiring",
      "uncontested": false,
-     "total_votes": 12601,
+     "total_votes": 18306,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 2161,
-     "margin_pct": 17.14
+     "updated": "8:55 PM ET",
+     "margin_votes": 3894,
+     "margin_pct": 21.28
     },
     {
      "id": "in-house-064",
@@ -6215,7 +6216,7 @@
      "uncontested": false,
      "total_votes": 8738,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 2766,
      "margin_pct": 31.66
     },
@@ -6248,7 +6249,7 @@
      "uncontested": false,
      "total_votes": 318,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 120,
      "margin_pct": 37.74
     },
@@ -6281,7 +6282,7 @@
      "uncontested": false,
      "total_votes": 17492,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 3308,
      "margin_pct": 18.92
     },
@@ -6314,7 +6315,7 @@
      "uncontested": false,
      "total_votes": 18680,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 6692,
      "margin_pct": 35.82
     },
@@ -6330,26 +6331,26 @@
        "name": "Garrett R. Bascom",
        "party": "R",
        "party_full": "Republican",
-       "votes": 1969,
+       "votes": 3188,
        "incumbent": true,
-       "pct": 69.55,
+       "pct": 70.13,
        "leading": true
       },
       {
        "name": "Hunter B Collins",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 862,
-       "pct": 30.45,
+       "votes": 1358,
+       "pct": 29.87,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 2831,
+     "total_votes": 4546,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 1107,
-     "margin_pct": 39.1
+     "updated": "8:55 PM ET",
+     "margin_votes": 1830,
+     "margin_pct": 40.26
     },
     {
      "id": "in-house-069",
@@ -6388,7 +6389,7 @@
      "uncontested": false,
      "total_votes": 9449,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 2537,
      "margin_pct": 26.85
     },
@@ -6430,7 +6431,7 @@
      "uncontested": false,
      "total_votes": 2719,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 724,
      "margin_pct": 26.63
     },
@@ -6464,7 +6465,7 @@
      "uncontested": false,
      "total_votes": 19475,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 5253,
      "margin_pct": 26.98
     },
@@ -6498,7 +6499,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-073",
@@ -6529,7 +6530,7 @@
      "uncontested": false,
      "total_votes": 11261,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 3023,
      "margin_pct": 26.84
     },
@@ -6562,7 +6563,7 @@
      "uncontested": false,
      "total_votes": 5404,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1322,
      "margin_pct": 24.46
     },
@@ -6604,7 +6605,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-076",
@@ -6635,7 +6636,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-077",
@@ -6658,7 +6659,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-078",
@@ -6689,7 +6690,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-079",
@@ -6720,7 +6721,7 @@
      "uncontested": false,
      "total_votes": 8382,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 3488,
      "margin_pct": 41.62
     },
@@ -6745,7 +6746,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-081",
@@ -6776,7 +6777,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-082",
@@ -6799,7 +6800,7 @@
      "uncontested": true,
      "total_votes": 0,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-083",
@@ -6830,7 +6831,7 @@
      "uncontested": false,
      "total_votes": 5902,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 2104,
      "margin_pct": 35.64
     },
@@ -6863,7 +6864,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-085",
@@ -6894,7 +6895,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-086",
@@ -6925,7 +6926,7 @@
      "uncontested": false,
      "total_votes": 7341,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 2833,
      "margin_pct": 38.6
     },
@@ -6950,7 +6951,7 @@
      "uncontested": true,
      "total_votes": 3968,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-088",
@@ -7029,7 +7030,7 @@
      "uncontested": false,
      "total_votes": 2795,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1383,
      "margin_pct": 49.48
     },
@@ -7062,7 +7063,7 @@
      "uncontested": false,
      "total_votes": 2802,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 224,
      "margin_pct": 8.0
     },
@@ -7095,7 +7096,7 @@
      "uncontested": false,
      "total_votes": 3037,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 61,
      "margin_pct": 2.0
     },
@@ -7120,7 +7121,7 @@
      "uncontested": true,
      "total_votes": 2592,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-093",
@@ -7151,7 +7152,7 @@
      "uncontested": false,
      "total_votes": 6001,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 611,
      "margin_pct": 10.18
     },
@@ -7176,7 +7177,7 @@
      "uncontested": true,
      "total_votes": 1197,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-095",
@@ -7199,7 +7200,7 @@
      "uncontested": true,
      "total_votes": 3482,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-096",
@@ -7222,7 +7223,7 @@
      "uncontested": true,
      "total_votes": 3934,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-097",
@@ -7253,7 +7254,7 @@
      "uncontested": false,
      "total_votes": 3177,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1763,
      "margin_pct": 55.5
     },
@@ -7278,7 +7279,7 @@
      "uncontested": true,
      "total_votes": 2154,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-099",
@@ -7301,7 +7302,7 @@
      "uncontested": true,
      "total_votes": 3659,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-house-100",
@@ -7324,7 +7325,7 @@
      "uncontested": true,
      "total_votes": 3766,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     }
    ]
   },
@@ -7362,7 +7363,7 @@
      "uncontested": false,
      "total_votes": 24620,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 5938,
      "margin_pct": 24.12
     },
@@ -7395,7 +7396,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-06",
@@ -7427,7 +7428,7 @@
      "uncontested": false,
      "total_votes": 19219,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1393,
      "margin_pct": 7.24
     },
@@ -7461,7 +7462,7 @@
      "uncontested": false,
      "total_votes": 6486,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 382,
      "margin_pct": 5.88
     },
@@ -7494,7 +7495,7 @@
      "uncontested": false,
      "total_votes": 8385,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 2797,
      "margin_pct": 33.36
     },
@@ -7527,7 +7528,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-17",
@@ -7559,7 +7560,7 @@
      "uncontested": false,
      "total_votes": 10834,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 2650,
      "margin_pct": 24.46
     },
@@ -7593,7 +7594,7 @@
      "uncontested": false,
      "total_votes": 11426,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 4032,
      "margin_pct": 35.28
     },
@@ -7627,7 +7628,7 @@
      "uncontested": false,
      "total_votes": 18809,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1299,
      "margin_pct": 6.9
     },
@@ -7661,7 +7662,7 @@
      "note": "Alting (R) said Oct 21 he will resign if reelected; his name stays on the ballot and a GOP caucus would fill the seat.",
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-23",
@@ -7675,32 +7676,34 @@
        "name": "Spencer R. Deery",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
+       "votes": 2995,
        "incumbent": true,
-       "pct": 0.0,
-       "leading": false
+       "pct": 69.46,
+       "leading": true
       },
       {
        "name": "David A Sanders",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 1059,
+       "pct": 24.56,
        "leading": false
       },
       {
        "name": "Joshua Brant",
        "party": "I",
        "party_full": "Independent",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 258,
+       "pct": 5.98,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "total_votes": 4312,
+     "status": "reporting",
+     "updated": "8:55 PM ET",
+     "margin_votes": 1936,
+     "margin_pct": 44.9
     },
     {
      "id": "in-senate-25",
@@ -7774,7 +7777,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-27",
@@ -7788,26 +7791,26 @@
        "name": "Jeff Raatz",
        "party": "R",
        "party_full": "Republican",
-       "votes": 2947,
+       "votes": 11547,
        "incumbent": true,
-       "pct": 80.54,
+       "pct": 58.09,
        "leading": true
       },
       {
        "name": "Ronald Itnyre",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 712,
-       "pct": 19.46,
+       "votes": 8332,
+       "pct": 41.91,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 3659,
+     "total_votes": 19879,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 2235,
-     "margin_pct": 61.08
+     "updated": "8:55 PM ET",
+     "margin_votes": 3215,
+     "margin_pct": 16.18
     },
     {
      "id": "in-senate-29",
@@ -7840,7 +7843,7 @@
      "uncontested": false,
      "total_votes": 4833,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 1047,
      "margin_pct": 21.66
     },
@@ -7875,7 +7878,7 @@
      "uncontested": false,
      "total_votes": 4316,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 114,
      "margin_pct": 2.64
     },
@@ -7908,7 +7911,7 @@
      "uncontested": false,
      "total_votes": 8546,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 4000,
      "margin_pct": 46.8
     },
@@ -7924,7 +7927,7 @@
        "name": "Jeff Ellington",
        "party": "R",
        "party_full": "Republican",
-       "votes": 13038,
+       "votes": 18393,
        "pct": 100.0,
        "leading": true
       }
@@ -7932,9 +7935,9 @@
      "open_seat": true,
      "note": "Bassler (R) retiring Did not make ballot: Joseph Baughman (D).",
      "uncontested": true,
-     "total_votes": 13038,
+     "total_votes": 18393,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-41",
@@ -7966,7 +7969,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-43",
@@ -7980,26 +7983,26 @@
        "name": "Randall D. Maxwell",
        "party": "R",
        "party_full": "Republican",
-       "votes": 9103,
+       "votes": 10301,
        "incumbent": true,
-       "pct": 62.86,
+       "pct": 63.6,
        "leading": true
       },
       {
        "name": "Byron E. Holland",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 5379,
-       "pct": 37.14,
+       "votes": 5895,
+       "pct": 36.4,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 14482,
+     "total_votes": 16196,
      "status": "reporting",
-     "updated": "8:41 PM ET",
-     "margin_votes": 3724,
-     "margin_pct": 25.72
+     "updated": "8:55 PM ET",
+     "margin_votes": 4406,
+     "margin_pct": 27.2
     },
     {
      "id": "in-senate-45",
@@ -8038,7 +8041,7 @@
      "uncontested": false,
      "total_votes": 38561,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 447,
      "margin_pct": 1.16
     },
@@ -8064,7 +8067,7 @@
      "uncontested": true,
      "total_votes": 6454,
      "status": "unopposed",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-47",
@@ -8095,7 +8098,7 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     },
     {
      "id": "in-senate-48",
@@ -8126,7 +8129,7 @@
      "uncontested": false,
      "total_votes": 16270,
      "status": "reporting",
-     "updated": "8:41 PM ET",
+     "updated": "8:55 PM ET",
      "margin_votes": 214,
      "margin_pct": 1.32
     },
@@ -8159,12 +8162,12 @@
      "uncontested": false,
      "total_votes": 0,
      "status": "not_reported",
-     "updated": "8:41 PM ET"
+     "updated": "8:55 PM ET"
     }
    ]
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:41:21.960166-05:00",
- "last_updated": "8:41 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:55:13.694650-05:00",
+ "last_updated": "8:55 PM ET, Tue Nov 3, 2026"
 }

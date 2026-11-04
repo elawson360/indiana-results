@@ -124,25 +124,25 @@
        "name": "Gary W. Achor, Jr.",
        "party": "R",
        "party_full": "Republican",
-       "votes": 3395,
-       "pct": 71.72,
+       "votes": 4371,
+       "pct": 73.45,
        "leading": true
       },
       {
        "name": "James Calvert, Jr.",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1339,
-       "pct": 28.28,
+       "votes": 1580,
+       "pct": 26.55,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 4734,
+     "total_votes": 5951,
      "status": "reporting",
-     "updated": "8:01 PM ET",
-     "margin_votes": 2056,
-     "margin_pct": 43.44
+     "updated": "8:14 PM ET",
+     "margin_votes": 2791,
+     "margin_pct": 46.9
     },
     {
      "id": "han-commissioner-d2",
@@ -154,26 +154,26 @@
        "name": "Gary McDaniel",
        "party": "R",
        "party_full": "Republican",
-       "votes": 3137,
+       "votes": 4030,
        "incumbent": true,
-       "pct": 66.99,
+       "pct": 68.5,
        "leading": true
       },
       {
        "name": "Jordan Coleman",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1546,
-       "pct": 33.01,
+       "votes": 1853,
+       "pct": 31.5,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 4683,
+     "total_votes": 5883,
      "status": "reporting",
-     "updated": "8:03 PM ET",
-     "margin_votes": 1591,
-     "margin_pct": 33.98
+     "updated": "8:14 PM ET",
+     "margin_votes": 2177,
+     "margin_pct": 37.0
     },
     {
      "id": "han-council-d1",
@@ -215,25 +215,25 @@
        "name": "Marcia Moore",
        "party": "R",
        "party_full": "Republican",
-       "votes": 505,
-       "pct": 64.91,
+       "votes": 601,
+       "pct": 67.3,
        "leading": true
       },
       {
        "name": "Luke J Lomax",
        "party": "L",
        "party_full": "Libertarian",
-       "votes": 273,
-       "pct": 35.09,
+       "votes": 292,
+       "pct": 32.7,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 778,
+     "total_votes": 893,
      "status": "reporting",
-     "updated": "8:03 PM ET",
-     "margin_votes": 232,
-     "margin_pct": 29.82
+     "updated": "8:14 PM ET",
+     "margin_votes": 309,
+     "margin_pct": 34.6
     },
     {
      "id": "han-council-d3",
@@ -245,23 +245,25 @@
        "name": "Jeff Cummins",
        "party": "R",
        "party_full": "Republican",
-       "votes": 0,
-       "pct": 0.0,
-       "leading": false
+       "votes": 221,
+       "pct": 65.38,
+       "leading": true
       },
       {
        "name": "Carol Pearson",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 0,
-       "pct": 0.0,
+       "votes": 117,
+       "pct": 34.62,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 0,
-     "status": "not_reported",
-     "updated": "8:12 PM ET"
+     "total_votes": 338,
+     "status": "reporting",
+     "updated": "8:14 PM ET",
+     "margin_votes": 104,
+     "margin_pct": 30.76
     },
     {
      "id": "han-council-d4",
@@ -8095,6 +8097,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:13:27.294779-05:00",
- "last_updated": "8:13 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:14:37.005689-05:00",
+ "last_updated": "8:14 PM ET, Tue Nov 3, 2026"
 }

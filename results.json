@@ -124,25 +124,25 @@
        "name": "Gary W. Achor, Jr.",
        "party": "R",
        "party_full": "Republican",
-       "votes": 4371,
-       "pct": 73.45,
+       "votes": 6370,
+       "pct": 71.24,
        "leading": true
       },
       {
        "name": "James Calvert, Jr.",
        "party": "D",
        "party_full": "Democratic",
-       "votes": 1580,
-       "pct": 26.55,
+       "votes": 2571,
+       "pct": 28.76,
        "leading": false
       }
      ],
      "uncontested": false,
-     "total_votes": 5951,
+     "total_votes": 8941,
      "status": "reporting",
-     "updated": "8:14 PM ET",
-     "margin_votes": 2791,
-     "margin_pct": 46.9
+     "updated": "8:25 PM ET",
+     "margin_votes": 3799,
+     "margin_pct": 42.48
     },
     {
      "id": "han-commissioner-d2",
@@ -8099,6 +8099,6 @@
   }
  ],
  "any_results": true,
- "last_updated_iso": "2026-11-03T20:23:26.630207-05:00",
- "last_updated": "8:23 PM ET, Tue Nov 3, 2026"
+ "last_updated_iso": "2026-11-03T20:25:40.164699-05:00",
+ "last_updated": "8:25 PM ET, Tue Nov 3, 2026"
 }
